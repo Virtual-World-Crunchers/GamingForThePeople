@@ -1,0 +1,11 @@
+{
+	"SourceFiles": [
+		"C:\\Users\\truth\\OneDrive\\Documents\\Unreal Projects\\Prototype1\\Source\\ShooterGame\\ShooterGame.Build.cs",
+		"C:\\Users\\truth\\OneDrive\\Documents\\Unreal Projects\\Prototype1\\Source\\ShooterGameLoadingScreen\\ShooterGameLoadingScreen.Build.cs",
+		"C:\\Users\\truth\\OneDrive\\Documents\\Unreal Projects\\Prototype1\\Source\\ShooterClient.Target.cs",
+		"C:\\Users\\truth\\OneDrive\\Documents\\Unreal Projects\\Prototype1\\Source\\ShooterGame.Target.cs",
+		"C:\\Users\\truth\\OneDrive\\Documents\\Unreal Projects\\Prototype1\\Source\\ShooterGameEditor.Target.cs",
+		"C:\\Users\\truth\\OneDrive\\Documents\\Unreal Projects\\Prototype1\\Source\\ShooterServer.Target.cs"
+	],
+	"EngineVersion": "4.27.0"
+}
