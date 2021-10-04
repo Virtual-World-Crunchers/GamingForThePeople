@@ -1,0 +1,61 @@
+/Zc:inline
+/nologo
+/Oi
+/c
+/Gw
+/Gy
+/Zm1000
+/wd4819
+/D_CRT_STDIO_LEGACY_WIDE_SPECIFIERS=1
+/D_SILENCE_STDEXT_HASH_DEPRECATION_WARNINGS=1
+/D_DISABLE_EXTENDED_ALIGNED_STORAGE
+/source-charset:utf-8
+/execution-charset:utf-8
+/Ob2
+/Ox
+/Ot
+/GF
+/errorReport:prompt
+/D_HAS_EXCEPTIONS=0
+/Z7
+/MD
+/bigobj
+/fp:fast
+/Zo
+/Zp8
+/wd4463
+/we4668
+/wd4244
+/wd4838
+/I .
+/I ..\Intermediate\Build\Win64\UE4\Inc\Slate
+/I Runtime
+/I Runtime\Slate\Public
+/I Runtime\TraceLog\Public
+/I Runtime\Core\Public
+/I ..\Intermediate\Build\Win64\UE4\Inc\CoreUObject
+/I Runtime\CoreUObject\Public
+/I Runtime\ApplicationCore\Public
+/I Runtime\RHI\Public
+/I ..\Intermediate\Build\Win64\UE4\Inc\InputCore
+/I Runtime\InputCore\Classes
+/I Runtime\InputCore\Public
+/I Runtime\Json\Public
+/I ..\Intermediate\Build\Win64\UE4\Inc\SlateCore
+/I Runtime\SlateCore\Public
+/I ..\Intermediate\Build\Win64\UE4\Inc\ImageWrapper
+/I Runtime\ImageWrapper\Public
+/I "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110\INCLUDE"
+/I "C:\Program Files (x86)\Windows Kits\NETFXSDK\4.8\include\um"
+/I "C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\ucrt"
+/I "C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared"
+/I "C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um"
+/I "C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\winrt"
+/I C:\Users\truth\Documents\DECO3500_Project\GamingForThePeople\VWC-Project\Prototype1\Intermediate\Build\Win64\ShooterGame\Development\Slate
+/Yc"C:\Users\truth\Documents\DECO3500_Project\GamingForThePeople\VWC-Project\Prototype1\Intermediate\Build\Win64\ShooterGame\Development\Slate\SharedPCH.Slate.h"
+/Fp"C:\Users\truth\Documents\DECO3500_Project\GamingForThePeople\VWC-Project\Prototype1\Intermediate\Build\Win64\ShooterGame\Development\Slate\SharedPCH.Slate.h.pch"
+"C:\Users\truth\Documents\DECO3500_Project\GamingForThePeople\VWC-Project\Prototype1\Intermediate\Build\Win64\ShooterGame\Development\Slate\SharedPCH.Slate.cpp"
+/Fo"C:\Users\truth\Documents\DECO3500_Project\GamingForThePeople\VWC-Project\Prototype1\Intermediate\Build\Win64\ShooterGame\Development\Slate\SharedPCH.Slate.h.obj"
+/TP
+/GR-
+/W4
