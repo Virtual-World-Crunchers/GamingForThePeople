@@ -1,0 +1,77 @@
+C:/Users/truth/Documents/DECO3500_Project/GamingForThePeople/VWC-Project/Prototype1/Intermediate/Build/Win64/UE4Editor/Inc/ShooterGame/ShooterPickup.gen.cpp
+C:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\CoreUObject\Public\UObject/GeneratedCppIncludes.h
+C:\Users\truth\Documents\DECO3500_Project\GamingForThePeople\VWC-Project\Prototype1\Source\ShooterGame/Public/Pickups/ShooterPickup.h
+C:\Users\truth\Documents\DECO3500_Project\GamingForThePeople\VWC-Project\Prototype1\Intermediate\Build\Win64\UE4Editor\Inc\ShooterGame\ShooterPickup.generated.h
+C:/Users/truth/Documents/DECO3500_Project/GamingForThePeople/VWC-Project/Prototype1/Intermediate/Build/Win64/UE4Editor/Inc/ShooterGame/ShooterPickup_Ammo.gen.cpp
+C:\Users\truth\Documents\DECO3500_Project\GamingForThePeople\VWC-Project\Prototype1\Source\ShooterGame/Public/Pickups/ShooterPickup_Ammo.h
+C:\Users\truth\Documents\DECO3500_Project\GamingForThePeople\VWC-Project\Prototype1\Intermediate\Build\Win64\UE4Editor\Inc\ShooterGame\ShooterPickup_Ammo.generated.h
+C:/Users/truth/Documents/DECO3500_Project/GamingForThePeople/VWC-Project/Prototype1/Intermediate/Build/Win64/UE4Editor/Inc/ShooterGame/ShooterPickup_Health.gen.cpp
+C:\Users\truth\Documents\DECO3500_Project\GamingForThePeople\VWC-Project\Prototype1\Source\ShooterGame/Public/Pickups/ShooterPickup_Health.h
+C:\Users\truth\Documents\DECO3500_Project\GamingForThePeople\VWC-Project\Prototype1\Intermediate\Build\Win64\UE4Editor\Inc\ShooterGame\ShooterPickup_Health.generated.h
+C:/Users/truth/Documents/DECO3500_Project/GamingForThePeople/VWC-Project/Prototype1/Intermediate/Build/Win64/UE4Editor/Inc/ShooterGame/ShooterPlayerCameraManager.gen.cpp
+C:\Users\truth\Documents\DECO3500_Project\GamingForThePeople\VWC-Project\Prototype1\Source\ShooterGame/Public/Player/ShooterPlayerCameraManager.h
+C:\Users\truth\Documents\DECO3500_Project\GamingForThePeople\VWC-Project\Prototype1\Intermediate\Build\Win64\UE4Editor\Inc\ShooterGame\ShooterPlayerCameraManager.generated.h
+C:/Users/truth/Documents/DECO3500_Project/GamingForThePeople/VWC-Project/Prototype1/Intermediate/Build/Win64/UE4Editor/Inc/ShooterGame/ShooterPlayerController.gen.cpp
+C:/Users/truth/Documents/DECO3500_Project/GamingForThePeople/VWC-Project/Prototype1/Intermediate/Build/Win64/UE4Editor/Inc/ShooterGame/ShooterPlayerController_Menu.gen.cpp
+C:\Users\truth\Documents\DECO3500_Project\GamingForThePeople\VWC-Project\Prototype1\Source\ShooterGame/Public/Player/ShooterPlayerController_Menu.h
+C:\Users\truth\Documents\DECO3500_Project\GamingForThePeople\VWC-Project\Prototype1\Intermediate\Build\Win64\UE4Editor\Inc\ShooterGame\ShooterPlayerController_Menu.generated.h
+C:/Users/truth/Documents/DECO3500_Project/GamingForThePeople/VWC-Project/Prototype1/Intermediate/Build/Win64/UE4Editor/Inc/ShooterGame/ShooterPlayerState.gen.cpp
+C:\Users\truth\Documents\DECO3500_Project\GamingForThePeople\VWC-Project\Prototype1\Source\ShooterGame/Public/Online/ShooterPlayerState.h
+C:\Users\truth\Documents\DECO3500_Project\GamingForThePeople\VWC-Project\Prototype1\Intermediate\Build\Win64\UE4Editor\Inc\ShooterGame\ShooterPlayerState.generated.h
+C:/Users/truth/Documents/DECO3500_Project/GamingForThePeople/VWC-Project/Prototype1/Intermediate/Build/Win64/UE4Editor/Inc/ShooterGame/ShooterProjectile.gen.cpp
+C:\Users\truth\Documents\DECO3500_Project\GamingForThePeople\VWC-Project\Prototype1\Source\ShooterGame/Public/Weapons/ShooterProjectile.h
+C:\Users\truth\Documents\DECO3500_Project\GamingForThePeople\VWC-Project\Prototype1\Source\ShooterGame\Public\Weapons\ShooterWeapon_Projectile.h
+C:\Users\truth\Documents\DECO3500_Project\GamingForThePeople\VWC-Project\Prototype1\Source\ShooterGame\Public\Weapons\ShooterWeapon.h
+C:\Users\truth\Documents\DECO3500_Project\GamingForThePeople\VWC-Project\Prototype1\Intermediate\Build\Win64\UE4Editor\Inc\ShooterGame\ShooterWeapon.generated.h
+C:\Users\truth\Documents\DECO3500_Project\GamingForThePeople\VWC-Project\Prototype1\Intermediate\Build\Win64\UE4Editor\Inc\ShooterGame\ShooterWeapon_Projectile.generated.h
+C:\Users\truth\Documents\DECO3500_Project\GamingForThePeople\VWC-Project\Prototype1\Intermediate\Build\Win64\UE4Editor\Inc\ShooterGame\ShooterProjectile.generated.h
+C:/Users/truth/Documents/DECO3500_Project/GamingForThePeople/VWC-Project/Prototype1/Intermediate/Build/Win64/UE4Editor/Inc/ShooterGame/ShooterReplicationGraph.gen.cpp
+C:\Users\truth\Documents\DECO3500_Project\GamingForThePeople\VWC-Project\Prototype1\Source\ShooterGame/Private/Online/ShooterReplicationGraph.h
+C:\Program Files\Epic Games\UE_4.27\Engine\Plugins\Runtime\ReplicationGraph\Source\Public\ReplicationGraph.h
+C:\Program Files\Epic Games\UE_4.27\Engine\Plugins\Runtime\ReplicationGraph\Source\Public\ReplicationGraphTypes.h
+C:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\Engine\Classes\Engine/ActorChannel.h
+C:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\Engine\Public\Net/DataReplication.h
+C:\Program Files\Epic Games\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\ActorChannel.generated.h
+C:\Program Files\Epic Games\UE_4.27\Engine\Plugins\Runtime\ReplicationGraph\Intermediate\Build\Win64\UE4Editor\Inc\ReplicationGraph\ReplicationGraphTypes.generated.h
+C:\Program Files\Epic Games\UE_4.27\Engine\Plugins\Runtime\ReplicationGraph\Intermediate\Build\Win64\UE4Editor\Inc\ReplicationGraph\ReplicationGraph.generated.h
+C:\Users\truth\Documents\DECO3500_Project\GamingForThePeople\VWC-Project\Prototype1\Intermediate\Build\Win64\UE4Editor\Inc\ShooterGame\ShooterReplicationGraph.generated.h
+C:/Users/truth/Documents/DECO3500_Project/GamingForThePeople/VWC-Project/Prototype1/Intermediate/Build/Win64/UE4Editor/Inc/ShooterGame/ShooterScoreboardWidgetStyle.gen.cpp
+C:\Users\truth\Documents\DECO3500_Project\GamingForThePeople\VWC-Project\Prototype1\Source\ShooterGame/Private/UI/Style/ShooterScoreboardWidgetStyle.h
+C:\Users\truth\Documents\DECO3500_Project\GamingForThePeople\VWC-Project\Prototype1\Intermediate\Build\Win64\UE4Editor\Inc\ShooterGame\ShooterScoreboardWidgetStyle.generated.h
+C:/Users/truth/Documents/DECO3500_Project/GamingForThePeople/VWC-Project/Prototype1/Intermediate/Build/Win64/UE4Editor/Inc/ShooterGame/ShooterSpectatorPawn.gen.cpp
+C:\Users\truth\Documents\DECO3500_Project\GamingForThePeople\VWC-Project\Prototype1\Source\ShooterGame/Public/Player/ShooterSpectatorPawn.h
+C:\Users\truth\Documents\DECO3500_Project\GamingForThePeople\VWC-Project\Prototype1\Intermediate\Build\Win64\UE4Editor\Inc\ShooterGame\ShooterSpectatorPawn.generated.h
+C:/Users/truth/Documents/DECO3500_Project/GamingForThePeople/VWC-Project/Prototype1/Intermediate/Build/Win64/UE4Editor/Inc/ShooterGame/ShooterTeamStart.gen.cpp
+C:\Users\truth\Documents\DECO3500_Project\GamingForThePeople\VWC-Project\Prototype1\Source\ShooterGame/Public/ShooterTeamStart.h
+C:\Users\truth\Documents\DECO3500_Project\GamingForThePeople\VWC-Project\Prototype1\Intermediate\Build\Win64\UE4Editor\Inc\ShooterGame\ShooterTeamStart.generated.h
+C:/Users/truth/Documents/DECO3500_Project/GamingForThePeople/VWC-Project/Prototype1/Intermediate/Build/Win64/UE4Editor/Inc/ShooterGame/ShooterTestControllerBase.gen.cpp
+C:\Users\truth\Documents\DECO3500_Project\GamingForThePeople\VWC-Project\Prototype1\Source\ShooterGame/Public/Tests/ShooterTestControllerBase.h
+C:\Program Files\Epic Games\UE_4.27\Engine\Plugins\Experimental\Gauntlet\Source\Gauntlet\Public\GauntletTestController.h
+C:\Program Files\Epic Games\UE_4.27\Engine\Plugins\Experimental\Gauntlet\Source\Gauntlet\Public\GauntletModule.h
+C:\Program Files\Epic Games\UE_4.27\Engine\Plugins\Experimental\Gauntlet\Intermediate\Build\Win64\UE4Editor\Inc\Gauntlet\GauntletTestController.generated.h
+C:\Users\truth\Documents\DECO3500_Project\GamingForThePeople\VWC-Project\Prototype1\Intermediate\Build\Win64\UE4Editor\Inc\ShooterGame\ShooterTestControllerBase.generated.h
+C:/Users/truth/Documents/DECO3500_Project/GamingForThePeople/VWC-Project/Prototype1/Intermediate/Build/Win64/UE4Editor/Inc/ShooterGame/ShooterTestControllerBasicDedicatedServerTest.gen.cpp
+C:\Users\truth\Documents\DECO3500_Project\GamingForThePeople\VWC-Project\Prototype1\Source\ShooterGame/Public/Tests/ShooterTestControllerBasicDedicatedServerTest.h
+C:\Users\truth\Documents\DECO3500_Project\GamingForThePeople\VWC-Project\Prototype1\Intermediate\Build\Win64\UE4Editor\Inc\ShooterGame\ShooterTestControllerBasicDedicatedServerTest.generated.h
+C:/Users/truth/Documents/DECO3500_Project/GamingForThePeople/VWC-Project/Prototype1/Intermediate/Build/Win64/UE4Editor/Inc/ShooterGame/ShooterTestControllerBootTest.gen.cpp
+C:\Users\truth\Documents\DECO3500_Project\GamingForThePeople\VWC-Project\Prototype1\Source\ShooterGame/Public/Tests/ShooterTestControllerBootTest.h
+C:\Program Files\Epic Games\UE_4.27\Engine\Plugins\Experimental\Gauntlet\Source\Gauntlet\Public\GauntletTestControllerBootTest.h
+C:\Program Files\Epic Games\UE_4.27\Engine\Plugins\Experimental\Gauntlet\Intermediate\Build\Win64\UE4Editor\Inc\Gauntlet\GauntletTestControllerBootTest.generated.h
+C:\Users\truth\Documents\DECO3500_Project\GamingForThePeople\VWC-Project\Prototype1\Intermediate\Build\Win64\UE4Editor\Inc\ShooterGame\ShooterTestControllerBootTest.generated.h
+C:/Users/truth/Documents/DECO3500_Project/GamingForThePeople/VWC-Project/Prototype1/Intermediate/Build/Win64/UE4Editor/Inc/ShooterGame/ShooterTestControllerDedicatedServerTest.gen.cpp
+C:\Users\truth\Documents\DECO3500_Project\GamingForThePeople\VWC-Project\Prototype1\Source\ShooterGame/Public/Tests/ShooterTestControllerDedicatedServerTest.h
+C:\Users\truth\Documents\DECO3500_Project\GamingForThePeople\VWC-Project\Prototype1\Intermediate\Build\Win64\UE4Editor\Inc\ShooterGame\ShooterTestControllerDedicatedServerTest.generated.h
+C:/Users/truth/Documents/DECO3500_Project/GamingForThePeople/VWC-Project/Prototype1/Intermediate/Build/Win64/UE4Editor/Inc/ShooterGame/ShooterTestControllerListenServerClient.gen.cpp
+C:\Users\truth\Documents\DECO3500_Project\GamingForThePeople\VWC-Project\Prototype1\Source\ShooterGame/Public/Tests/ShooterTestControllerListenServerClient.h
+C:\Users\truth\Documents\DECO3500_Project\GamingForThePeople\VWC-Project\Prototype1\Intermediate\Build\Win64\UE4Editor\Inc\ShooterGame\ShooterTestControllerListenServerClient.generated.h
+C:/Users/truth/Documents/DECO3500_Project/GamingForThePeople/VWC-Project/Prototype1/Intermediate/Build/Win64/UE4Editor/Inc/ShooterGame/ShooterTestControllerListenServerHost.gen.cpp
+C:\Users\truth\Documents\DECO3500_Project\GamingForThePeople\VWC-Project\Prototype1\Source\ShooterGame/Public/Tests/ShooterTestControllerListenServerHost.h
+C:\Users\truth\Documents\DECO3500_Project\GamingForThePeople\VWC-Project\Prototype1\Intermediate\Build\Win64\UE4Editor\Inc\ShooterGame\ShooterTestControllerListenServerHost.generated.h
+C:/Users/truth/Documents/DECO3500_Project/GamingForThePeople/VWC-Project/Prototype1/Intermediate/Build/Win64/UE4Editor/Inc/ShooterGame/ShooterTestControllerListenServerQuickMatchClient.gen.cpp
+C:\Users\truth\Documents\DECO3500_Project\GamingForThePeople\VWC-Project\Prototype1\Source\ShooterGame/Public/Tests/ShooterTestControllerListenServerQuickMatchClient.h
+C:\Users\truth\Documents\DECO3500_Project\GamingForThePeople\VWC-Project\Prototype1\Intermediate\Build\Win64\UE4Editor\Inc\ShooterGame\ShooterTestControllerListenServerQuickMatchClient.generated.h
+C:/Users/truth/Documents/DECO3500_Project/GamingForThePeople/VWC-Project/Prototype1/Intermediate/Build/Win64/UE4Editor/Inc/ShooterGame/ShooterTypes.gen.cpp
+C:/Users/truth/Documents/DECO3500_Project/GamingForThePeople/VWC-Project/Prototype1/Intermediate/Build/Win64/UE4Editor/Inc/ShooterGame/ShooterWeapon.gen.cpp
+C:/Users/truth/Documents/DECO3500_Project/GamingForThePeople/VWC-Project/Prototype1/Intermediate/Build/Win64/UE4Editor/Inc/ShooterGame/ShooterWeapon_Instant.gen.cpp
+C:\Users\truth\Documents\DECO3500_Project\GamingForThePeople\VWC-Project\Prototype1\Source\ShooterGame/Public/Weapons/ShooterWeapon_Instant.h
+C:\Users\truth\Documents\DECO3500_Project\GamingForThePeople\VWC-Project\Prototype1\Intermediate\Build\Win64\UE4Editor\Inc\ShooterGame\ShooterWeapon_Instant.generated.h
