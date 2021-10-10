@@ -13,6 +13,7 @@
 #include "OnlineSubsystemUtils.h"
 #include "ShooterGameUserSettings.h"
 #include "Performance/LatencyMarkerModule.h"
+#include "ToxicChatHUD.h"
 
 #define LOCTEXT_NAMESPACE "ShooterGame.HUD.Menu"
 
@@ -925,6 +926,9 @@ void AShooterHUD::ShowDeathMessage(class AShooterPlayerState* KillerPlayerState,
 				LastKillTime = GetWorld()->GetTimeSeconds();
 				CenteredKillMessage = FText::FromString(NewMessage.VictimDesc);
 			}
+
+			//toxic chat
+			AddChatLine(UToxicChatHUD::SelectRandom(), false);
 		}
 	}
 }

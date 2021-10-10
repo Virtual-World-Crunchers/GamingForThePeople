@@ -418,6 +418,8 @@ C:/Users/truth/Documents/DECO3500_Project/GamingForThePeople/VWC-Project/Prototy
 C:\Users\truth\Documents\DECO3500_Project\GamingForThePeople\VWC-Project\Prototype1\Source\ShooterGame\Private\UI\Widgets\SShooterScoreboardWidget.h
 C:\Users\truth\Documents\DECO3500_Project\GamingForThePeople\VWC-Project\Prototype1\Source\ShooterGame\Private\UI\Widgets\SChatWidget.h
 C:\Users\truth\Documents\DECO3500_Project\GamingForThePeople\VWC-Project\Prototype1\Source\ShooterGame\Private\UI\ShooterHUDPCTrackerBase.h
+C:\Users\truth\Documents\DECO3500_Project\GamingForThePeople\VWC-Project\Prototype1\Source\ShooterGame\Public\UI\ToxicChatHUD.h
+C:\Users\truth\Documents\DECO3500_Project\GamingForThePeople\VWC-Project\Prototype1\Intermediate\Build\Win64\UE4\Inc\ShooterGame\ToxicChatHUD.generated.h
 C:/Users/truth/Documents/DECO3500_Project/GamingForThePeople/VWC-Project/Prototype1/Source/ShooterGame/Private/UI/ShooterHUDPCTrackerBase.cpp
 C:/Users/truth/Documents/DECO3500_Project/GamingForThePeople/VWC-Project/Prototype1/Source/ShooterGame/Private/UI/ShooterUIHelpers.cpp
 C:/Users/truth/Documents/DECO3500_Project/GamingForThePeople/VWC-Project/Prototype1/Source/ShooterGame/Private/UI/Style/ShooterChatWidgetStyle.cpp
@@ -428,6 +430,7 @@ C:/Users/truth/Documents/DECO3500_Project/GamingForThePeople/VWC-Project/Prototy
 C:/Users/truth/Documents/DECO3500_Project/GamingForThePeople/VWC-Project/Prototype1/Source/ShooterGame/Private/UI/Style/ShooterScoreboardWidgetStyle.cpp
 C:/Users/truth/Documents/DECO3500_Project/GamingForThePeople/VWC-Project/Prototype1/Source/ShooterGame/Private/UI/Style/ShooterStyle.cpp
 C:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\Engine\Public\Slate\SlateGameResources.h
+C:/Users/truth/Documents/DECO3500_Project/GamingForThePeople/VWC-Project/Prototype1/Source/ShooterGame/Private/UI/ToxicChatHUD.cpp
 C:/Users/truth/Documents/DECO3500_Project/GamingForThePeople/VWC-Project/Prototype1/Source/ShooterGame/Private/UI/Widgets/SChatWidget.cpp
 C:/Users/truth/Documents/DECO3500_Project/GamingForThePeople/VWC-Project/Prototype1/Source/ShooterGame/Private/UI/Widgets/SShooterConfirmationDialog.cpp
 C:/Users/truth/Documents/DECO3500_Project/GamingForThePeople/VWC-Project/Prototype1/Source/ShooterGame/Private/UI/Widgets/SShooterDemoHUD.cpp

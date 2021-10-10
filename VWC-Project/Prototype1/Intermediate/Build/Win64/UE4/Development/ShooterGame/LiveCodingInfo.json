@@ -73,6 +73,7 @@
 			"ShooterOptionsWidgetStyle.cpp.obj",
 			"ShooterScoreboardWidgetStyle.cpp.obj",
 			"ShooterStyle.cpp.obj",
+			"ToxicChatHUD.cpp.obj",
 			"SChatWidget.cpp.obj",
 			"SShooterConfirmationDialog.cpp.obj",
 			"SShooterDemoHUD.cpp.obj",
@@ -144,7 +145,8 @@
 		],
 		"Module.ShooterGame.gen.3_of_3.cpp.obj": [
 			"ShooterWeapon_Projectile.gen.cpp.obj",
-			"SoundNodeLocalPlayer.gen.cpp.obj"
+			"SoundNodeLocalPlayer.gen.cpp.obj",
+			"ToxicChatHUD.gen.cpp.obj"
 		]
 	}
 }

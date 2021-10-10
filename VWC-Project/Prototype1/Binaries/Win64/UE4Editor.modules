@@ -2,7 +2,7 @@
 	"BuildId": "17155196",
 	"Modules": 
 	{
-		"ShooterGame": "UE4Editor-ShooterGame.dll",
-		"ShooterGameLoadingScreen": "UE4Editor-ShooterGameLoadingScreen.dll"
+		"ShooterGame": "UE4Editor-ShooterGame-9664.dll",
+		"ShooterGameLoadingScreen": "UE4Editor-ShooterGameLoadingScreen-4179.dll"
 	}
 }

@@ -1,4 +1,4 @@
-Prototype1/Binaries/Win64/ShooterGame.exe	2021-10-04T12:11:27.927Z
+Prototype1/Binaries/Win64/ShooterGame.exe	2021-10-09T13:14:50.655Z
 Prototype1/Binaries/Win64/EOSSDK-Win64-Shipping.dll	2021-09-23T01:49:26.188Z
 Prototype1/Binaries/Win64/OpenImageDenoise.dll	2021-09-23T01:49:59.761Z
 Prototype1/Binaries/Win64/tbb12.dll	2021-09-23T01:49:59.763Z
@@ -25,4 +25,4 @@ Engine/Binaries/ThirdParty/Windows/WinPixEventRuntime/x64/WinPixEventRuntime.dll
 Engine/Binaries/ThirdParty/Windows/XAudio2_9/x64/xaudio2_9redist.dll	2021-09-23T01:37:15.540Z
 Prototype1/Content/Movies/LoadingScreen.mp4	2021-09-30T13:04:38.062Z
 Prototype1/Content/Movies/LoadingScreen.webm	2021-09-30T13:04:38.082Z
-ShooterGame.exe	2021-10-04T12:52:50.970Z
+ShooterGame.exe	2021-10-09T13:14:53.825Z

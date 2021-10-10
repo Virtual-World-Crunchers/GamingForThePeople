@@ -5,6 +5,8 @@ VWC-Project/Prototype1/Binaries/Win64/ShooterGame.exe filter=lfs diff=lfs merge=
 VWC-Project/Prototype1/Binaries/Win64/ShooterGame.pdb filter=lfs diff=lfs merge=lfs -text
 VWC-Project/Prototype1/Intermediate/Build/Win64/ShooterGame/Development/Slate/SharedPCH.Slate.h.pch filter=lfs diff=lfs merge=lfs -text
 VWC-Project/Prototype1/Intermediate/Build/Win64/UE4/Development/ShooterGame/PCH.ShooterGame.h.pch filter=lfs diff=lfs merge=lfs -text
+VWC-Project/Prototype1/Intermediate/Build/Win64/ShooterGameEditor/Development/Slate/SharedPCH.Slate.h.pch filter=lfs diff=lfs merge=lfs -text
+VWC-Project/Prototype1/Intermediate/Build/Win64/UE4Editor/Development/ShooterGame/PCH.ShooterGame.h.pch filter=lfs diff=lfs merge=lfs -text
 VWC-Project/Prototype1/Saved/EditorCooked/WindowsNoEditor/Prototype1/Content/Maps/Highrise_BuiltData.ubulk filter=lfs diff=lfs merge=lfs -text
 VWC-Project/Prototype1/Saved/EditorCooked/WindowsNoEditor/Prototype1/Content/Maps/Sanctuary_BuiltData.ubulk filter=lfs diff=lfs merge=lfs -text
 VWC-Project/Prototype1/Saved/StagedBuilds/WindowsNoEditor/Prototype1/Binaries/Win64/ShooterGame.exe filter=lfs diff=lfs merge=lfs -text

@@ -7,3 +7,6 @@ C:\Users\truth\Documents\DECO3500_Project\GamingForThePeople\VWC-Project\Prototy
 C:/Users/truth/Documents/DECO3500_Project/GamingForThePeople/VWC-Project/Prototype1/Intermediate/Build/Win64/UE4/Inc/ShooterGame/SoundNodeLocalPlayer.gen.cpp
 C:\Users\truth\Documents\DECO3500_Project\GamingForThePeople\VWC-Project\Prototype1\Source\ShooterGame/Public/Sound/SoundNodeLocalPlayer.h
 C:\Users\truth\Documents\DECO3500_Project\GamingForThePeople\VWC-Project\Prototype1\Intermediate\Build\Win64\UE4\Inc\ShooterGame\SoundNodeLocalPlayer.generated.h
+C:/Users/truth/Documents/DECO3500_Project/GamingForThePeople/VWC-Project/Prototype1/Intermediate/Build/Win64/UE4/Inc/ShooterGame/ToxicChatHUD.gen.cpp
+C:\Users\truth\Documents\DECO3500_Project\GamingForThePeople\VWC-Project\Prototype1\Source\ShooterGame/Public/UI/ToxicChatHUD.h
+C:\Users\truth\Documents\DECO3500_Project\GamingForThePeople\VWC-Project\Prototype1\Intermediate\Build\Win64\UE4\Inc\ShooterGame\ToxicChatHUD.generated.h

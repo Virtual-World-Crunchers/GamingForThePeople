@@ -5,8 +5,8 @@
 #include "ShooterStyle.h"
 #include "ShooterChatWidgetStyle.h"
 
-#define CHAT_BOX_WIDTH 576.0f
-#define CHAT_BOX_HEIGHT 192.0f
+#define CHAT_BOX_WIDTH 400.0f
+#define CHAT_BOX_HEIGHT 120.0f
 #define CHAT_BOX_PADDING 20.0f
 
 void SChatWidget::Construct(const FArguments& InArgs, const FLocalPlayerContext& InContext)
@@ -72,6 +72,9 @@ void SChatWidget::Construct(const FArguments& InArgs, const FLocalPlayerContext&
 				.Style(&ChatStyle->TextEntryStyle)
 			]
 		]
+		//Chat toggle buttons
+		//TODO
+
 	];
 	// Setup visibilty
 	LastVisibility = bAlwaysVisible ? EVisibility::Visible : EVisibility::Hidden;

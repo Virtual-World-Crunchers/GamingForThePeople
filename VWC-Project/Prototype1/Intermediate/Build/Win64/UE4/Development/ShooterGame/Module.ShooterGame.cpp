@@ -70,6 +70,7 @@
 #include "C:/Users/truth/Documents/DECO3500_Project/GamingForThePeople/VWC-Project/Prototype1/Source/ShooterGame/Private/UI/Style/ShooterOptionsWidgetStyle.cpp"
 #include "C:/Users/truth/Documents/DECO3500_Project/GamingForThePeople/VWC-Project/Prototype1/Source/ShooterGame/Private/UI/Style/ShooterScoreboardWidgetStyle.cpp"
 #include "C:/Users/truth/Documents/DECO3500_Project/GamingForThePeople/VWC-Project/Prototype1/Source/ShooterGame/Private/UI/Style/ShooterStyle.cpp"
+#include "C:/Users/truth/Documents/DECO3500_Project/GamingForThePeople/VWC-Project/Prototype1/Source/ShooterGame/Private/UI/ToxicChatHUD.cpp"
 #include "C:/Users/truth/Documents/DECO3500_Project/GamingForThePeople/VWC-Project/Prototype1/Source/ShooterGame/Private/UI/Widgets/SChatWidget.cpp"
 #include "C:/Users/truth/Documents/DECO3500_Project/GamingForThePeople/VWC-Project/Prototype1/Source/ShooterGame/Private/UI/Widgets/SShooterConfirmationDialog.cpp"
 #include "C:/Users/truth/Documents/DECO3500_Project/GamingForThePeople/VWC-Project/Prototype1/Source/ShooterGame/Private/UI/Widgets/SShooterDemoHUD.cpp"
