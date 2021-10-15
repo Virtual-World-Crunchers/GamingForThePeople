@@ -1286,12 +1286,6 @@
 			]
 		},
 		{
-			"ShaderMapHash": "83BEDA34D29838B46521B5E2C6EB155E4907CEB8",
-			"Assets": [
-				"/Game/Effects/Materials/Air/M_light_shaft"
-			]
-		},
-		{
 			"ShaderMapHash": "3BDE82667F21FA57F2C9A1BE03074878109E19EC",
 			"Assets": [
 				"/Game/Effects/Materials/Air/M_Cloud_1_particle"
@@ -1302,6 +1296,12 @@
 			"Assets": [
 				"/Game/Effects/Materials/Air/M_Cloud_2_particle_Inst_2",
 				"/Game/Effects/Materials/Air/M_Cloud_1_particle_Inst"
+			]
+		},
+		{
+			"ShaderMapHash": "83BEDA34D29838B46521B5E2C6EB155E4907CEB8",
+			"Assets": [
+				"/Game/Effects/Materials/Air/M_light_shaft"
 			]
 		}
 	]

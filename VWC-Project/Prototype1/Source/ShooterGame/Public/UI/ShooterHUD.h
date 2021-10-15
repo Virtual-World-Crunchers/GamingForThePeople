@@ -126,6 +126,9 @@ public:
 	 */
 	void ToggleChat();
 
+	void UpdateSlowChat();
+	void UpdateFilterChat();
+
 	/** 
 	 * Set chat window visibility.
 	 *
@@ -391,5 +394,7 @@ protected:
 	* @returns The next Y position to draw any further strings
 	*/
 	float ShowInfoItems(float YOffset, float TextScale);
+
+	
 	
 };

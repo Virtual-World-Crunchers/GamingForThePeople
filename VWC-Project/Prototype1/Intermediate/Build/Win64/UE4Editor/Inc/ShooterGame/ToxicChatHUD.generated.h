@@ -13,10 +13,10 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #endif
 #define SHOOTERGAME_ToxicChatHUD_generated_h
 
-#define Prototype1_Source_ShooterGame_Public_UI_ToxicChatHUD_h_13_SPARSE_DATA
-#define Prototype1_Source_ShooterGame_Public_UI_ToxicChatHUD_h_13_RPC_WRAPPERS
-#define Prototype1_Source_ShooterGame_Public_UI_ToxicChatHUD_h_13_RPC_WRAPPERS_NO_PURE_DECLS
-#define Prototype1_Source_ShooterGame_Public_UI_ToxicChatHUD_h_13_INCLASS_NO_PURE_DECLS \
+#define Prototype1_Source_ShooterGame_Public_UI_ToxicChatHUD_h_16_SPARSE_DATA
+#define Prototype1_Source_ShooterGame_Public_UI_ToxicChatHUD_h_16_RPC_WRAPPERS
+#define Prototype1_Source_ShooterGame_Public_UI_ToxicChatHUD_h_16_RPC_WRAPPERS_NO_PURE_DECLS
+#define Prototype1_Source_ShooterGame_Public_UI_ToxicChatHUD_h_16_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesUToxicChatHUD(); \
 	friend struct Z_Construct_UClass_UToxicChatHUD_Statics; \
@@ -25,7 +25,7 @@ public: \
 	DECLARE_SERIALIZER(UToxicChatHUD)
 
 
-#define Prototype1_Source_ShooterGame_Public_UI_ToxicChatHUD_h_13_INCLASS \
+#define Prototype1_Source_ShooterGame_Public_UI_ToxicChatHUD_h_16_INCLASS \
 private: \
 	static void StaticRegisterNativesUToxicChatHUD(); \
 	friend struct Z_Construct_UClass_UToxicChatHUD_Statics; \
@@ -34,9 +34,9 @@ public: \
 	DECLARE_SERIALIZER(UToxicChatHUD)
 
 
-#define Prototype1_Source_ShooterGame_Public_UI_ToxicChatHUD_h_13_STANDARD_CONSTRUCTORS \
+#define Prototype1_Source_ShooterGame_Public_UI_ToxicChatHUD_h_16_STANDARD_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
-	NO_API UToxicChatHUD(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
+	NO_API UToxicChatHUD(const FObjectInitializer& ObjectInitializer); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UToxicChatHUD) \
 	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UToxicChatHUD); \
 	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UToxicChatHUD); \
@@ -47,9 +47,7 @@ private: \
 public:
 
 
-#define Prototype1_Source_ShooterGame_Public_UI_ToxicChatHUD_h_13_ENHANCED_CONSTRUCTORS \
-	/** Standard constructor, called after all reflected properties have been initialized */ \
-	NO_API UToxicChatHUD(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()) : Super(ObjectInitializer) { }; \
+#define Prototype1_Source_ShooterGame_Public_UI_ToxicChatHUD_h_16_ENHANCED_CONSTRUCTORS \
 private: \
 	/** Private move- and copy-constructors, should never be used */ \
 	NO_API UToxicChatHUD(UToxicChatHUD&&); \
@@ -57,31 +55,31 @@ private: \
 public: \
 	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UToxicChatHUD); \
 	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UToxicChatHUD); \
-	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UToxicChatHUD)
+	DEFINE_DEFAULT_CONSTRUCTOR_CALL(UToxicChatHUD)
 
 
-#define Prototype1_Source_ShooterGame_Public_UI_ToxicChatHUD_h_13_PRIVATE_PROPERTY_OFFSET
-#define Prototype1_Source_ShooterGame_Public_UI_ToxicChatHUD_h_10_PROLOG
-#define Prototype1_Source_ShooterGame_Public_UI_ToxicChatHUD_h_13_GENERATED_BODY_LEGACY \
+#define Prototype1_Source_ShooterGame_Public_UI_ToxicChatHUD_h_16_PRIVATE_PROPERTY_OFFSET
+#define Prototype1_Source_ShooterGame_Public_UI_ToxicChatHUD_h_13_PROLOG
+#define Prototype1_Source_ShooterGame_Public_UI_ToxicChatHUD_h_16_GENERATED_BODY_LEGACY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	Prototype1_Source_ShooterGame_Public_UI_ToxicChatHUD_h_13_PRIVATE_PROPERTY_OFFSET \
-	Prototype1_Source_ShooterGame_Public_UI_ToxicChatHUD_h_13_SPARSE_DATA \
-	Prototype1_Source_ShooterGame_Public_UI_ToxicChatHUD_h_13_RPC_WRAPPERS \
-	Prototype1_Source_ShooterGame_Public_UI_ToxicChatHUD_h_13_INCLASS \
-	Prototype1_Source_ShooterGame_Public_UI_ToxicChatHUD_h_13_STANDARD_CONSTRUCTORS \
+	Prototype1_Source_ShooterGame_Public_UI_ToxicChatHUD_h_16_PRIVATE_PROPERTY_OFFSET \
+	Prototype1_Source_ShooterGame_Public_UI_ToxicChatHUD_h_16_SPARSE_DATA \
+	Prototype1_Source_ShooterGame_Public_UI_ToxicChatHUD_h_16_RPC_WRAPPERS \
+	Prototype1_Source_ShooterGame_Public_UI_ToxicChatHUD_h_16_INCLASS \
+	Prototype1_Source_ShooterGame_Public_UI_ToxicChatHUD_h_16_STANDARD_CONSTRUCTORS \
 public: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
 
-#define Prototype1_Source_ShooterGame_Public_UI_ToxicChatHUD_h_13_GENERATED_BODY \
+#define Prototype1_Source_ShooterGame_Public_UI_ToxicChatHUD_h_16_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	Prototype1_Source_ShooterGame_Public_UI_ToxicChatHUD_h_13_PRIVATE_PROPERTY_OFFSET \
-	Prototype1_Source_ShooterGame_Public_UI_ToxicChatHUD_h_13_SPARSE_DATA \
-	Prototype1_Source_ShooterGame_Public_UI_ToxicChatHUD_h_13_RPC_WRAPPERS_NO_PURE_DECLS \
-	Prototype1_Source_ShooterGame_Public_UI_ToxicChatHUD_h_13_INCLASS_NO_PURE_DECLS \
-	Prototype1_Source_ShooterGame_Public_UI_ToxicChatHUD_h_13_ENHANCED_CONSTRUCTORS \
+	Prototype1_Source_ShooterGame_Public_UI_ToxicChatHUD_h_16_PRIVATE_PROPERTY_OFFSET \
+	Prototype1_Source_ShooterGame_Public_UI_ToxicChatHUD_h_16_SPARSE_DATA \
+	Prototype1_Source_ShooterGame_Public_UI_ToxicChatHUD_h_16_RPC_WRAPPERS_NO_PURE_DECLS \
+	Prototype1_Source_ShooterGame_Public_UI_ToxicChatHUD_h_16_INCLASS_NO_PURE_DECLS \
+	Prototype1_Source_ShooterGame_Public_UI_ToxicChatHUD_h_16_ENHANCED_CONSTRUCTORS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 

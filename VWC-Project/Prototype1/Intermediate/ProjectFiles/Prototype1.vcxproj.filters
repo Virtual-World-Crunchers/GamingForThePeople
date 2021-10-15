@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\Prototype1.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{3BE7F578-928E-4B93-B5B2-F3266621A3A5}</UniqueIdentifier>
+      <UniqueIdentifier>{B24A09EC-91A0-4FD3-ADEB-057C38D88AA2}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\ShooterClient.Target.cs">
       <Filter>Source</Filter>
@@ -19,7 +19,7 @@
     </None>
     <None Include="..\..\Prototype1.png" />
     <Filter Include="Config">
-      <UniqueIdentifier>{F8DC37BD-AF88-4362-8BFA-02ADB8A6D48A}</UniqueIdentifier>
+      <UniqueIdentifier>{B1EAAF96-1A9E-4F22-ABAA-152E9518BEF9}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultCrypto.ini">
       <Filter>Config</Filter>
@@ -40,13 +40,13 @@
       <Filter>Config</Filter>
     </None>
     <Filter Include="Config\IOS">
-      <UniqueIdentifier>{B0E1652F-8D99-46AA-8F01-F89440F2531E}</UniqueIdentifier>
+      <UniqueIdentifier>{E03EB82E-F197-4EC8-8A34-0B8082E3EA6D}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\IOS\IOSEngine.ini">
       <Filter>Config\IOS</Filter>
     </None>
     <Filter Include="Config\Linux">
-      <UniqueIdentifier>{B30A14F4-4D90-4195-89C1-BD90A7FBDD12}</UniqueIdentifier>
+      <UniqueIdentifier>{EECA0BDF-93EB-417B-8169-D2EE2A17A217}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\Linux\LinuxEngine.ini">
       <Filter>Config\Linux</Filter>
@@ -55,7 +55,7 @@
       <Filter>Config\Linux</Filter>
     </None>
     <Filter Include="Config\LinuxAArch64">
-      <UniqueIdentifier>{DA71B653-A490-4ABA-A72F-822D39BF2EF9}</UniqueIdentifier>
+      <UniqueIdentifier>{396FCF4C-B8D1-4D0B-B041-2C0C285413FF}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\LinuxAArch64\LinuxAArch64Engine.ini">
       <Filter>Config\LinuxAArch64</Filter>
@@ -64,16 +64,16 @@
       <Filter>Config\LinuxAArch64</Filter>
     </None>
     <Filter Include="Config\Mac">
-      <UniqueIdentifier>{08D2E553-813D-4EF8-80C7-53077C425D2A}</UniqueIdentifier>
+      <UniqueIdentifier>{A9CD7777-9FFD-45BB-B939-8AC3E1AFDF95}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\Mac\MacEngine.ini">
       <Filter>Config\Mac</Filter>
     </None>
     <Filter Include="Config\OSS">
-      <UniqueIdentifier>{07869A68-AD4D-4384-AC3D-46B7C60CE739}</UniqueIdentifier>
+      <UniqueIdentifier>{E3CC38EC-9034-497C-B33F-0C6BFE144584}</UniqueIdentifier>
     </Filter>
     <Filter Include="Config\OSS\Live">
-      <UniqueIdentifier>{46348AC1-F352-437A-97EB-D1381E3E754A}</UniqueIdentifier>
+      <UniqueIdentifier>{D81BB425-F958-43C5-A96B-0F1A344935CD}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\OSS\Live\Achievements.json">
       <Filter>Config\OSS\Live</Filter>
@@ -85,19 +85,19 @@
       <Filter>Config\OSS\Live</Filter>
     </None>
     <Filter Include="Config\Windows">
-      <UniqueIdentifier>{89E6A5D3-3541-4696-A320-9FEA4D689D8B}</UniqueIdentifier>
+      <UniqueIdentifier>{45510B35-3095-464C-8C22-C68661C96483}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\Windows\WindowsEngine.ini">
       <Filter>Config\Windows</Filter>
     </None>
     <Filter Include="Source\ShooterGame">
-      <UniqueIdentifier>{BDC8A46C-C8F6-478C-9F44-C6976D03052E}</UniqueIdentifier>
+      <UniqueIdentifier>{72345E11-83C2-4913-B4A1-F8B7C3F5E69F}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\ShooterGame\ShooterGame.Build.cs">
       <Filter>Source\ShooterGame</Filter>
     </None>
     <Filter Include="Source\ShooterGame\Private">
-      <UniqueIdentifier>{44313363-3CFA-4EEC-83AC-4C14F38749B8}</UniqueIdentifier>
+      <UniqueIdentifier>{DC7F9DAC-D75F-419D-98FC-3F18F907C2BE}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\Source\ShooterGame\Private\ShooterEngine.cpp">
       <Filter>Source\ShooterGame\Private</Filter>
@@ -130,7 +130,7 @@
       <Filter>Source\ShooterGame\Private</Filter>
     </ClCompile>
     <Filter Include="Source\ShooterGame\Private\Bots">
-      <UniqueIdentifier>{9BADC840-87F8-4E1A-8F12-2E4B5AFF633A}</UniqueIdentifier>
+      <UniqueIdentifier>{7B9523D5-21E0-43F8-BDC2-E781B7B9A195}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\Source\ShooterGame\Private\Bots\BTDecorator_HasLoSTo.cpp">
       <Filter>Source\ShooterGame\Private\Bots</Filter>
@@ -148,7 +148,7 @@
       <Filter>Source\ShooterGame\Private\Bots</Filter>
     </ClCompile>
     <Filter Include="Source\ShooterGame\Private\Effects">
-      <UniqueIdentifier>{395FE35E-E560-4829-A605-AFAE2535BAE5}</UniqueIdentifier>
+      <UniqueIdentifier>{E6EF311F-1040-46AD-99E8-EF2FC81D05E0}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\Source\ShooterGame\Private\Effects\ShooterExplosionEffect.cpp">
       <Filter>Source\ShooterGame\Private\Effects</Filter>
@@ -157,7 +157,7 @@
       <Filter>Source\ShooterGame\Private\Effects</Filter>
     </ClCompile>
     <Filter Include="Source\ShooterGame\Private\Online">
-      <UniqueIdentifier>{722319D7-8557-4BD6-9BB2-2D680C08DE70}</UniqueIdentifier>
+      <UniqueIdentifier>{71F6BCFA-77E8-452E-B784-FD02835791F3}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\Source\ShooterGame\Private\Online\ShooterGameMode.cpp">
       <Filter>Source\ShooterGame\Private\Online</Filter>
@@ -199,7 +199,7 @@
       <Filter>Source\ShooterGame\Private\Online</Filter>
     </ClInclude>
     <Filter Include="Source\ShooterGame\Private\Pickups">
-      <UniqueIdentifier>{9D87EC58-53E8-48A7-A3AA-308617744F69}</UniqueIdentifier>
+      <UniqueIdentifier>{5BB0C59D-6DD2-4A45-BA45-B2F3CCF4ABB1}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\Source\ShooterGame\Private\Pickups\ShooterPickup.cpp">
       <Filter>Source\ShooterGame\Private\Pickups</Filter>
@@ -211,7 +211,7 @@
       <Filter>Source\ShooterGame\Private\Pickups</Filter>
     </ClCompile>
     <Filter Include="Source\ShooterGame\Private\Player">
-      <UniqueIdentifier>{3186968D-7566-4DE1-88AC-BAF321DF575E}</UniqueIdentifier>
+      <UniqueIdentifier>{5012F642-9D2D-4885-8E52-2E0AE6A1F1AA}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\Source\ShooterGame\Private\Player\ShooterCharacter.cpp">
       <Filter>Source\ShooterGame\Private\Player</Filter>
@@ -244,13 +244,13 @@
       <Filter>Source\ShooterGame\Private\Player</Filter>
     </ClCompile>
     <Filter Include="Source\ShooterGame\Private\Sound">
-      <UniqueIdentifier>{088ACC98-4473-42D3-A51A-2C1DC87AA883}</UniqueIdentifier>
+      <UniqueIdentifier>{112CE9FE-EE34-4512-A83B-2F6498A55DF0}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\Source\ShooterGame\Private\Sound\SoundNodeLocalPlayer.cpp">
       <Filter>Source\ShooterGame\Private\Sound</Filter>
     </ClCompile>
     <Filter Include="Source\ShooterGame\Private\Tests">
-      <UniqueIdentifier>{AC2E0E71-BCBE-4ECA-BB43-D0D45CEF0542}</UniqueIdentifier>
+      <UniqueIdentifier>{F2192C39-FA66-482F-B8F3-7BB86DCEB2FF}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\Source\ShooterGame\Private\Tests\ShooterTestControllerBase.cpp">
       <Filter>Source\ShooterGame\Private\Tests</Filter>
@@ -274,7 +274,7 @@
       <Filter>Source\ShooterGame\Private\Tests</Filter>
     </ClCompile>
     <Filter Include="Source\ShooterGame\Private\UI">
-      <UniqueIdentifier>{8186352C-9F38-453C-8D9A-867824AD9B86}</UniqueIdentifier>
+      <UniqueIdentifier>{73F88F95-31C2-4DBF-BB95-3380BA43D19A}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\Source\ShooterGame\Private\UI\ShooterHUD.cpp">
       <Filter>Source\ShooterGame\Private\UI</Filter>
@@ -295,7 +295,7 @@
       <Filter>Source\ShooterGame\Private\UI</Filter>
     </ClCompile>
     <Filter Include="Source\ShooterGame\Private\UI\Menu">
-      <UniqueIdentifier>{43846711-C279-46C2-BCDA-61D0167FEC2E}</UniqueIdentifier>
+      <UniqueIdentifier>{D7E37CF6-C628-4698-A0FF-79CA1DA512FF}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\Source\ShooterGame\Private\UI\Menu\ShooterDemoPlaybackMenu.cpp">
       <Filter>Source\ShooterGame\Private\UI\Menu</Filter>
@@ -346,7 +346,7 @@
       <Filter>Source\ShooterGame\Private\UI\Menu</Filter>
     </ClInclude>
     <Filter Include="Source\ShooterGame\Private\UI\Menu\Widgets">
-      <UniqueIdentifier>{365D7111-9E68-4C00-9465-4A22C53278E2}</UniqueIdentifier>
+      <UniqueIdentifier>{990F4520-53B8-4D28-A6D7-182323C1909D}</UniqueIdentifier>
     </Filter>
     <ClInclude Include="..\..\Source\ShooterGame\Private\UI\Menu\Widgets\ShooterMenuItem.h">
       <Filter>Source\ShooterGame\Private\UI\Menu\Widgets</Filter>
@@ -388,7 +388,7 @@
       <Filter>Source\ShooterGame\Private\UI\Menu\Widgets</Filter>
     </ClInclude>
     <Filter Include="Source\ShooterGame\Private\UI\Style">
-      <UniqueIdentifier>{C366A31D-7948-4E4D-8B71-66CB29ABCBB7}</UniqueIdentifier>
+      <UniqueIdentifier>{EB7FC037-7AAF-473A-851E-0DC3346B12F0}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\Source\ShooterGame\Private\UI\Style\ShooterChatWidgetStyle.cpp">
       <Filter>Source\ShooterGame\Private\UI\Style</Filter>
@@ -433,7 +433,7 @@
       <Filter>Source\ShooterGame\Private\UI\Style</Filter>
     </ClInclude>
     <Filter Include="Source\ShooterGame\Private\UI\Widgets">
-      <UniqueIdentifier>{4C5FB460-540D-418E-B24D-D3DE56BA7C91}</UniqueIdentifier>
+      <UniqueIdentifier>{7CF838F7-E414-4E9B-8CFC-DAAC1444A9C3}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\Source\ShooterGame\Private\UI\Widgets\SChatWidget.cpp">
       <Filter>Source\ShooterGame\Private\UI\Widgets</Filter>
@@ -466,7 +466,7 @@
       <Filter>Source\ShooterGame\Private\UI\Widgets</Filter>
     </ClInclude>
     <Filter Include="Source\ShooterGame\Private\Weapons">
-      <UniqueIdentifier>{65310530-18B9-4DC7-854C-B6C4EC470FAE}</UniqueIdentifier>
+      <UniqueIdentifier>{33AACF0A-FE99-49C8-B133-E97E2C6D58E0}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\Source\ShooterGame\Private\Weapons\ShooterDamageType.cpp">
       <Filter>Source\ShooterGame\Private\Weapons</Filter>
@@ -484,7 +484,7 @@
       <Filter>Source\ShooterGame\Private\Weapons</Filter>
     </ClCompile>
     <Filter Include="Source\ShooterGame\Public">
-      <UniqueIdentifier>{A855D0EB-5B10-450B-AB5A-E2B09BAC6D05}</UniqueIdentifier>
+      <UniqueIdentifier>{5CD9E51D-B362-4106-A64F-B6B5E70E5539}</UniqueIdentifier>
     </Filter>
     <ClInclude Include="..\..\Source\ShooterGame\Public\ShooterEngine.h">
       <Filter>Source\ShooterGame\Public</Filter>
@@ -508,7 +508,7 @@
       <Filter>Source\ShooterGame\Public</Filter>
     </ClInclude>
     <Filter Include="Source\ShooterGame\Public\Bots">
-      <UniqueIdentifier>{4F501A95-F316-431C-B2C4-68F2E22AC149}</UniqueIdentifier>
+      <UniqueIdentifier>{85FE3FEF-9B2F-4E3F-975F-6A7A5716F444}</UniqueIdentifier>
     </Filter>
     <ClInclude Include="..\..\Source\ShooterGame\Public\Bots\BTDecorator_HasLoSTo.h">
       <Filter>Source\ShooterGame\Public\Bots</Filter>
@@ -526,7 +526,7 @@
       <Filter>Source\ShooterGame\Public\Bots</Filter>
     </ClInclude>
     <Filter Include="Source\ShooterGame\Public\Effects">
-      <UniqueIdentifier>{4CB1F81E-0F00-4E33-9A22-F6E2DB89C03C}</UniqueIdentifier>
+      <UniqueIdentifier>{B1503249-7606-474D-B500-E283F868086A}</UniqueIdentifier>
     </Filter>
     <ClInclude Include="..\..\Source\ShooterGame\Public\Effects\ShooterExplosionEffect.h">
       <Filter>Source\ShooterGame\Public\Effects</Filter>
@@ -535,7 +535,7 @@
       <Filter>Source\ShooterGame\Public\Effects</Filter>
     </ClInclude>
     <Filter Include="Source\ShooterGame\Public\Online">
-      <UniqueIdentifier>{1B0888ED-B005-47B8-A0FE-397E80DE23F3}</UniqueIdentifier>
+      <UniqueIdentifier>{6B524C7B-4139-4A15-9804-6C8B811EACF9}</UniqueIdentifier>
     </Filter>
     <ClInclude Include="..\..\Source\ShooterGame\Public\Online\ShooterGameMode.h">
       <Filter>Source\ShooterGame\Public\Online</Filter>
@@ -565,7 +565,7 @@
       <Filter>Source\ShooterGame\Public\Online</Filter>
     </ClInclude>
     <Filter Include="Source\ShooterGame\Public\Pickups">
-      <UniqueIdentifier>{390DBA65-BA6E-46BD-B9F7-04F06E806BC1}</UniqueIdentifier>
+      <UniqueIdentifier>{5D505C69-7D27-4155-8E8B-210BAAF60E70}</UniqueIdentifier>
     </Filter>
     <ClInclude Include="..\..\Source\ShooterGame\Public\Pickups\ShooterPickup.h">
       <Filter>Source\ShooterGame\Public\Pickups</Filter>
@@ -577,7 +577,7 @@
       <Filter>Source\ShooterGame\Public\Pickups</Filter>
     </ClInclude>
     <Filter Include="Source\ShooterGame\Public\Player">
-      <UniqueIdentifier>{E4B378D0-781E-4832-9505-D64676372F23}</UniqueIdentifier>
+      <UniqueIdentifier>{03200D61-FB06-4C6A-8768-FDBD20F365CD}</UniqueIdentifier>
     </Filter>
     <ClInclude Include="..\..\Source\ShooterGame\Public\Player\ShooterCharacter.h">
       <Filter>Source\ShooterGame\Public\Player</Filter>
@@ -610,13 +610,13 @@
       <Filter>Source\ShooterGame\Public\Player</Filter>
     </ClInclude>
     <Filter Include="Source\ShooterGame\Public\Sound">
-      <UniqueIdentifier>{50245417-9E3F-4F69-B5C5-9CC9B5D45CC0}</UniqueIdentifier>
+      <UniqueIdentifier>{F8919F91-2BBF-450F-A4F9-2BB05B5B300B}</UniqueIdentifier>
     </Filter>
     <ClInclude Include="..\..\Source\ShooterGame\Public\Sound\SoundNodeLocalPlayer.h">
       <Filter>Source\ShooterGame\Public\Sound</Filter>
     </ClInclude>
     <Filter Include="Source\ShooterGame\Public\Tests">
-      <UniqueIdentifier>{ED630069-5AA1-43B7-B9C5-F085BA5C7B71}</UniqueIdentifier>
+      <UniqueIdentifier>{88DC227B-E156-4A2C-8954-91E7AE7E69EC}</UniqueIdentifier>
     </Filter>
     <ClInclude Include="..\..\Source\ShooterGame\Public\Tests\ShooterTestControllerBase.h">
       <Filter>Source\ShooterGame\Public\Tests</Filter>
@@ -640,7 +640,7 @@
       <Filter>Source\ShooterGame\Public\Tests</Filter>
     </ClInclude>
     <Filter Include="Source\ShooterGame\Public\UI">
-      <UniqueIdentifier>{C36763AE-3F43-4095-BC10-D4952CAB7A3F}</UniqueIdentifier>
+      <UniqueIdentifier>{431CAF75-5DC4-40B5-B94D-790D6EE76F6D}</UniqueIdentifier>
     </Filter>
     <ClInclude Include="..\..\Source\ShooterGame\Public\UI\ShooterHUD.h">
       <Filter>Source\ShooterGame\Public\UI</Filter>
@@ -649,7 +649,7 @@
       <Filter>Source\ShooterGame\Public\UI</Filter>
     </ClInclude>
     <Filter Include="Source\ShooterGame\Public\Weapons">
-      <UniqueIdentifier>{D6E60A8F-DA4A-49A3-A588-06EB41DB9E8A}</UniqueIdentifier>
+      <UniqueIdentifier>{A4CC5817-1CF7-48CC-9D54-369C2DA7B4A3}</UniqueIdentifier>
     </Filter>
     <ClInclude Include="..\..\Source\ShooterGame\Public\Weapons\ShooterDamageType.h">
       <Filter>Source\ShooterGame\Public\Weapons</Filter>
@@ -667,10 +667,10 @@
       <Filter>Source\ShooterGame\Public\Weapons</Filter>
     </ClInclude>
     <Filter Include="Source\ShooterGame\Resources">
-      <UniqueIdentifier>{41FBA52C-E020-43C2-A7A5-DAEA9BAE0A79}</UniqueIdentifier>
+      <UniqueIdentifier>{17ABEBD8-2FCD-402D-B78B-EFF682E81198}</UniqueIdentifier>
     </Filter>
     <Filter Include="Source\ShooterGame\Resources\Mac">
-      <UniqueIdentifier>{3BDFF545-339D-4C39-8E3C-F5455B7EEADE}</UniqueIdentifier>
+      <UniqueIdentifier>{1F7614DC-9845-482A-BE17-3408131F93BE}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\ShooterGame\Resources\Mac\Info.plist">
       <Filter>Source\ShooterGame\Resources\Mac</Filter>
@@ -679,7 +679,7 @@
       <Filter>Source\ShooterGame\Resources\Mac</Filter>
     </None>
     <Filter Include="Source\ShooterGame\Resources\Windows">
-      <UniqueIdentifier>{F4F05E80-BDFF-46A3-8981-6E7810987D69}</UniqueIdentifier>
+      <UniqueIdentifier>{B7D5A8FC-DB6D-4D9A-8E5E-1DE3AE509265}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\ShooterGame\Resources\Windows\ShooterGame.ico">
       <Filter>Source\ShooterGame\Resources\Windows</Filter>
@@ -688,19 +688,19 @@
       <Filter>Source\ShooterGame\Resources\Windows</Filter>
     </ResourceCompile>
     <Filter Include="Source\ShooterGameLoadingScreen">
-      <UniqueIdentifier>{2BFB55A5-4812-424F-956D-ACD7B821298F}</UniqueIdentifier>
+      <UniqueIdentifier>{CC611E06-0927-4388-8127-8458D909DD63}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\ShooterGameLoadingScreen\ShooterGameLoadingScreen.Build.cs">
       <Filter>Source\ShooterGameLoadingScreen</Filter>
     </None>
     <Filter Include="Source\ShooterGameLoadingScreen\Private">
-      <UniqueIdentifier>{51959921-60BB-40FF-AA27-D7992C5B0984}</UniqueIdentifier>
+      <UniqueIdentifier>{FFD6126A-B6B2-45AE-84A7-E38A3C9A4850}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\Source\ShooterGameLoadingScreen\Private\ShooterGameLoadingScreen.cpp">
       <Filter>Source\ShooterGameLoadingScreen\Private</Filter>
     </ClCompile>
     <Filter Include="Source\ShooterGameLoadingScreen\Public">
-      <UniqueIdentifier>{65A2B99E-0F7C-4309-944E-2D16EA031B97}</UniqueIdentifier>
+      <UniqueIdentifier>{63BAD46A-EA7A-4A72-83F0-150314B3C67C}</UniqueIdentifier>
     </Filter>
     <ClInclude Include="..\..\Source\ShooterGameLoadingScreen\Public\ShooterGameLoadingScreen.h">
       <Filter>Source\ShooterGameLoadingScreen\Public</Filter>

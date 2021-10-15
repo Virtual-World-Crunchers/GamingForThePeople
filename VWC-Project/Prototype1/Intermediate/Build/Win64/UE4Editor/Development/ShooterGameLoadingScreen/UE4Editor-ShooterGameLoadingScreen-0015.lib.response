@@ -1,0 +1,12 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UE4Editor-ShooterGameLoadingScreen-0015.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"C:\Users\truth\Documents\DECO3500_Project\GamingForThePeople\VWC-Project\Prototype1\Intermediate\Build\Win64\ShooterGameEditor\Development\Slate\SharedPCH.Slate.h.obj"
+"C:\Users\truth\Documents\DECO3500_Project\GamingForThePeople\VWC-Project\Prototype1\Intermediate\Build\Win64\UE4Editor\Development\ShooterGameLoadingScreen\ShooterGameLoadingScreen.cpp.obj"
+"C:\Users\truth\Documents\DECO3500_Project\GamingForThePeople\VWC-Project\Prototype1\Intermediate\Build\Win64\UE4Editor\Development\ShooterGameLoadingScreen\Default.rc2.res"
+/OUT:"C:\Users\truth\Documents\DECO3500_Project\GamingForThePeople\VWC-Project\Prototype1\Intermediate\Build\Win64\UE4Editor\Development\ShooterGameLoadingScreen\UE4Editor-ShooterGameLoadingScreen-0015.lib"

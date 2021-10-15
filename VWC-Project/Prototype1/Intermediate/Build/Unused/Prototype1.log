@@ -8,15 +8,15 @@
   [Upgrade] Suppress this message by setting 'DefaultBuildSettings = BuildSettingsVersion.V2;' in ShooterGameEditor.Target.cs, and explicitly overriding settings that differ from the new defaults.
   [Upgrade]
   Building 6 actions with 8 processes...
-    [1/6] UE4Editor-ShooterGameLoadingScreen-0012.lib
-       Creating library C:\Users\truth\Documents\DECO3500_Project\GamingForThePeople\VWC-Project\Prototype1\Intermediate\Build\Win64\UE4Editor\Development\ShooterGameLoadingScreen\UE4Editor-ShooterGameLoadingScreen-0012.lib and object C:\Users\truth\Documents\DECO3500_Project\GamingForThePeople\VWC-Project\Prototype1\Intermediate\Build\Win64\UE4Editor\Development\ShooterGameLoadingScreen\UE4Editor-ShooterGameLoadingScreen-0012.exp
-    [2/6] UE4Editor-ShooterGameLoadingScreen-0012.dll
-       Creating library C:\Users\truth\Documents\DECO3500_Project\GamingForThePeople\VWC-Project\Prototype1\Intermediate\Build\Win64\UE4Editor\Development\ShooterGameLoadingScreen\UE4Editor-ShooterGameLoadingScreen-0012.suppressed.lib and object C:\Users\truth\Documents\DECO3500_Project\GamingForThePeople\VWC-Project\Prototype1\Intermediate\Build\Win64\UE4Editor\Development\ShooterGameLoadingScreen\UE4Editor-ShooterGameLoadingScreen-0012.suppressed.exp
+    [1/6] UE4Editor-ShooterGameLoadingScreen-0004.lib
+       Creating library C:\Users\truth\Documents\DECO3500_Project\GamingForThePeople\VWC-Project\Prototype1\Intermediate\Build\Win64\UE4Editor\Development\ShooterGameLoadingScreen\UE4Editor-ShooterGameLoadingScreen-0004.lib and object C:\Users\truth\Documents\DECO3500_Project\GamingForThePeople\VWC-Project\Prototype1\Intermediate\Build\Win64\UE4Editor\Development\ShooterGameLoadingScreen\UE4Editor-ShooterGameLoadingScreen-0004.exp
+    [2/6] UE4Editor-ShooterGameLoadingScreen-0004.dll
+       Creating library C:\Users\truth\Documents\DECO3500_Project\GamingForThePeople\VWC-Project\Prototype1\Intermediate\Build\Win64\UE4Editor\Development\ShooterGameLoadingScreen\UE4Editor-ShooterGameLoadingScreen-0004.suppressed.lib and object C:\Users\truth\Documents\DECO3500_Project\GamingForThePeople\VWC-Project\Prototype1\Intermediate\Build\Win64\UE4Editor\Development\ShooterGameLoadingScreen\UE4Editor-ShooterGameLoadingScreen-0004.suppressed.exp
     [3/6] Module.ShooterGame.cpp
-    [4/6] UE4Editor-ShooterGame-0012.lib
-       Creating library C:\Users\truth\Documents\DECO3500_Project\GamingForThePeople\VWC-Project\Prototype1\Intermediate\Build\Win64\UE4Editor\Development\ShooterGame\UE4Editor-ShooterGame-0012.lib and object C:\Users\truth\Documents\DECO3500_Project\GamingForThePeople\VWC-Project\Prototype1\Intermediate\Build\Win64\UE4Editor\Development\ShooterGame\UE4Editor-ShooterGame-0012.exp
-    [5/6] UE4Editor-ShooterGame-0012.dll
-       Creating library C:\Users\truth\Documents\DECO3500_Project\GamingForThePeople\VWC-Project\Prototype1\Intermediate\Build\Win64\UE4Editor\Development\ShooterGame\UE4Editor-ShooterGame-0012.suppressed.lib and object C:\Users\truth\Documents\DECO3500_Project\GamingForThePeople\VWC-Project\Prototype1\Intermediate\Build\Win64\UE4Editor\Development\ShooterGame\UE4Editor-ShooterGame-0012.suppressed.exp
+    [4/6] UE4Editor-ShooterGame-0004.lib
+       Creating library C:\Users\truth\Documents\DECO3500_Project\GamingForThePeople\VWC-Project\Prototype1\Intermediate\Build\Win64\UE4Editor\Development\ShooterGame\UE4Editor-ShooterGame-0004.lib and object C:\Users\truth\Documents\DECO3500_Project\GamingForThePeople\VWC-Project\Prototype1\Intermediate\Build\Win64\UE4Editor\Development\ShooterGame\UE4Editor-ShooterGame-0004.exp
+    [5/6] UE4Editor-ShooterGame-0004.dll
+       Creating library C:\Users\truth\Documents\DECO3500_Project\GamingForThePeople\VWC-Project\Prototype1\Intermediate\Build\Win64\UE4Editor\Development\ShooterGame\UE4Editor-ShooterGame-0004.suppressed.lib and object C:\Users\truth\Documents\DECO3500_Project\GamingForThePeople\VWC-Project\Prototype1\Intermediate\Build\Win64\UE4Editor\Development\ShooterGame\UE4Editor-ShooterGame-0004.suppressed.exp
     [6/6] ShooterGameEditor.target
-  Total time in Parallel executor: 130.77 seconds
-  Total execution time: 132.39 seconds
+  Total time in Parallel executor: 187.09 seconds
+  Total execution time: 188.71 seconds

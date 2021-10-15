@@ -10,6 +10,7 @@
 #include "UI/Menu/ShooterIngameMenu.h"
 #include "UI/Style/ShooterStyle.h"
 #include "UI/ShooterHUD.h"
+#include "UI/ToxicChatHUD.h"
 #include "Online.h"
 #include "OnlineAchievementsInterface.h"
 #include "OnlineEventsInterface.h"
@@ -89,6 +90,8 @@ void AShooterPlayerController::SetupInputComponent()
 		InputComponent->BindAction("PushToTalk", IE_Released, this, &APlayerController::StopTalking);
 
 		InputComponent->BindAction("ToggleChat", IE_Pressed, this, &AShooterPlayerController::ToggleChatWindow);
+		InputComponent->BindAction("SlowChatToggle", IE_Pressed, this, &AShooterPlayerController::ToggleSlowChat);
+		InputComponent->BindAction("FilterChatToggle", IE_Pressed, this, &AShooterPlayerController::ToggleFilterChat);
 
 		bHasInitializedInputComponent = true;
 	}
@@ -1031,6 +1034,18 @@ void AShooterPlayerController::ToggleChatWindow()
 	{
 		ShooterHUD->ToggleChat();
 	}
+}
+
+void AShooterPlayerController::ToggleSlowChat() {
+	UToxicChatHUD::ToggleSlowChat();
+	AShooterHUD* ShooterHUD = Cast<AShooterHUD>(GetHUD());
+	ShooterHUD->UpdateSlowChat();
+}
+
+void AShooterPlayerController::ToggleFilterChat() {
+	UToxicChatHUD::ToggleFilterChat();
+	AShooterHUD* ShooterHUD = Cast<AShooterHUD>(GetHUD());
+	ShooterHUD->UpdateFilterChat();
 }
 
 void AShooterPlayerController::ClientTeamMessage_Implementation( APlayerState* SenderPlayerState, const FString& S, FName Type, float MsgLifeTime  )

@@ -2,6 +2,15 @@
 
 #include "UI/ToxicChatHUD.h"
 #include "Math/UnrealMathUtility.h"
+#include "UI/Widgets/SChatWidget.h"
+
+static bool slowChat;
+static bool filterChat;
+
+UToxicChatHUD::UToxicChatHUD() {
+	slowChat = false;
+	filterChat = false;
+}
 
 FText UToxicChatHUD::SelectRandom() {
 
@@ -18,4 +27,45 @@ FText UToxicChatHUD::SelectRandom() {
 	int index = FMath::RandRange(0, max - 1);
 
 	return FText::FromString(samples[index]);
+}
+
+void UToxicChatHUD::ToggleSlowChat() {
+	if (slowChat) {
+		slowChat = false;
+	}
+	else {
+		slowChat = true;
+	}
+
+}
+
+void UToxicChatHUD::ToggleFilterChat() {
+	if (filterChat) {
+		filterChat = false;
+	}
+	else {
+		filterChat = true;
+	}
+
+}
+
+/*
+FReply UToxicChatHUD::ToggleFilterChat() const{
+	if (filterChat) {
+		filterChat = false;
+	}
+	else {
+		filterChat = true;
+	}
+
+	return FReply::Handled();
+}
+*/
+
+bool UToxicChatHUD::GetSlowChat() {
+	return slowChat;
+}
+
+bool UToxicChatHUD::GetFilterChat() {
+	return filterChat;
 }

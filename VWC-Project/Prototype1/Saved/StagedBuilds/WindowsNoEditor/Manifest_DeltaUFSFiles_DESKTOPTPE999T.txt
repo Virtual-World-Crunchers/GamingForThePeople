@@ -3867,6 +3867,10 @@ Prototype1/Content/UI/Chat/ChatBoxEntryBacking.uasset
 Prototype1/Content/UI/Chat/ChatBoxEntryBacking.uexp
 Prototype1/Content/UI/Chat/ChatLog_Icon_Star.uasset
 Prototype1/Content/UI/Chat/ChatLog_Icon_Star.uexp
+Prototype1/Content/UI/Chat/SlowTime.uasset
+Prototype1/Content/UI/Chat/SlowTime.uexp
+Prototype1/Content/UI/Chat/timerIcon.uasset
+Prototype1/Content/UI/Chat/timerIcon.uexp
 Prototype1/Content/UI/HUD/HitIndicator.uasset
 Prototype1/Content/UI/HUD/HitIndicator.uexp
 Prototype1/Content/UI/HUD/HUDAssets02.uasset

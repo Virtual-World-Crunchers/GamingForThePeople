@@ -4,10 +4,15 @@
 #include "SChatWidget.h"
 #include "ShooterStyle.h"
 #include "ShooterChatWidgetStyle.h"
+#include "Slate/SlateBrushAsset.h"
+#include "Widgets/Input/SButton.h"
+#include "UI/ToxicChatHUD.h"
 
 #define CHAT_BOX_WIDTH 400.0f
 #define CHAT_BOX_HEIGHT 120.0f
 #define CHAT_BOX_PADDING 20.0f
+
+#define LOCTEXT_NAMESPACE "ToggleButtons"
 
 void SChatWidget::Construct(const FArguments& InArgs, const FLocalPlayerContext& InContext)
 {
@@ -28,6 +33,9 @@ void SChatWidget::Construct(const FArguments& InArgs, const FLocalPlayerContext&
 	// Copy the font we'll be using for chat, and limit the font fallback to localized only, for performance reasons
 	ChatFont = FShooterStyle::Get().GetFontStyle("ShooterGame.ChatFont");
 	ChatFont.FontFallback = EFontFallback::FF_NoFallback;
+
+	const FText slowChatLabel = LOCTEXT("SlowChat","Slow Chat");
+
 
 	// Initialize Menu
 	ChildSlot
@@ -72,10 +80,10 @@ void SChatWidget::Construct(const FArguments& InArgs, const FLocalPlayerContext&
 				.Style(&ChatStyle->TextEntryStyle)
 			]
 		]
-		//Chat toggle buttons
-		//TODO
-
+		//Chat toggle buttons goes here
+		
 	];
+
 	// Setup visibilty
 	LastVisibility = bAlwaysVisible ? EVisibility::Visible : EVisibility::Hidden;
 	SetEntryVisibility( LastVisibility );	
@@ -246,3 +254,34 @@ TSharedRef<SWidget> SChatWidget::AsWidget()
 	return SharedThis(this);
 }
 
+void SChatWidget::SlowChat() {
+	const FText slowChatEnabled = LOCTEXT("SlowChatEn", "Slow Chat Enabled...");
+	const FText slowChatDisabled = LOCTEXT("SlowChatDis", "Slow Chat Disabled...");
+
+	if (UToxicChatHUD::GetSlowChat()) {
+		AddChatLine(slowChatEnabled, false);
+	}
+	else {
+		AddChatLine(slowChatDisabled, false);
+	}
+}
+
+void SChatWidget::FilterChat() {
+	const FText filterChatEnabled = LOCTEXT("FilterChatEn", "Filter Chat Enabled...");
+	const FText filterChatDisabled = LOCTEXT("FilterChatDis", "Filter Chat Disabled...");
+
+	if (UToxicChatHUD::GetFilterChat()) {
+		AddChatLine(filterChatEnabled, false);
+	}
+	else {
+		AddChatLine(filterChatDisabled, false);
+	}
+}
+
+/*
+FReply SChatWidget::ToggleSlowChat() const {
+	UToxicChatHUD::ToggleSlowChat();
+	return FReply::Handled();
+}
+*/
+#undef LOCTEXT_NAMESPACE

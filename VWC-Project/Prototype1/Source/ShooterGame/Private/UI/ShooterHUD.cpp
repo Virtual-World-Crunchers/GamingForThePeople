@@ -1166,6 +1166,7 @@ void AShooterHUD::ToggleChat()
 
 	if( TryCreateChatWidget() == false )
 	{
+
 		EVisibility RequiredVisibility = ChatWidget->GetEntryVisibility() == EVisibility::Visible ? EVisibility::Hidden :EVisibility::Visible;
 		SetChatVisibilty( RequiredVisibility );
 	}
@@ -1284,6 +1285,14 @@ float AShooterHUD::DrawRecentlyKilledPlayer()
 		}
 	}
 	return LastYPos;
+}
+
+void AShooterHUD::UpdateSlowChat() {
+	ChatWidget->SlowChat();
+}
+
+void AShooterHUD::UpdateFilterChat() {
+	ChatWidget->FilterChat();
 }
 
 #undef LOCTEXT_NAMESPACE
