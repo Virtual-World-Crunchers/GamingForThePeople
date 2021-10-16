@@ -1,6 +1,27 @@
 # Gaming For the People
 
-Gaming For the People is a project that is attempting to address toxicity in competitive online team-based games, particularly on solo players that play games like League of Legends. It is our hope that we can encourage a more friendlier gaming community through a means of immediate intervention when toxic behaviour occurs during gameplay.
+**Gaming For the People** is a project that is attempting to address toxicity in competitive online team-based games, particularly on solo players that play games like League of Legends. It is our hope that we can encourage a more friendlier gaming community through a means of immediate intervention when toxic behaviour occurs during gameplay.
+
+## Feature
+* Slow chat mode
+* Warning Tips
+* Discouraging toxicity in game
+
+## Getting Started
+The following instructions will help you to get a copy  of the game and run it locally.
+
+### Prerequisites 
+Before cloning the repo from GitHub, make sure the Git LFS (Large File Storage) has been installed.  You can read about the installation [here](https://docs.github.com/en/repositories/working-with-files/managing-large-files/installing-git-large-file-storage). Moreover, get Unreal Engine installed as well to open up the game.
+
+### Installation
+1. Clone the repo
+```shell
+git clone https://github.com/Virtual-World-Crunchers/GamingForThePeople.git
+```
+
+## Usage
+_"Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources."_
+
 
 ## Git Configurations
 
