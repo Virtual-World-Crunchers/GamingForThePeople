@@ -6,11 +6,16 @@
 
 static bool slowChat;
 static bool filterChat;
+//static UClass* SCTimer = FindObject<UClass>(nullptr, TEXT("Blueprints.SlowChatTimer"), true);
+static bool timerLoaded;
+static FString timer;
 
 UToxicChatHUD::UToxicChatHUD() {
 	slowChat = false;
 	filterChat = false;
+	//StartTimer();
 }
+
 
 FText UToxicChatHUD::SelectRandom() {
 
@@ -69,3 +74,16 @@ bool UToxicChatHUD::GetSlowChat() {
 bool UToxicChatHUD::GetFilterChat() {
 	return filterChat;
 }
+
+FString UToxicChatHUD::GetCurrentTime() {
+	return currentTime;
+}
+
+bool UToxicChatHUD::GetTimerStatus() {
+	return timing;
+}
+
+void UToxicChatHUD::TimerBP() {
+	StartTimer();
+}
+

@@ -18,6 +18,7 @@
 #define LOCTEXT_NAMESPACE "ShooterGame.HUD.Menu"
 
 const float AShooterHUD::MinHudScale = 0.5f;
+UToxicChatHUD* tcHUD = NewObject<UToxicChatHUD>();
 
 AShooterHUD::AShooterHUD(const FObjectInitializer& ObjectInitializer) : Super(ObjectInitializer)
 {
@@ -928,7 +929,7 @@ void AShooterHUD::ShowDeathMessage(class AShooterPlayerState* KillerPlayerState,
 			}
 
 			//toxic chat
-			AddChatLine(UToxicChatHUD::SelectRandom(), false);
+			AddChatLine(tcHUD->SelectRandom(), false);
 		}
 	}
 }
@@ -1198,10 +1199,10 @@ void AShooterHUD::MakeUV(FCanvasIcon& Icon, FVector2D& UV0, FVector2D& UV1, uint
 {
 	if (Icon.Texture)
 	{
-		const float Width = Icon.Texture->GetSurfaceWidth();
-		const float Height = Icon.Texture->GetSurfaceHeight();
-		UV0 = FVector2D(U / Width, V / Height);
-		UV1 = UV0 + FVector2D(UL / Width, VL / Height);
+	const float Width = Icon.Texture->GetSurfaceWidth();
+	const float Height = Icon.Texture->GetSurfaceHeight();
+	UV0 = FVector2D(U / Width, V / Height);
+	UV1 = UV0 + FVector2D(UL / Width, VL / Height);
 	}
 }
 
@@ -1209,20 +1210,20 @@ bool AShooterHUD::TryCreateChatWidget()
 {
 	bool bCreated = false;
 	AShooterPlayerController* ShooterPC = Cast<AShooterPlayerController>(PlayerOwner);
-	if(ShooterPC == NULL )
+	if (ShooterPC == NULL)
 	{
-		UE_LOG(LogShooter, Warning, TEXT("Unable to create chat widget - Invalid player controller") );
+		UE_LOG(LogShooter, Warning, TEXT("Unable to create chat widget - Invalid player controller"));
 	}
 	else
 	{
 		// Only create the widget if its invalid
-		if( ChatWidget.IsValid() == false )
+		if (ChatWidget.IsValid() == false)
 		{
 			bCreated = true;
 			FLocalPlayerContext WorldContext(ShooterPC);
 			GEngine->GameViewport->AddViewportWidgetContent(
-				SAssignNew(ChatWidget,SChatWidget, WorldContext)/*.bKeepVisible(true)*/
-				);			
+				SAssignNew(ChatWidget, SChatWidget, WorldContext)/*.bKeepVisible(true)*/
+			);
 		}
 	}
 	return bCreated;
@@ -1233,7 +1234,7 @@ bool AShooterHUD::IsMatchOver() const
 	return GetMatchState() == EShooterMatchState::Lost || GetMatchState() == EShooterMatchState::Won;
 }
 
-void AShooterHUD::AddMatchInfoString(const FCanvasTextItem InInfoItem )
+void AShooterHUD::AddMatchInfoString(const FCanvasTextItem InInfoItem)
 {
 	InfoItems.Add(InInfoItem);
 }
@@ -1243,12 +1244,12 @@ float AShooterHUD::ShowInfoItems(float YOffset, float TextScale)
 	float Y = YOffset;
 	float CanvasCentre = Canvas->ClipX / 2.0f;
 
-	for (int32 iItem = 0; iItem < InfoItems.Num() ; iItem++)
+	for (int32 iItem = 0; iItem < InfoItems.Num(); iItem++)
 	{
 		float X = 0.0f;
-		float SizeX, SizeY; 
+		float SizeX, SizeY;
 		Canvas->StrLen(InfoItems[iItem].Font, InfoItems[iItem].Text.ToString(), SizeX, SizeY);
-		X = CanvasCentre - ( SizeX * InfoItems[iItem].Scale.X)/2.0f;
+		X = CanvasCentre - (SizeX * InfoItems[iItem].Scale.X) / 2.0f;
 		Canvas->DrawItem(InfoItems[iItem], X, Y);
 		Y += SizeY * InfoItems[iItem].Scale.Y;
 	}
@@ -1256,8 +1257,8 @@ float AShooterHUD::ShowInfoItems(float YOffset, float TextScale)
 }
 
 float AShooterHUD::DrawRecentlyKilledPlayer()
-{		
-	const float DrawPos = (Canvas->ClipY / 4.0)* ScaleUI;
+{
+	const float DrawPos = (Canvas->ClipY / 4.0) * ScaleUI;
 	float LastYPos = DrawPos;
 	if (MatchState == EShooterMatchState::Playing)
 	{
@@ -1276,23 +1277,39 @@ float AShooterHUD::DrawRecentlyKilledPlayer()
 			Canvas->SetDrawColor(255, 255, 255, 255 * Alpha);
 			Canvas->DrawIcon(KilledIcon, Canvas->OrgX + Canvas->ClipX / 2 - (KilledIcon.UL * ScaleUI + SizeX * TextScale * ScaleUI) / 2.0f,
 				DrawPos - (Offset * 4 - SizeY / 2 * TextScale + KilledIcon.VL / 2) * ScaleUI, ScaleUI);
-			TextItem.SetColor(FColor(HUDLight.R, HUDLight.G, HUDLight.B, HUDLight.A*Alpha));
+			TextItem.SetColor(FColor(HUDLight.R, HUDLight.G, HUDLight.B, HUDLight.A * Alpha));
 			TextItem.Text = FText::FromString(Text);
-			TextItem.Scale = FVector2D(TextScale*ScaleUI, TextScale*ScaleUI);
+			TextItem.Scale = FVector2D(TextScale * ScaleUI, TextScale * ScaleUI);
 			LastYPos = (DrawPos - (Offset * 4 * ScaleUI)) + SizeY;
 			Canvas->DrawItem(TextItem, Canvas->OrgX + Canvas->ClipX / 2 - (KilledIcon.UL * ScaleUI + SizeX * TextScale * ScaleUI) / 2.0f + KilledIcon.UL * ScaleUI,
-				DrawPos - ( Offset * 4 * ScaleUI));
+				DrawPos - (Offset * 4 * ScaleUI));
 		}
 	}
 	return LastYPos;
 }
 
 void AShooterHUD::UpdateSlowChat() {
-	ChatWidget->SlowChat();
+	tcHUD->ToggleSlowChat();
+	ChatWidget->SlowChatStatus(tcHUD->GetSlowChat());
 }
 
 void AShooterHUD::UpdateFilterChat() {
-	ChatWidget->FilterChat();
+	tcHUD->ToggleFilterChat();
+	ChatWidget->FilterChatStatus(tcHUD->GetFilterChat());
+}
+
+void AShooterHUD::SlowChatTimer(bool status){
+	if (status) {
+		tcHUD->TimerBP();
+	}
+	
+	ChatWidget->TimingStatus(status);
+}
+
+void AShooterHUD::IsEndTimer() {
+	if (!tcHUD->GetTimerStatus()) {
+		SlowChatTimer(false);
+	}
 }
 
 #undef LOCTEXT_NAMESPACE

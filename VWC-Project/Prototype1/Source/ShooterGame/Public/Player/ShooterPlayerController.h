@@ -53,6 +53,8 @@ public:
 
 	void ToggleSlowChat();
 	void ToggleFilterChat();
+	void StartSlowChatTimer();
+	void QuerySCTimer();
 
 	/** Local function say a string */
 	UFUNCTION(exec)

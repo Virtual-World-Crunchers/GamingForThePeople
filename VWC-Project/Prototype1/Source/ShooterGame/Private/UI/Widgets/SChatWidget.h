@@ -49,8 +49,9 @@ public:
 
 	TSharedRef<class SWidget> AsWidget();
 
-	void SlowChat();
-	void FilterChat();
+	void SlowChatStatus(bool status);
+	void FilterChatStatus(bool status);
+	void TimingStatus(bool status);
 
 protected:
 

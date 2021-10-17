@@ -13,6 +13,9 @@
 #define CHAT_BOX_PADDING 20.0f
 
 #define LOCTEXT_NAMESPACE "ToggleButtons"
+bool SCStatus = false;
+bool FCStatus = false;
+bool TStatus = false;
 
 void SChatWidget::Construct(const FArguments& InArgs, const FLocalPlayerContext& InContext)
 {
@@ -86,7 +89,8 @@ void SChatWidget::Construct(const FArguments& InArgs, const FLocalPlayerContext&
 
 	// Setup visibilty
 	LastVisibility = bAlwaysVisible ? EVisibility::Visible : EVisibility::Hidden;
-	SetEntryVisibility( LastVisibility );	
+	SetEntryVisibility( LastVisibility );
+
 }
 
 
@@ -156,27 +160,34 @@ void SChatWidget::SetEntryVisibility( TAttribute<EVisibility> InVisibility )
 
 void SChatWidget::OnChatTextCommitted(const FText& InText, ETextCommit::Type InCommitInfo)
 {
-	if (InCommitInfo == ETextCommit::OnEnter)
-	{
-		if (GetPlayerController().IsValid() && !InText.IsEmpty())
+	// Only allow to broadcast if slow chat is either disabled or that the timer is up
+	if (!SCStatus || (SCStatus && !TStatus)) {
+		if (InCommitInfo == ETextCommit::OnEnter)
 		{
-			// broadcast chat to other players
-			GetPlayerController()->Say(InText.ToString());
-
-			if(ChatEditBox.IsValid())
+			if (GetPlayerController().IsValid() && !InText.IsEmpty())
 			{
-				// Add the string so we see it too (we will ignore our own strings in the receive function)
-				AddChatLine( InText, true );
+				// broadcast chat to other players
+				GetPlayerController()->Say(InText.ToString());
 
-				// Clear the text
-				ChatEditBox->SetText(FText());
+				if (ChatEditBox.IsValid())
+				{
+					// Add the string so we see it too (we will ignore our own strings in the receive function)
+					AddChatLine(InText, true);
 
-				// Audible indication we sent a message
-				FSlateApplication::Get().PlaySound(ChatStyle->TxMessgeSound);
+					// Clear the text
+					ChatEditBox->SetText(FText());
+
+					// Audible indication we sent a message
+					FSlateApplication::Get().PlaySound(ChatStyle->TxMessgeSound);
+
+					// Start slow chat timer if the slow chat is enabled
+					if (SCStatus) {
+						GetPlayerController()->StartSlowChatTimer();
+					}
+				}
 			}
 		}
 	}
-
  	// If we want to dismiss chat after say, and we are not always visible, hide it now.
 	if ((bAlwaysVisible == false) && ( bDismissAfterSay == true ) )
  	{
@@ -189,6 +200,11 @@ void SChatWidget::Tick( const FGeometry& AllottedGeometry, const double InCurren
 	// Always tick the super.
 	SCompoundWidget::Tick( AllottedGeometry, InCurrentTime, InDeltaTime );
 
+	// Check if timer is finished
+	if (SCStatus && TStatus) {
+		GetPlayerController()->QuerySCTimer();
+	}
+	
 	// If we have not got the keep visible flag set, and the fade time has expired hide the widget
 	const double CurrentTime = FSlateApplication::Get().GetCurrentTime();
 	if( ( bAlwaysVisible == false ) && ( CurrentTime > ( LastChatLineTime + ChatFadeTime ) ) )
@@ -254,11 +270,20 @@ TSharedRef<SWidget> SChatWidget::AsWidget()
 	return SharedThis(this);
 }
 
-void SChatWidget::SlowChat() {
+void SChatWidget::SlowChatStatus(bool status) {
 	const FText slowChatEnabled = LOCTEXT("SlowChatEn", "Slow Chat Enabled...");
 	const FText slowChatDisabled = LOCTEXT("SlowChatDis", "Slow Chat Disabled...");
 
-	if (UToxicChatHUD::GetSlowChat()) {
+	/*
+	const FText slowChatTimer = LOCTEXT("SlowChatTimer", "Timer not found...");
+	if (!UToxicChatHUD::TimerIsLoaded()) {
+		AddChatLine(slowChatTimer, false);
+	}
+	*/
+
+	SCStatus = status;
+
+	if (status) {
 		AddChatLine(slowChatEnabled, false);
 	}
 	else {
@@ -266,17 +291,34 @@ void SChatWidget::SlowChat() {
 	}
 }
 
-void SChatWidget::FilterChat() {
+void SChatWidget::FilterChatStatus(bool status) {
 	const FText filterChatEnabled = LOCTEXT("FilterChatEn", "Filter Chat Enabled...");
 	const FText filterChatDisabled = LOCTEXT("FilterChatDis", "Filter Chat Disabled...");
 
-	if (UToxicChatHUD::GetFilterChat()) {
+	FCStatus = status;
+
+	if (status) {
 		AddChatLine(filterChatEnabled, false);
 	}
 	else {
 		AddChatLine(filterChatDisabled, false);
 	}
 }
+
+void SChatWidget::TimingStatus(bool status) {
+	TStatus = status;
+
+	FString scStarted = TEXT("Slow Chat Started...");
+	FString scStopped = TEXT("Slow Chat Stopped...");
+
+	if (status) {
+		AddChatLine(FText::FromString(scStarted), false);
+	}
+	else {
+		AddChatLine(FText::FromString(scStopped), false);
+	}
+}
+	
 
 /*
 FReply SChatWidget::ToggleSlowChat() const {

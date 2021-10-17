@@ -168,6 +168,7 @@ void AShooterPlayerController::TickActor(float DeltaTime, enum ELevelTick TickTy
 	{
 		USoundNodeLocalPlayer::GetLocallyControlledActorCache().Add(UniqueID, bLocallyControlled);
 	});
+
 };
 
 void AShooterPlayerController::BeginDestroy()
@@ -1037,15 +1038,23 @@ void AShooterPlayerController::ToggleChatWindow()
 }
 
 void AShooterPlayerController::ToggleSlowChat() {
-	UToxicChatHUD::ToggleSlowChat();
 	AShooterHUD* ShooterHUD = Cast<AShooterHUD>(GetHUD());
 	ShooterHUD->UpdateSlowChat();
 }
 
 void AShooterPlayerController::ToggleFilterChat() {
-	UToxicChatHUD::ToggleFilterChat();
 	AShooterHUD* ShooterHUD = Cast<AShooterHUD>(GetHUD());
 	ShooterHUD->UpdateFilterChat();
+}
+
+void AShooterPlayerController::StartSlowChatTimer() {
+	AShooterHUD* ShooterHUD = Cast<AShooterHUD>(GetHUD());
+	ShooterHUD->SlowChatTimer(true);
+}
+
+void AShooterPlayerController::QuerySCTimer() {
+	AShooterHUD* ShooterHUD = Cast<AShooterHUD>(GetHUD());
+	ShooterHUD->IsEndTimer();
 }
 
 void AShooterPlayerController::ClientTeamMessage_Implementation( APlayerState* SenderPlayerState, const FString& S, FName Type, float MsgLifeTime  )

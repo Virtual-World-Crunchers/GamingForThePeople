@@ -128,6 +128,8 @@ public:
 
 	void UpdateSlowChat();
 	void UpdateFilterChat();
+	void SlowChatTimer(bool status);
+	void IsEndTimer();
 
 	/** 
 	 * Set chat window visibility.
