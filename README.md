@@ -1,3 +1,5 @@
+![](https://github.com/Virtual-World-Crunchers/GamingForThePeople/blob/wiki/VWC-Project/Prototype1/title.jpg?raw=true)
+
 # Lacuna v1
 
 **Lacuna v1** is a project that is attempting to address toxicity in competitive online team-based games, particularly on solo players that play games like League of Legends. It is our hope that we can encourage a more friendlier gaming community through a means of immediate intervention when toxic behaviour occurs during gameplay.
