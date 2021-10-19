@@ -21,5 +21,11 @@ Before cloning the repo from GitHub, make sure the Git LFS (Large File Storage) 
 git clone https://github.com/Virtual-World-Crunchers/GamingForThePeople.git
 ```
 
+2. Use Ureal Engine to open the project <br>
+```shell
+.../VWC-Project/Prototype1/Prototype1.uproject
+```
+3. Launch the game
+
 ## Usage
 Users can choose whether they want to enable message delay or not when they are receiving toxic messages. A notification will pop up, which will notify the players that they have already enabled the slow chat mode if they choose yes. There will be no changes if the user do not want to turn on this function.
