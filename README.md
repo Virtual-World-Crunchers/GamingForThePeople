@@ -16,7 +16,7 @@ The following instructions will help you to get a copy  of the game and run it l
 Before cloning the repo from GitHub, make sure the Git LFS (Large File Storage) has been installed.  You can read about the installation [here](https://docs.github.com/en/repositories/working-with-files/managing-large-files/installing-git-large-file-storage). Moreover, get Unreal Engine installed as well to open up the game.
 
 ### Installation
-1. Clone the repo
+1. Clone the repo to local
 ```shell
 git clone https://github.com/Virtual-World-Crunchers/GamingForThePeople.git
 ```
