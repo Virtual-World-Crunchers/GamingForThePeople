@@ -1,0 +1,143 @@
+C:/Users/truth/Documents/DECO3500_Project/GamingForThePeople/VWC-Project/Prototype1/Intermediate/Build/Win64/UE4Editor/Inc/ShooterGame/BTDecorator_HasLoSTo.gen.cpp
+C:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\CoreUObject\Public\UObject/GeneratedCppIncludes.h
+C:\Users\truth\Documents\DECO3500_Project\GamingForThePeople\VWC-Project\Prototype1\Source\ShooterGame/Public/Bots/BTDecorator_HasLoSTo.h
+C:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\AIModule\Classes\BehaviorTree/BTDecorator.h
+C:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\AIModule\Classes\BehaviorTree/BTAuxiliaryNode.h
+C:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\AIModule\Classes\BehaviorTree/BTNode.h
+C:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\AIModule\Classes\BehaviorTree/BehaviorTreeTypes.h
+C:\Program Files\Epic Games\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\AIModule\BehaviorTreeTypes.generated.h
+C:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\AIModule\Classes\BehaviorTree/BehaviorTreeComponent.h
+C:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\GameplayTags\Classes\GameplayTagContainer.h
+C:\Program Files\Epic Games\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\GameplayTags\GameplayTagContainer.generated.h
+C:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\AIModule\Classes\AITypes.h
+C:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\NavigationSystem\Public\NavFilters/NavigationQueryFilter.h
+C:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\NavigationSystem\Public\NavAreas/NavArea.h
+C:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\Engine\Classes\AI/Navigation/NavAreaBase.h
+C:\Program Files\Epic Games\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\NavAreaBase.generated.h
+C:\Program Files\Epic Games\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\NavigationSystem\NavArea.generated.h
+C:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\Engine\Public\AI/Navigation/NavQueryFilter.h
+C:\Program Files\Epic Games\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\NavigationSystem\NavigationQueryFilter.generated.h
+C:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\NavigationSystem\Public\NavigationSystemTypes.h
+C:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\Engine\Classes\AI/NavigationSystemConfig.h
+C:\Program Files\Epic Games\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\NavigationSystemConfig.generated.h
+C:\Program Files\Epic Games\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\AIModule\AITypes.generated.h
+C:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\AIModule\Classes\BrainComponent.h
+C:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\AIModule\Classes\AIResourceInterface.h
+C:\Program Files\Epic Games\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\AIModule\AIResourceInterface.generated.h
+C:\Program Files\Epic Games\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\AIModule\BrainComponent.generated.h
+C:\Program Files\Epic Games\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\AIModule\BehaviorTreeComponent.generated.h
+C:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\AIModule\Classes\BehaviorTree/BlackboardAssetProvider.h
+C:\Program Files\Epic Games\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\AIModule\BlackboardAssetProvider.generated.h
+C:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\GameplayTasks\Classes\GameplayTaskOwnerInterface.h
+C:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\GameplayTasks\Public\GameplayTaskTypes.h
+C:\Program Files\Epic Games\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\GameplayTasks\GameplayTaskOwnerInterface.generated.h
+C:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\AIModule\Classes\Tasks/AITask.h
+C:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\GameplayTasks\Classes\GameplayTask.h
+C:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\CoreUObject\Public\UObject/WeakInterfacePtr.h
+C:\Program Files\Epic Games\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\GameplayTasks\GameplayTask.generated.h
+C:\Program Files\Epic Games\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\AIModule\AITask.generated.h
+C:\Program Files\Epic Games\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\AIModule\BTNode.generated.h
+C:\Program Files\Epic Games\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\AIModule\BTAuxiliaryNode.generated.h
+C:\Program Files\Epic Games\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\AIModule\BTDecorator.generated.h
+C:\Users\truth\Documents\DECO3500_Project\GamingForThePeople\VWC-Project\Prototype1\Intermediate\Build\Win64\UE4Editor\Inc\ShooterGame\BTDecorator_HasLoSTo.generated.h
+C:/Users/truth/Documents/DECO3500_Project/GamingForThePeople/VWC-Project/Prototype1/Intermediate/Build/Win64/UE4Editor/Inc/ShooterGame/BTTask_FindPickup.gen.cpp
+C:\Users\truth\Documents\DECO3500_Project\GamingForThePeople\VWC-Project\Prototype1\Source\ShooterGame/Public/Bots/BTTask_FindPickup.h
+C:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\AIModule\Classes\BehaviorTree/Tasks/BTTask_BlackboardBase.h
+C:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\AIModule\Classes\BehaviorTree/BTTaskNode.h
+C:\Program Files\Epic Games\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\AIModule\BTTaskNode.generated.h
+C:\Program Files\Epic Games\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\AIModule\BTTask_BlackboardBase.generated.h
+C:\Users\truth\Documents\DECO3500_Project\GamingForThePeople\VWC-Project\Prototype1\Intermediate\Build\Win64\UE4Editor\Inc\ShooterGame\BTTask_FindPickup.generated.h
+C:/Users/truth/Documents/DECO3500_Project/GamingForThePeople/VWC-Project/Prototype1/Intermediate/Build/Win64/UE4Editor/Inc/ShooterGame/BTTask_FindPointNearEnemy.gen.cpp
+C:\Users\truth\Documents\DECO3500_Project\GamingForThePeople\VWC-Project\Prototype1\Source\ShooterGame/Public/Bots/BTTask_FindPointNearEnemy.h
+C:\Users\truth\Documents\DECO3500_Project\GamingForThePeople\VWC-Project\Prototype1\Intermediate\Build\Win64\UE4Editor\Inc\ShooterGame\BTTask_FindPointNearEnemy.generated.h
+C:/Users/truth/Documents/DECO3500_Project/GamingForThePeople/VWC-Project/Prototype1/Intermediate/Build/Win64/UE4Editor/Inc/ShooterGame/ShooterAIController.gen.cpp
+C:\Users\truth\Documents\DECO3500_Project\GamingForThePeople\VWC-Project\Prototype1\Source\ShooterGame/Public/Bots/ShooterAIController.h
+C:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\AIModule\Classes\AIController.h
+C:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\AIModule\Classes\Navigation/PathFollowingComponent.h
+C:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\NavigationSystem\Public\NavigationData.h
+C:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\Engine\Classes\AI/Navigation/NavigationDataInterface.h
+C:\Program Files\Epic Games\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\NavigationDataInterface.generated.h
+C:\Program Files\Epic Games\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\NavigationSystem\NavigationData.generated.h
+C:\Program Files\Epic Games\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\AIModule\PathFollowingComponent.generated.h
+C:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\AIModule\Classes\Perception/AIPerceptionListenerInterface.h
+C:\Program Files\Epic Games\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\AIModule\AIPerceptionListenerInterface.generated.h
+C:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\AIModule\Classes\GenericTeamAgentInterface.h
+C:\Program Files\Epic Games\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\AIModule\GenericTeamAgentInterface.generated.h
+C:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\Engine\Public\VisualLogger/VisualLoggerDebugSnapshotInterface.h
+C:\Program Files\Epic Games\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\VisualLoggerDebugSnapshotInterface.generated.h
+C:\Program Files\Epic Games\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\AIModule\AIController.generated.h
+C:\Users\truth\Documents\DECO3500_Project\GamingForThePeople\VWC-Project\Prototype1\Intermediate\Build\Win64\UE4Editor\Inc\ShooterGame\ShooterAIController.generated.h
+C:/Users/truth/Documents/DECO3500_Project/GamingForThePeople/VWC-Project/Prototype1/Intermediate/Build/Win64/UE4Editor/Inc/ShooterGame/ShooterBot.gen.cpp
+C:\Users\truth\Documents\DECO3500_Project\GamingForThePeople\VWC-Project\Prototype1\Source\ShooterGame/Public/Bots/ShooterBot.h
+C:\Users\truth\Documents\DECO3500_Project\GamingForThePeople\VWC-Project\Prototype1\Intermediate\Build\Win64\UE4Editor\Inc\ShooterGame\ShooterBot.generated.h
+C:/Users/truth/Documents/DECO3500_Project/GamingForThePeople/VWC-Project/Prototype1/Intermediate/Build/Win64/UE4Editor/Inc/ShooterGame/ShooterCharacter.gen.cpp
+C:/Users/truth/Documents/DECO3500_Project/GamingForThePeople/VWC-Project/Prototype1/Intermediate/Build/Win64/UE4Editor/Inc/ShooterGame/ShooterCharacterMovement.gen.cpp
+C:/Users/truth/Documents/DECO3500_Project/GamingForThePeople/VWC-Project/Prototype1/Intermediate/Build/Win64/UE4Editor/Inc/ShooterGame/ShooterChatWidgetStyle.gen.cpp
+C:\Users\truth\Documents\DECO3500_Project\GamingForThePeople\VWC-Project\Prototype1\Source\ShooterGame/Private/UI/Style/ShooterChatWidgetStyle.h
+C:\Users\truth\Documents\DECO3500_Project\GamingForThePeople\VWC-Project\Prototype1\Intermediate\Build\Win64\UE4Editor\Inc\ShooterGame\ShooterChatWidgetStyle.generated.h
+C:/Users/truth/Documents/DECO3500_Project/GamingForThePeople/VWC-Project/Prototype1/Intermediate/Build/Win64/UE4Editor/Inc/ShooterGame/ShooterCheatManager.gen.cpp
+C:\Users\truth\Documents\DECO3500_Project\GamingForThePeople\VWC-Project\Prototype1\Source\ShooterGame/Public/Player/ShooterCheatManager.h
+C:\Users\truth\Documents\DECO3500_Project\GamingForThePeople\VWC-Project\Prototype1\Intermediate\Build\Win64\UE4Editor\Inc\ShooterGame\ShooterCheatManager.generated.h
+C:/Users/truth/Documents/DECO3500_Project/GamingForThePeople/VWC-Project/Prototype1/Intermediate/Build/Win64/UE4Editor/Inc/ShooterGame/ShooterDamageType.gen.cpp
+C:\Users\truth\Documents\DECO3500_Project\GamingForThePeople\VWC-Project\Prototype1\Source\ShooterGame/Public/Weapons/ShooterDamageType.h
+C:\Users\truth\Documents\DECO3500_Project\GamingForThePeople\VWC-Project\Prototype1\Intermediate\Build\Win64\UE4Editor\Inc\ShooterGame\ShooterDamageType.generated.h
+C:/Users/truth/Documents/DECO3500_Project/GamingForThePeople/VWC-Project/Prototype1/Intermediate/Build/Win64/UE4Editor/Inc/ShooterGame/ShooterDemoSpectator.gen.cpp
+C:\Users\truth\Documents\DECO3500_Project\GamingForThePeople\VWC-Project\Prototype1\Source\ShooterGame/Public/Player/ShooterDemoSpectator.h
+C:\Users\truth\Documents\DECO3500_Project\GamingForThePeople\VWC-Project\Prototype1\Intermediate\Build\Win64\UE4Editor\Inc\ShooterGame\ShooterDemoSpectator.generated.h
+C:/Users/truth/Documents/DECO3500_Project/GamingForThePeople/VWC-Project/Prototype1/Intermediate/Build/Win64/UE4Editor/Inc/ShooterGame/ShooterEngine.gen.cpp
+C:\Users\truth\Documents\DECO3500_Project\GamingForThePeople\VWC-Project\Prototype1\Source\ShooterGame/Public/ShooterEngine.h
+C:\Users\truth\Documents\DECO3500_Project\GamingForThePeople\VWC-Project\Prototype1\Intermediate\Build\Win64\UE4Editor\Inc\ShooterGame\ShooterEngine.generated.h
+C:/Users/truth/Documents/DECO3500_Project/GamingForThePeople/VWC-Project/Prototype1/Intermediate/Build/Win64/UE4Editor/Inc/ShooterGame/ShooterExplosionEffect.gen.cpp
+C:\Users\truth\Documents\DECO3500_Project\GamingForThePeople\VWC-Project\Prototype1\Source\ShooterGame/Public/Effects/ShooterExplosionEffect.h
+C:\Users\truth\Documents\DECO3500_Project\GamingForThePeople\VWC-Project\Prototype1\Intermediate\Build\Win64\UE4Editor\Inc\ShooterGame\ShooterExplosionEffect.generated.h
+C:/Users/truth/Documents/DECO3500_Project/GamingForThePeople/VWC-Project/Prototype1/Intermediate/Build/Win64/UE4Editor/Inc/ShooterGame/ShooterGame.init.gen.cpp
+C:/Users/truth/Documents/DECO3500_Project/GamingForThePeople/VWC-Project/Prototype1/Intermediate/Build/Win64/UE4Editor/Inc/ShooterGame/ShooterGame_FreeForAll.gen.cpp
+C:\Users\truth\Documents\DECO3500_Project\GamingForThePeople\VWC-Project\Prototype1\Source\ShooterGame/Public/Online/ShooterGame_FreeForAll.h
+C:\Users\truth\Documents\DECO3500_Project\GamingForThePeople\VWC-Project\Prototype1\Intermediate\Build\Win64\UE4Editor\Inc\ShooterGame\ShooterGame_FreeForAll.generated.h
+C:/Users/truth/Documents/DECO3500_Project/GamingForThePeople/VWC-Project/Prototype1/Intermediate/Build/Win64/UE4Editor/Inc/ShooterGame/ShooterGame_Menu.gen.cpp
+C:\Users\truth\Documents\DECO3500_Project\GamingForThePeople\VWC-Project\Prototype1\Source\ShooterGame/Public/Online/ShooterGame_Menu.h
+C:\Users\truth\Documents\DECO3500_Project\GamingForThePeople\VWC-Project\Prototype1\Intermediate\Build\Win64\UE4Editor\Inc\ShooterGame\ShooterGame_Menu.generated.h
+C:/Users/truth/Documents/DECO3500_Project/GamingForThePeople/VWC-Project/Prototype1/Intermediate/Build/Win64/UE4Editor/Inc/ShooterGame/ShooterGame_TeamDeathMatch.gen.cpp
+C:\Users\truth\Documents\DECO3500_Project\GamingForThePeople\VWC-Project\Prototype1\Source\ShooterGame/Public/Online/ShooterGame_TeamDeathMatch.h
+C:\Users\truth\Documents\DECO3500_Project\GamingForThePeople\VWC-Project\Prototype1\Intermediate\Build\Win64\UE4Editor\Inc\ShooterGame\ShooterGame_TeamDeathMatch.generated.h
+C:/Users/truth/Documents/DECO3500_Project/GamingForThePeople/VWC-Project/Prototype1/Intermediate/Build/Win64/UE4Editor/Inc/ShooterGame/ShooterGameInstance.gen.cpp
+C:/Users/truth/Documents/DECO3500_Project/GamingForThePeople/VWC-Project/Prototype1/Intermediate/Build/Win64/UE4Editor/Inc/ShooterGame/ShooterGameMode.gen.cpp
+C:/Users/truth/Documents/DECO3500_Project/GamingForThePeople/VWC-Project/Prototype1/Intermediate/Build/Win64/UE4Editor/Inc/ShooterGame/ShooterGameSession.gen.cpp
+C:\Users\truth\Documents\DECO3500_Project\GamingForThePeople\VWC-Project\Prototype1\Source\ShooterGame/Public/Online/ShooterGameSession.h
+C:\Users\truth\Documents\DECO3500_Project\GamingForThePeople\VWC-Project\Prototype1\Intermediate\Build\Win64\UE4Editor\Inc\ShooterGame\ShooterGameSession.generated.h
+C:/Users/truth/Documents/DECO3500_Project/GamingForThePeople/VWC-Project/Prototype1/Intermediate/Build/Win64/UE4Editor/Inc/ShooterGame/ShooterGameState.gen.cpp
+C:/Users/truth/Documents/DECO3500_Project/GamingForThePeople/VWC-Project/Prototype1/Intermediate/Build/Win64/UE4Editor/Inc/ShooterGame/ShooterGameUserSettings.gen.cpp
+C:\Users\truth\Documents\DECO3500_Project\GamingForThePeople\VWC-Project\Prototype1\Source\ShooterGame/Public/ShooterGameUserSettings.h
+C:\Users\truth\Documents\DECO3500_Project\GamingForThePeople\VWC-Project\Prototype1\Intermediate\Build\Win64\UE4Editor\Inc\ShooterGame\ShooterGameUserSettings.generated.h
+C:/Users/truth/Documents/DECO3500_Project/GamingForThePeople/VWC-Project/Prototype1/Intermediate/Build/Win64/UE4Editor/Inc/ShooterGame/ShooterGameViewportClient.gen.cpp
+C:\Users\truth\Documents\DECO3500_Project\GamingForThePeople\VWC-Project\Prototype1\Source\ShooterGame/Public/ShooterGameViewportClient.h
+C:\Users\truth\Documents\DECO3500_Project\GamingForThePeople\VWC-Project\Prototype1\Intermediate\Build\Win64\UE4Editor\Inc\ShooterGame\ShooterGameViewportClient.generated.h
+C:/Users/truth/Documents/DECO3500_Project/GamingForThePeople/VWC-Project/Prototype1/Intermediate/Build/Win64/UE4Editor/Inc/ShooterGame/ShooterHUD.gen.cpp
+C:\Users\truth\Documents\DECO3500_Project\GamingForThePeople\VWC-Project\Prototype1\Source\ShooterGame/Public/UI/ShooterHUD.h
+C:\Users\truth\Documents\DECO3500_Project\GamingForThePeople\VWC-Project\Prototype1\Intermediate\Build\Win64\UE4Editor\Inc\ShooterGame\ShooterHUD.generated.h
+C:/Users/truth/Documents/DECO3500_Project/GamingForThePeople/VWC-Project/Prototype1/Intermediate/Build/Win64/UE4Editor/Inc/ShooterGame/ShooterImpactEffect.gen.cpp
+C:\Users\truth\Documents\DECO3500_Project\GamingForThePeople\VWC-Project\Prototype1\Source\ShooterGame/Public/Effects/ShooterImpactEffect.h
+C:\Users\truth\Documents\DECO3500_Project\GamingForThePeople\VWC-Project\Prototype1\Intermediate\Build\Win64\UE4Editor\Inc\ShooterGame\ShooterImpactEffect.generated.h
+C:/Users/truth/Documents/DECO3500_Project/GamingForThePeople/VWC-Project/Prototype1/Intermediate/Build/Win64/UE4Editor/Inc/ShooterGame/ShooterLocalPlayer.gen.cpp
+C:\Users\truth\Documents\DECO3500_Project\GamingForThePeople\VWC-Project\Prototype1\Source\ShooterGame/Public/Player/ShooterLocalPlayer.h
+C:\Users\truth\Documents\DECO3500_Project\GamingForThePeople\VWC-Project\Prototype1\Source\ShooterGame\Public\Player\ShooterPersistentUser.h
+C:\Users\truth\Documents\DECO3500_Project\GamingForThePeople\VWC-Project\Prototype1\Intermediate\Build\Win64\UE4Editor\Inc\ShooterGame\ShooterPersistentUser.generated.h
+C:\Users\truth\Documents\DECO3500_Project\GamingForThePeople\VWC-Project\Prototype1\Intermediate\Build\Win64\UE4Editor\Inc\ShooterGame\ShooterLocalPlayer.generated.h
+C:/Users/truth/Documents/DECO3500_Project/GamingForThePeople/VWC-Project/Prototype1/Intermediate/Build/Win64/UE4Editor/Inc/ShooterGame/ShooterMenuItemWidgetStyle.gen.cpp
+C:\Users\truth\Documents\DECO3500_Project\GamingForThePeople\VWC-Project\Prototype1\Source\ShooterGame/Private/UI/Style/ShooterMenuItemWidgetStyle.h
+C:\Users\truth\Documents\DECO3500_Project\GamingForThePeople\VWC-Project\Prototype1\Intermediate\Build\Win64\UE4Editor\Inc\ShooterGame\ShooterMenuItemWidgetStyle.generated.h
+C:/Users/truth/Documents/DECO3500_Project/GamingForThePeople/VWC-Project/Prototype1/Intermediate/Build/Win64/UE4Editor/Inc/ShooterGame/ShooterMenuSoundsWidgetStyle.gen.cpp
+C:\Users\truth\Documents\DECO3500_Project\GamingForThePeople\VWC-Project\Prototype1\Source\ShooterGame/Private/UI/Style/ShooterMenuSoundsWidgetStyle.h
+C:\Users\truth\Documents\DECO3500_Project\GamingForThePeople\VWC-Project\Prototype1\Intermediate\Build\Win64\UE4Editor\Inc\ShooterGame\ShooterMenuSoundsWidgetStyle.generated.h
+C:/Users/truth/Documents/DECO3500_Project/GamingForThePeople/VWC-Project/Prototype1/Intermediate/Build/Win64/UE4Editor/Inc/ShooterGame/ShooterMenuWidgetStyle.gen.cpp
+C:\Users\truth\Documents\DECO3500_Project\GamingForThePeople\VWC-Project\Prototype1\Source\ShooterGame/Private/UI/Style/ShooterMenuWidgetStyle.h
+C:\Users\truth\Documents\DECO3500_Project\GamingForThePeople\VWC-Project\Prototype1\Intermediate\Build\Win64\UE4Editor\Inc\ShooterGame\ShooterMenuWidgetStyle.generated.h
+C:/Users/truth/Documents/DECO3500_Project/GamingForThePeople/VWC-Project/Prototype1/Intermediate/Build/Win64/UE4Editor/Inc/ShooterGame/ShooterOnlineSessionClient.gen.cpp
+C:\Users\truth\Documents\DECO3500_Project\GamingForThePeople\VWC-Project\Prototype1\Source\ShooterGame/Public/Online/ShooterOnlineSessionClient.h
+C:\Program Files\Epic Games\UE_4.27\Engine\Plugins\Online\OnlineSubsystemUtils\Source\OnlineSubsystemUtils\Classes\OnlineSessionClient.h
+C:\Program Files\Epic Games\UE_4.27\Engine\Plugins\Online\OnlineSubsystemUtils\Intermediate\Build\Win64\UE4Editor\Inc\OnlineSubsystemUtils\OnlineSessionClient.generated.h
+C:\Users\truth\Documents\DECO3500_Project\GamingForThePeople\VWC-Project\Prototype1\Intermediate\Build\Win64\UE4Editor\Inc\ShooterGame\ShooterOnlineSessionClient.generated.h
+C:/Users/truth/Documents/DECO3500_Project/GamingForThePeople/VWC-Project/Prototype1/Intermediate/Build/Win64/UE4Editor/Inc/ShooterGame/ShooterOptionsWidgetStyle.gen.cpp
+C:\Users\truth\Documents\DECO3500_Project\GamingForThePeople\VWC-Project\Prototype1\Source\ShooterGame/Private/UI/Style/ShooterOptionsWidgetStyle.h
+C:\Users\truth\Documents\DECO3500_Project\GamingForThePeople\VWC-Project\Prototype1\Intermediate\Build\Win64\UE4Editor\Inc\ShooterGame\ShooterOptionsWidgetStyle.generated.h
+C:/Users/truth/Documents/DECO3500_Project/GamingForThePeople/VWC-Project/Prototype1/Intermediate/Build/Win64/UE4Editor/Inc/ShooterGame/ShooterPersistentUser.gen.cpp

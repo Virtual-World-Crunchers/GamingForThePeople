@@ -1,0 +1,12 @@
+C:/Users/truth/Documents/DECO3500_Project/GamingForThePeople/VWC-Project/Prototype1/Intermediate/Build/Win64/UE4Editor/Inc/ShooterGame/ShooterWeapon_Projectile.gen.cpp
+C:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\CoreUObject\Public\UObject/GeneratedCppIncludes.h
+C:\Users\truth\Documents\DECO3500_Project\GamingForThePeople\VWC-Project\Prototype1\Source\ShooterGame/Public/Weapons/ShooterWeapon_Projectile.h
+C:\Users\truth\Documents\DECO3500_Project\GamingForThePeople\VWC-Project\Prototype1\Source\ShooterGame\Public\Weapons\ShooterWeapon.h
+C:\Users\truth\Documents\DECO3500_Project\GamingForThePeople\VWC-Project\Prototype1\Intermediate\Build\Win64\UE4Editor\Inc\ShooterGame\ShooterWeapon.generated.h
+C:\Users\truth\Documents\DECO3500_Project\GamingForThePeople\VWC-Project\Prototype1\Intermediate\Build\Win64\UE4Editor\Inc\ShooterGame\ShooterWeapon_Projectile.generated.h
+C:/Users/truth/Documents/DECO3500_Project/GamingForThePeople/VWC-Project/Prototype1/Intermediate/Build/Win64/UE4Editor/Inc/ShooterGame/SoundNodeLocalPlayer.gen.cpp
+C:\Users\truth\Documents\DECO3500_Project\GamingForThePeople\VWC-Project\Prototype1\Source\ShooterGame/Public/Sound/SoundNodeLocalPlayer.h
+C:\Users\truth\Documents\DECO3500_Project\GamingForThePeople\VWC-Project\Prototype1\Intermediate\Build\Win64\UE4Editor\Inc\ShooterGame\SoundNodeLocalPlayer.generated.h
+C:/Users/truth/Documents/DECO3500_Project/GamingForThePeople/VWC-Project/Prototype1/Intermediate/Build/Win64/UE4Editor/Inc/ShooterGame/ToxicChatHUD.gen.cpp
+C:\Users\truth\Documents\DECO3500_Project\GamingForThePeople\VWC-Project\Prototype1\Source\ShooterGame/Public/UI/ToxicChatHUD.h
+C:\Users\truth\Documents\DECO3500_Project\GamingForThePeople\VWC-Project\Prototype1\Intermediate\Build\Win64\UE4Editor\Inc\ShooterGame\ToxicChatHUD.generated.h

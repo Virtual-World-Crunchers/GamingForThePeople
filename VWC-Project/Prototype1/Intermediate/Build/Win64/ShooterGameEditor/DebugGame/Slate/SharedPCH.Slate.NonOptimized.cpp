@@ -1,0 +1,2 @@
+// Compiler: 14.27.29111
+#include "C:/Users/truth/Documents/DECO3500_Project/GamingForThePeople/VWC-Project/Prototype1/Intermediate/Build/Win64/ShooterGameEditor/DebugGame/Slate/SharedPCH.Slate.NonOptimized.h"

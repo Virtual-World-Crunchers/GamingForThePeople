@@ -1463,10 +1463,16 @@ Engine/Content/EditorResources/SequenceRecorder/RecordingIndicator.uasset
 Engine/Content/EditorResources/SequenceRecorder/RecordingIndicator.uexp
 Engine/Content/EditorResources/Spline/T_Loft_Spline.uasset
 Engine/Content/EditorResources/Spline/T_Loft_Spline.uexp
+Engine/Content/EditorSounds/Notifications/CompileFailed.uasset
+Engine/Content/EditorSounds/Notifications/CompileFailed.uexp
+Engine/Content/EditorSounds/Notifications/CompileFailed_Cue.uasset
+Engine/Content/EditorSounds/Notifications/CompileFailed_Cue.uexp
 Engine/Content/EditorSounds/Notifications/CompileStart_Cue.uasset
 Engine/Content/EditorSounds/Notifications/CompileStart_Cue.uexp
 Engine/Content/EditorSounds/Notifications/CompileSuccess.uasset
 Engine/Content/EditorSounds/Notifications/CompileSuccess.uexp
+Engine/Content/EditorSounds/Notifications/CompileSuccess_Cue.uasset
+Engine/Content/EditorSounds/Notifications/CompileSuccess_Cue.uexp
 Engine/Content/EngineDamageTypes/DmgTypeBP_Environmental.uasset
 Engine/Content/EngineDamageTypes/DmgTypeBP_Environmental.uexp
 Engine/Content/EngineDebugMaterials/BoneWeightMaterial.uasset

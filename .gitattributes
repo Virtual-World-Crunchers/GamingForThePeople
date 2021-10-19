@@ -13,3 +13,5 @@ VWC-Project/Prototype1/Saved/StagedBuilds/WindowsNoEditor/Prototype1/Binaries/Wi
 VWC-Project/Prototype1/Saved/StagedBuilds/WindowsNoEditor/Prototype1/Binaries/Win64/ShooterGame.pdb filter=lfs diff=lfs merge=lfs -text
 VWC-Project/Prototype1/Saved/StagedBuilds/WindowsNoEditor/Prototype1/Content/Maps/Highrise_BuiltData.ubulk filter=lfs diff=lfs merge=lfs -text
 VWC-Project/Prototype1/Saved/StagedBuilds/WindowsNoEditor/Prototype1/Content/Maps/Sanctuary_BuiltData.ubulk filter=lfs diff=lfs merge=lfs -text
+VWC-Project/Prototype1/Saved/Cooked/WindowsNoEditor/Prototype1/Content/Maps/Highrise_BuiltData.ubulk filter=lfs diff=lfs merge=lfs -text
+VWC-Project/Prototype1/Saved/Cooked/WindowsNoEditor/Prototype1/Content/Maps/Sanctuary_BuiltData.ubulk filter=lfs diff=lfs merge=lfs -text

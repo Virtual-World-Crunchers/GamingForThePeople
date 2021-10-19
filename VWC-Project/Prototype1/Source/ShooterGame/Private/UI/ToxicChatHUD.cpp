@@ -3,6 +3,7 @@
 #include "UI/ToxicChatHUD.h"
 #include "Math/UnrealMathUtility.h"
 #include "UI/Widgets/SChatWidget.h"
+#include "Engine/World.h"
 
 static bool slowChat;
 static bool filterChat;
@@ -10,10 +11,17 @@ static bool filterChat;
 static bool timerLoaded;
 static FString timer;
 
+#define MAX_TIME 10.0f
+float time;
+bool timing;
+FTimerHandle SCTimerHandle;
+UWorld* world;
+
 UToxicChatHUD::UToxicChatHUD() {
 	slowChat = false;
 	filterChat = false;
-	//StartTimer();
+	time = 0.0f;
+	timing = false;
 }
 
 
@@ -54,19 +62,6 @@ void UToxicChatHUD::ToggleFilterChat() {
 
 }
 
-/*
-FReply UToxicChatHUD::ToggleFilterChat() const{
-	if (filterChat) {
-		filterChat = false;
-	}
-	else {
-		filterChat = true;
-	}
-
-	return FReply::Handled();
-}
-*/
-
 bool UToxicChatHUD::GetSlowChat() {
 	return slowChat;
 }
@@ -83,7 +78,44 @@ bool UToxicChatHUD::GetTimerStatus() {
 	return timing;
 }
 
-void UToxicChatHUD::TimerBP() {
-	StartTimer();
+void UToxicChatHUD::SetWorldPtr(UWorld* worldPtr) {
+	world = worldPtr;
 }
 
+void UToxicChatHUD::TimerBP() {
+	
+	StartSlowChatTimer();
+
+	//StartTimer();
+}
+
+void UToxicChatHUD::StartSlowChatTimer() {
+
+	// Reset timer to begin at max time if it is at zero
+	if (time == 0.0f) {
+		time = MAX_TIME;
+	}
+
+	// Start timing
+	timing = true;
+
+	
+	world->GetTimerManager().SetTimer(SCTimerHandle, this, &UToxicChatHUD::UpdateSlowChatTimer, 1.0f, true, 1.0f);
+	
+	
+}
+
+void UToxicChatHUD::UpdateSlowChatTimer() {
+	//if the timer is running, take 1 second from the time and update the string
+	if (timing == true) {
+		time--;
+		currentTime = FString::SanitizeFloat(time);
+
+		// If the time reaches 0, stop the timer.
+		if (time <= 0.0f) {
+			timing = false;
+			time = 0.0f;
+			world->GetTimerManager().ClearTimer(SCTimerHandle);
+		}
+	}
+}

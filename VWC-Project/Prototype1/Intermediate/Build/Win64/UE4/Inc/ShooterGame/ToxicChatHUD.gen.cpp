@@ -18,20 +18,22 @@ void EmptyLinkFunctionForGeneratedCodeToxicChatHUD() {}
 	COREUOBJECT_API UClass* Z_Construct_UClass_UObject();
 	UPackage* Z_Construct_UPackage__Script_ShooterGame();
 // End Cross Module References
-	static FName NAME_UToxicChatHUD_StartTimer = FName(TEXT("StartTimer"));
-	void UToxicChatHUD::StartTimer()
+	DEFINE_FUNCTION(UToxicChatHUD::execUpdateSlowChatTimer)
 	{
-		ProcessEvent(FindFunctionChecked(NAME_UToxicChatHUD_StartTimer),NULL);
-	}
-	static FName NAME_UToxicChatHUD_UpdateTimer = FName(TEXT("UpdateTimer"));
-	void UToxicChatHUD::UpdateTimer()
-	{
-		ProcessEvent(FindFunctionChecked(NAME_UToxicChatHUD_UpdateTimer),NULL);
+		P_FINISH;
+		P_NATIVE_BEGIN;
+		P_THIS->UpdateSlowChatTimer();
+		P_NATIVE_END;
 	}
 	void UToxicChatHUD::StaticRegisterNativesUToxicChatHUD()
 	{
+		UClass* Class = UToxicChatHUD::StaticClass();
+		static const FNameNativePtrPair Funcs[] = {
+			{ "UpdateSlowChatTimer", &UToxicChatHUD::execUpdateSlowChatTimer },
+		};
+		FNativeFunctionRegistrar::RegisterFunctions(Class, Funcs, UE_ARRAY_COUNT(Funcs));
 	}
-	struct Z_Construct_UFunction_UToxicChatHUD_StartTimer_Statics
+	struct Z_Construct_UFunction_UToxicChatHUD_UpdateSlowChatTimer_Statics
 	{
 #if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
@@ -39,39 +41,17 @@ void EmptyLinkFunctionForGeneratedCodeToxicChatHUD() {}
 		static const UE4CodeGen_Private::FFunctionParams FuncParams;
 	};
 #if WITH_METADATA
-	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_UToxicChatHUD_StartTimer_Statics::Function_MetaDataParams[] = {
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_UToxicChatHUD_UpdateSlowChatTimer_Statics::Function_MetaDataParams[] = {
 		{ "ModuleRelativePath", "Public/UI/ToxicChatHUD.h" },
 	};
 #endif
-	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_UToxicChatHUD_StartTimer_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UToxicChatHUD, nullptr, "StartTimer", nullptr, nullptr, 0, nullptr, 0, RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x08020800, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_UToxicChatHUD_StartTimer_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_UToxicChatHUD_StartTimer_Statics::Function_MetaDataParams)) };
-	UFunction* Z_Construct_UFunction_UToxicChatHUD_StartTimer()
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_UToxicChatHUD_UpdateSlowChatTimer_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UToxicChatHUD, nullptr, "UpdateSlowChatTimer", nullptr, nullptr, 0, nullptr, 0, RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x00020401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_UToxicChatHUD_UpdateSlowChatTimer_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_UToxicChatHUD_UpdateSlowChatTimer_Statics::Function_MetaDataParams)) };
+	UFunction* Z_Construct_UFunction_UToxicChatHUD_UpdateSlowChatTimer()
 	{
 		static UFunction* ReturnFunction = nullptr;
 		if (!ReturnFunction)
 		{
-			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_UToxicChatHUD_StartTimer_Statics::FuncParams);
-		}
-		return ReturnFunction;
-	}
-	struct Z_Construct_UFunction_UToxicChatHUD_UpdateTimer_Statics
-	{
-#if WITH_METADATA
-		static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
-#endif
-		static const UE4CodeGen_Private::FFunctionParams FuncParams;
-	};
-#if WITH_METADATA
-	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_UToxicChatHUD_UpdateTimer_Statics::Function_MetaDataParams[] = {
-		{ "ModuleRelativePath", "Public/UI/ToxicChatHUD.h" },
-	};
-#endif
-	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_UToxicChatHUD_UpdateTimer_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UToxicChatHUD, nullptr, "UpdateTimer", nullptr, nullptr, 0, nullptr, 0, RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x08020800, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_UToxicChatHUD_UpdateTimer_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_UToxicChatHUD_UpdateTimer_Statics::Function_MetaDataParams)) };
-	UFunction* Z_Construct_UFunction_UToxicChatHUD_UpdateTimer()
-	{
-		static UFunction* ReturnFunction = nullptr;
-		if (!ReturnFunction)
-		{
-			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_UToxicChatHUD_UpdateTimer_Statics::FuncParams);
+			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_UToxicChatHUD_UpdateSlowChatTimer_Statics::FuncParams);
 		}
 		return ReturnFunction;
 	}
@@ -86,16 +66,6 @@ void EmptyLinkFunctionForGeneratedCodeToxicChatHUD() {}
 #if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam Class_MetaDataParams[];
 #endif
-#if WITH_METADATA
-		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_currentTime_MetaData[];
-#endif
-		static const UE4CodeGen_Private::FStrPropertyParams NewProp_currentTime;
-#if WITH_METADATA
-		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_timing_MetaData[];
-#endif
-		static void NewProp_timing_SetBit(void* Obj);
-		static const UE4CodeGen_Private::FBoolPropertyParams NewProp_timing;
-		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
 		static const FCppClassTypeInfoStatic StaticCppClassTypeInfo;
 		static const UE4CodeGen_Private::FClassParams ClassParams;
 	};
@@ -104,8 +74,7 @@ void EmptyLinkFunctionForGeneratedCodeToxicChatHUD() {}
 		(UObject* (*)())Z_Construct_UPackage__Script_ShooterGame,
 	};
 	const FClassFunctionLinkInfo Z_Construct_UClass_UToxicChatHUD_Statics::FuncInfo[] = {
-		{ &Z_Construct_UFunction_UToxicChatHUD_StartTimer, "StartTimer" }, // 3861561294
-		{ &Z_Construct_UFunction_UToxicChatHUD_UpdateTimer, "UpdateTimer" }, // 980454254
+		{ &Z_Construct_UFunction_UToxicChatHUD_UpdateSlowChatTimer, "UpdateSlowChatTimer" }, // 1904155414
 	};
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UToxicChatHUD_Statics::Class_MetaDataParams[] = {
@@ -116,28 +85,6 @@ void EmptyLinkFunctionForGeneratedCodeToxicChatHUD() {}
 		{ "ModuleRelativePath", "Public/UI/ToxicChatHUD.h" },
 	};
 #endif
-#if WITH_METADATA
-	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UToxicChatHUD_Statics::NewProp_currentTime_MetaData[] = {
-		{ "Category", "ToxicChatHUD" },
-		{ "ModuleRelativePath", "Public/UI/ToxicChatHUD.h" },
-	};
-#endif
-	const UE4CodeGen_Private::FStrPropertyParams Z_Construct_UClass_UToxicChatHUD_Statics::NewProp_currentTime = { "currentTime", nullptr, (EPropertyFlags)0x0010000000000005, UE4CodeGen_Private::EPropertyGenFlags::Str, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(UToxicChatHUD, currentTime), METADATA_PARAMS(Z_Construct_UClass_UToxicChatHUD_Statics::NewProp_currentTime_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_UToxicChatHUD_Statics::NewProp_currentTime_MetaData)) };
-#if WITH_METADATA
-	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UToxicChatHUD_Statics::NewProp_timing_MetaData[] = {
-		{ "Category", "ToxicChatHUD" },
-		{ "ModuleRelativePath", "Public/UI/ToxicChatHUD.h" },
-	};
-#endif
-	void Z_Construct_UClass_UToxicChatHUD_Statics::NewProp_timing_SetBit(void* Obj)
-	{
-		((UToxicChatHUD*)Obj)->timing = 1;
-	}
-	const UE4CodeGen_Private::FBoolPropertyParams Z_Construct_UClass_UToxicChatHUD_Statics::NewProp_timing = { "timing", nullptr, (EPropertyFlags)0x0010000000000005, UE4CodeGen_Private::EPropertyGenFlags::Bool | UE4CodeGen_Private::EPropertyGenFlags::NativeBool, RF_Public|RF_Transient|RF_MarkAsNative, 1, sizeof(bool), sizeof(UToxicChatHUD), &Z_Construct_UClass_UToxicChatHUD_Statics::NewProp_timing_SetBit, METADATA_PARAMS(Z_Construct_UClass_UToxicChatHUD_Statics::NewProp_timing_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_UToxicChatHUD_Statics::NewProp_timing_MetaData)) };
-	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_UToxicChatHUD_Statics::PropPointers[] = {
-		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UToxicChatHUD_Statics::NewProp_currentTime,
-		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UToxicChatHUD_Statics::NewProp_timing,
-	};
 	const FCppClassTypeInfoStatic Z_Construct_UClass_UToxicChatHUD_Statics::StaticCppClassTypeInfo = {
 		TCppClassTypeTraits<UToxicChatHUD>::IsAbstract,
 	};
@@ -147,13 +94,13 @@ void EmptyLinkFunctionForGeneratedCodeToxicChatHUD() {}
 		&StaticCppClassTypeInfo,
 		DependentSingletons,
 		FuncInfo,
-		Z_Construct_UClass_UToxicChatHUD_Statics::PropPointers,
+		nullptr,
 		nullptr,
 		UE_ARRAY_COUNT(DependentSingletons),
 		UE_ARRAY_COUNT(FuncInfo),
-		UE_ARRAY_COUNT(Z_Construct_UClass_UToxicChatHUD_Statics::PropPointers),
 		0,
-		0x000000A0u,
+		0,
+		0x001000A0u,
 		METADATA_PARAMS(Z_Construct_UClass_UToxicChatHUD_Statics::Class_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UClass_UToxicChatHUD_Statics::Class_MetaDataParams))
 	};
 	UClass* Z_Construct_UClass_UToxicChatHUD()
@@ -165,7 +112,7 @@ void EmptyLinkFunctionForGeneratedCodeToxicChatHUD() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(UToxicChatHUD, 4226829711);
+	IMPLEMENT_CLASS(UToxicChatHUD, 3544949315);
 	template<> SHOOTERGAME_API UClass* StaticClass<UToxicChatHUD>()
 	{
 		return UToxicChatHUD::StaticClass();

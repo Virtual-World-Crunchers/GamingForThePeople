@@ -18,7 +18,7 @@
 #define LOCTEXT_NAMESPACE "ShooterGame.HUD.Menu"
 
 const float AShooterHUD::MinHudScale = 0.5f;
-UToxicChatHUD* tcHUD = NewObject<UToxicChatHUD>();
+UToxicChatHUD* tcHUD; 
 
 AShooterHUD::AShooterHUD(const FObjectInitializer& ObjectInitializer) : Super(ObjectInitializer)
 {
@@ -101,6 +101,9 @@ AShooterHUD::AShooterHUD(const FObjectInitializer& ObjectInitializer) : Super(Ob
 	HUDLight = FColor(175,202,213,255);
 	HUDDark = FColor(110,124,131,255);
 	ShadowedFont.bEnableShadow = true;
+
+	tcHUD = NewObject<UToxicChatHUD>();
+	tcHUD->SetWorldPtr(GetWorld());
 }
 
 void AShooterHUD::EndPlay(const EEndPlayReason::Type EndPlayReason)
