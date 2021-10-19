@@ -21,7 +21,7 @@ Before cloning the repo from GitHub, make sure the Git LFS (Large File Storage) 
 git clone https://github.com/Virtual-World-Crunchers/GamingForThePeople.git
 ```
 
-2. Use Ureal Engine to open the project <br>
+2. Use Unreal Engine to open the project <br>
 ```shell
 .../VWC-Project/Prototype1/Prototype1.uproject
 ```
