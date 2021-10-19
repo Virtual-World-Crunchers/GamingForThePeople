@@ -12,7 +12,7 @@ static bool timerLoaded;
 static FString timer;
 
 #define MAX_TIME 10.0f
-float time;
+float timeVar;
 bool timing;
 FTimerHandle SCTimerHandle;
 UWorld* world;
@@ -20,7 +20,7 @@ UWorld* world;
 UToxicChatHUD::UToxicChatHUD() {
 	slowChat = false;
 	filterChat = false;
-	time = 0.0f;
+	timeVar = 0.0f;
 	timing = false;
 }
 
@@ -92,8 +92,8 @@ void UToxicChatHUD::TimerBP() {
 void UToxicChatHUD::StartSlowChatTimer() {
 
 	// Reset timer to begin at max time if it is at zero
-	if (time == 0.0f) {
-		time = MAX_TIME;
+	if (timeVar == 0.0f) {
+		timeVar = MAX_TIME;
 	}
 
 	// Start timing
@@ -108,13 +108,13 @@ void UToxicChatHUD::StartSlowChatTimer() {
 void UToxicChatHUD::UpdateSlowChatTimer() {
 	//if the timer is running, take 1 second from the time and update the string
 	if (timing == true) {
-		time--;
-		currentTime = FString::SanitizeFloat(time);
+		timeVar--;
+		currentTime = FString::SanitizeFloat(timeVar);
 
 		// If the time reaches 0, stop the timer.
-		if (time <= 0.0f) {
+		if (timeVar <= 0.0f) {
 			timing = false;
-			time = 0.0f;
+			timeVar = 0.0f;
 			world->GetTimerManager().ClearTimer(SCTimerHandle);
 		}
 	}
