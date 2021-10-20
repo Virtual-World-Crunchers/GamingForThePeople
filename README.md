@@ -4,7 +4,7 @@
 
 **Lacuna v1** is a project that is attempting to address toxicity in competitive online team-based games, particularly on solo players that play games like League of Legends. It is our hope that we can encourage a more friendlier gaming community through a means of immediate intervention when toxic behaviour occurs during gameplay.
 
-## Feature
+## Features included:
 * Slow chat mode
 * Warning Tips
 * Discouraging toxicity in game
@@ -28,4 +28,4 @@ git clone https://github.com/Virtual-World-Crunchers/GamingForThePeople.git
 3. Launch the game
 
 ## Usage
-Users can choose whether they want to enable message delay or not when they are receiving toxic messages. A notification will pop up, which will notify the players that they have already enabled the slow chat mode if they choose yes. There will be no changes if the user do not want to turn on this function.
+Users can choose whether they want to enable message delay or not when they are receiving toxic messages. A notification will pop up, which will notify the players that they have already enabled the slow chat mode if they choose yes. There will be no changes if the user do not want to turn on this function. The slow chat feature can also be toggled on by using "ALT + 1" command to enable the slow chat mode and disable it as the user needs.
