@@ -9,6 +9,7 @@
 			"ShooterBot.cpp.obj",
 			"ShooterExplosionEffect.cpp.obj",
 			"ShooterImpactEffect.cpp.obj",
+			"NotificationWidget.cpp.obj",
 			"ShooterGame_FreeForAll.cpp.obj",
 			"ShooterGame_Menu.cpp.obj",
 			"ShooterGame_TeamDeathMatch.cpp.obj",
@@ -89,6 +90,7 @@
 			"BTDecorator_HasLoSTo.gen.cpp.obj",
 			"BTTask_FindPickup.gen.cpp.obj",
 			"BTTask_FindPointNearEnemy.gen.cpp.obj",
+			"NotificationWidget.gen.cpp.obj",
 			"ShooterAIController.gen.cpp.obj",
 			"ShooterBot.gen.cpp.obj",
 			"ShooterCharacter.gen.cpp.obj",
@@ -116,10 +118,10 @@
 			"ShooterMenuSoundsWidgetStyle.gen.cpp.obj",
 			"ShooterMenuWidgetStyle.gen.cpp.obj",
 			"ShooterOnlineSessionClient.gen.cpp.obj",
-			"ShooterOptionsWidgetStyle.gen.cpp.obj",
-			"ShooterPersistentUser.gen.cpp.obj"
+			"ShooterOptionsWidgetStyle.gen.cpp.obj"
 		],
 		"Module.ShooterGame.gen.2_of_3.cpp.obj": [
+			"ShooterPersistentUser.gen.cpp.obj",
 			"ShooterPickup.gen.cpp.obj",
 			"ShooterPickup_Ammo.gen.cpp.obj",
 			"ShooterPickup_Health.gen.cpp.obj",

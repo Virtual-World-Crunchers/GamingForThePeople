@@ -225,8 +225,6 @@ void SChatWidget::Tick( const FGeometry& AllottedGeometry, const double InCurren
 			// Enter UI mode
 			FSlateApplication::Get().SetKeyboardFocus( SharedThis(this) );
 
-			FString here = TEXT("Here");
-			AddChatLine(FText::FromString(here), true);
 
 			if (ChatEditBox.IsValid())
 			{

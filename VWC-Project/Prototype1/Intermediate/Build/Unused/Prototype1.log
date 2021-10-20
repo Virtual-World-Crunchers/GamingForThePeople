@@ -1,10 +1,4 @@
-﻿  Cleaning ShooterGameEditor and UnrealHeaderTool binaries...
-  Creating makefile for ShooterGameEditor (no existing makefile)
-  Parsing headers for ShooterGameEditor
-    Running UnrealHeaderTool "C:\Users\truth\Documents\DECO3500_Project\GamingForThePeople\VWC-Project\Prototype1\Prototype1.uproject" "C:\Users\truth\Documents\DECO3500_Project\GamingForThePeople\VWC-Project\Prototype1\Intermediate\Build\Win64\ShooterGameEditor\DebugGame\ShooterGameEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -abslog="C:\Users\truth\AppData\Local\UnrealBuildTool\Log_UHT.txt" -installed
-  LogInit: Display: Loading text-based GConfig....
-  Reflection code generated for ShooterGameEditor in 4.7250629 seconds
-  Building ShooterGameEditor...
+﻿  Building ShooterGameEditor...
   Using Visual Studio 2019 14.27.29111 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
   [Upgrade]
   [Upgrade] Using backward-compatible build settings. The latest version of UE4 sets the following values by default, which may require code changes:
@@ -13,24 +7,12 @@
   [Upgrade]     PCHUsage = PCHUsageMode.UseExplicitOrSharedPCHs   => Set in build.cs files to enables IWYU-style PCH model. See https://docs.unrealengine.com/en-US/Programming/BuildTools/UnrealBuildTool/IWYU/index.html. (Previously: PCHUsageMode.UseSharedPCHs).
   [Upgrade] Suppress this message by setting 'DefaultBuildSettings = BuildSettingsVersion.V2;' in ShooterGameEditor.Target.cs, and explicitly overriding settings that differ from the new defaults.
   [Upgrade]
-  Building 14 actions with 8 processes...
-    [1/14] Default.rc2
-    [2/14] ShooterGame.rc
-    [3/14] SharedPCH.Slate.NonOptimized.cpp
-    [4/14] ShooterGameLoadingScreen.cpp
-    [5/14] UE4Editor-ShooterGameLoadingScreen-Win64-DebugGame.lib
-       Creating library C:\Users\truth\Documents\DECO3500_Project\GamingForThePeople\VWC-Project\Prototype1\Intermediate\Build\Win64\UE4Editor\DebugGame\ShooterGameLoadingScreen\UE4Editor-ShooterGameLoadingScreen-Win64-DebugGame.lib and object C:\Users\truth\Documents\DECO3500_Project\GamingForThePeople\VWC-Project\Prototype1\Intermediate\Build\Win64\UE4Editor\DebugGame\ShooterGameLoadingScreen\UE4Editor-ShooterGameLoadingScreen-Win64-DebugGame.exp
-    [6/14] UE4Editor-ShooterGameLoadingScreen-Win64-DebugGame.dll
-       Creating library C:\Users\truth\Documents\DECO3500_Project\GamingForThePeople\VWC-Project\Prototype1\Intermediate\Build\Win64\UE4Editor\DebugGame\ShooterGameLoadingScreen\UE4Editor-ShooterGameLoadingScreen-Win64-DebugGame.suppressed.lib and object C:\Users\truth\Documents\DECO3500_Project\GamingForThePeople\VWC-Project\Prototype1\Intermediate\Build\Win64\UE4Editor\DebugGame\ShooterGameLoadingScreen\UE4Editor-ShooterGameLoadingScreen-Win64-DebugGame.suppressed.exp
-    [7/14] PCH.ShooterGame.cpp
-    [8/14] Module.ShooterGame.gen.3_of_3.cpp
-    [9/14] Module.ShooterGame.gen.2_of_3.cpp
-    [10/14] Module.ShooterGame.gen.1_of_3.cpp
-    [11/14] Module.ShooterGame.cpp
-    [12/14] UE4Editor-ShooterGame-Win64-DebugGame.lib
+  Building 4 actions with 8 processes...
+    [1/4] Module.ShooterGame.cpp
+    [2/4] UE4Editor-ShooterGame-Win64-DebugGame.lib
        Creating library C:\Users\truth\Documents\DECO3500_Project\GamingForThePeople\VWC-Project\Prototype1\Intermediate\Build\Win64\UE4Editor\DebugGame\ShooterGame\UE4Editor-ShooterGame-Win64-DebugGame.lib and object C:\Users\truth\Documents\DECO3500_Project\GamingForThePeople\VWC-Project\Prototype1\Intermediate\Build\Win64\UE4Editor\DebugGame\ShooterGame\UE4Editor-ShooterGame-Win64-DebugGame.exp
-    [13/14] UE4Editor-ShooterGame-Win64-DebugGame.dll
+    [3/4] UE4Editor-ShooterGame-Win64-DebugGame.dll
        Creating library C:\Users\truth\Documents\DECO3500_Project\GamingForThePeople\VWC-Project\Prototype1\Intermediate\Build\Win64\UE4Editor\DebugGame\ShooterGame\UE4Editor-ShooterGame-Win64-DebugGame.suppressed.lib and object C:\Users\truth\Documents\DECO3500_Project\GamingForThePeople\VWC-Project\Prototype1\Intermediate\Build\Win64\UE4Editor\DebugGame\ShooterGame\UE4Editor-ShooterGame-Win64-DebugGame.suppressed.exp
-    [14/14] ShooterGameEditor-Win64-DebugGame.target
-  Total time in Parallel executor: 124.10 seconds
-  Total execution time: 132.49 seconds
+    [4/4] ShooterGameEditor-Win64-DebugGame.target
+  Total time in Parallel executor: 84.62 seconds
+  Total execution time: 85.78 seconds

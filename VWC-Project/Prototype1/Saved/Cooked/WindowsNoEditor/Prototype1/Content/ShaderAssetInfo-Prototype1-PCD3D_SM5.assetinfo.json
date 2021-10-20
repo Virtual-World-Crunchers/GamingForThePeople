@@ -455,21 +455,15 @@
 			]
 		},
 		{
+			"ShaderMapHash": "75839E0FB155E88523D824CECDEB640CBBC0F0D7",
+			"Assets": [
+				"/Game/Environment/Materials/M_Glass_Railing_01"
+			]
+		},
+		{
 			"ShaderMapHash": "5C81F17F9BEADED2A3983D943D5BFB46BBC45355",
 			"Assets": [
 				"/Game/Environment/Materials/Metal_tiled"
-			]
-		},
-		{
-			"ShaderMapHash": "58656E54C401CE64526B6EDF7885BF32C89D50DD",
-			"Assets": [
-				"/Game/Environment/Materials/Simple_emmisive2"
-			]
-		},
-		{
-			"ShaderMapHash": "151BF7253628C8C72E2913CF51AD8C941DE1D37F",
-			"Assets": [
-				"/Game/Environment/Materials/Metal_tiled_hex_gray"
 			]
 		},
 		{
@@ -479,63 +473,9 @@
 			]
 		},
 		{
-			"ShaderMapHash": "3196669D1ACC43E3B51A46E21B3D0901753C48A4",
+			"ShaderMapHash": "151BF7253628C8C72E2913CF51AD8C941DE1D37F",
 			"Assets": [
-				"/Game/Environment/Materials/Windows_glass_trans"
-			]
-		},
-		{
-			"ShaderMapHash": "75CCCD0C7A91E282EE668623CFDD19CC02CB2A02",
-			"Assets": [
-				"/Game/Environment/Materials/Windows_glass_trans_2_tile"
-			]
-		},
-		{
-			"ShaderMapHash": "0F4C85FEC66737BBDAB89FB7CC3CF5654850CF96",
-			"Assets": [
-				"/Game/Environment/Materials/Metal_tiled_masked"
-			]
-		},
-		{
-			"ShaderMapHash": "68028A7063B7D9AF5A43F1831D5F4767E075E5FD",
-			"Assets": [
-				"/Game/Environment/Materials/Windows_glass_2_trans"
-			]
-		},
-		{
-			"ShaderMapHash": "F2CCEFBDF67861E8762C6F7A33564D4E034AF1EF",
-			"Assets": [
-				"/Game/Environment/Materials/Metal"
-			]
-		},
-		{
-			"ShaderMapHash": "94C15E2F63FBF9C191BCF21E23C7503686DAB2A4",
-			"Assets": [
-				"/Game/Environment/Materials/M_Grass2"
-			]
-		},
-		{
-			"ShaderMapHash": "0E80218299C4E9C8A9A2803FA1C2E5EE1CC956A2",
-			"Assets": [
-				"/Game/Environment/Materials/M_Floor_Lights"
-			]
-		},
-		{
-			"ShaderMapHash": "179288EE903318F4ADDA160F17E6D663C9597E82",
-			"Assets": [
-				"/Game/Environment/Materials/Metal_tiled_gray"
-			]
-		},
-		{
-			"ShaderMapHash": "6FE7C5E0CAB0218679CF8411DA1BF1A1D6CDA4C5",
-			"Assets": [
-				"/Game/Environment/Materials/Windows_glass_2_trans_22"
-			]
-		},
-		{
-			"ShaderMapHash": "B2E45FC44F82B6F2C59D0F4D9EDE87EAA321DCEE",
-			"Assets": [
-				"/Game/Environment/Materials/Windows_glass_trans_tiled"
+				"/Game/Environment/Materials/Metal_tiled_hex_gray"
 			]
 		},
 		{
@@ -545,117 +485,15 @@
 			]
 		},
 		{
-			"ShaderMapHash": "3D4F157B50B59FDAA7D67C9C4A08CEF840700E93",
+			"ShaderMapHash": "58656E54C401CE64526B6EDF7885BF32C89D50DD",
 			"Assets": [
-				"/Game/Environment/Materials/Metal_tiled_lines_gray2"
+				"/Game/Environment/Materials/Simple_emmisive2"
 			]
 		},
 		{
-			"ShaderMapHash": "979A777D583C69E6C3B858EE65CDC8C2DC036C1C",
+			"ShaderMapHash": "94C15E2F63FBF9C191BCF21E23C7503686DAB2A4",
 			"Assets": [
-				"/Game/Environment/Materials/Doors_1"
-			]
-		},
-		{
-			"ShaderMapHash": "2A352C58A1ABFFC9C3A8E9D0D0AB193C2D3BE1D8",
-			"Assets": [
-				"/Game/Environment/Materials/Holo_City"
-			]
-		},
-		{
-			"ShaderMapHash": "53C0CFD569F0A5CA9999A3331719C7D20E6DE2BB",
-			"Assets": [
-				"/Game/Effects/Materials/Air/M_light_shaft_particle"
-			]
-		},
-		{
-			"ShaderMapHash": "486ABA5047A651C05DE3E434422D2DFA6A4851CD",
-			"Assets": [
-				"/Game/Effects/Materials/M_ramp"
-			]
-		},
-		{
-			"ShaderMapHash": "C724DCA15BB48768383760F586681F678C58EB2C",
-			"Assets": [
-				"/Game/Effects/Materials/Air/M_dust_specs_sparkling"
-			]
-		},
-		{
-			"ShaderMapHash": "B4B607D0D73E88803E6DF2C54D6E3155FB54B759",
-			"Assets": [
-				"/Game/Environment/Materials/M_GrassLVL_Wall_01"
-			]
-		},
-		{
-			"ShaderMapHash": "3B01590B8ABC24950A2473DA93C1DA2AAE7087E2",
-			"Assets": [
-				"/Game/Environment/Materials/Holo_l1"
-			]
-		},
-		{
-			"ShaderMapHash": "B5D8E4BE4EE3C85D8B3E612CCBFC0C43FD1EDC0D",
-			"Assets": [
-				"/Game/Environment/Materials/Windows_glass_trans_holo"
-			]
-		},
-		{
-			"ShaderMapHash": "197755870DEA0EE5301F038F6AE05438E0AD8B80",
-			"Assets": [
-				"/Game/Environment/Materials/Simple_emmisive22"
-			]
-		},
-		{
-			"ShaderMapHash": "14449522E33F0DDD005179C7E9B86DFA779636B5",
-			"Assets": [
-				"/Game/Environment/Materials/M_PublicPhone_holo_01"
-			]
-		},
-		{
-			"ShaderMapHash": "E09B52AC67E98EC53FA87613FF955CF74C10DF89",
-			"Assets": [
-				"/Game/Environment/Materials/unreal_holo_4_1_1"
-			]
-		},
-		{
-			"ShaderMapHash": "AEFEC3B0C3E4936AFA9D16457A6C563306D6AC14",
-			"Assets": [
-				"/Game/Environment/Materials/Unreal_Holo_4"
-			]
-		},
-		{
-			"ShaderMapHash": "389CB45F5147DF4F8085A79DFBFD82CC69EBE975",
-			"Assets": [
-				"/Game/Environment/Materials/unreal_holo_4_1"
-			]
-		},
-		{
-			"ShaderMapHash": "361E5FF0DCBA8E821FFC854E6585E7FE621BBB97",
-			"Assets": [
-				"/Game/Environment/Materials/unreal_holo_4_2"
-			]
-		},
-		{
-			"ShaderMapHash": "7CC7923FA0B5EA0EE2447EA6E306271FD3018547",
-			"Assets": [
-				"/Game/Environment/Materials/Metal_tiled_hex_gray_em"
-			]
-		},
-		{
-			"ShaderMapHash": "A515B18DC1B5FC36F21D9DE50108AB97FF61DF34",
-			"Assets": [
-				"/Game/Environment/Materials/Unreal_Holo_2"
-			]
-		},
-		{
-			"ShaderMapHash": "57FD771FB40CCCA2296577BD1347249B882AFC11",
-			"Assets": [
-				"/Game/Environment/Materials/Unreal_Holo_1"
-			]
-		},
-		{
-			"ShaderMapHash": "75839E0FB155E88523D824CECDEB640CBBC0F0D7",
-			"Assets": [
-				"/Game/Environment/Materials/M_Glass_Railing_01"
+				"/Game/Environment/Materials/M_Grass2"
 			]
 		},
 		{
@@ -677,9 +515,171 @@
 			]
 		},
 		{
+			"ShaderMapHash": "7CC7923FA0B5EA0EE2447EA6E306271FD3018547",
+			"Assets": [
+				"/Game/Environment/Materials/Metal_tiled_hex_gray_em"
+			]
+		},
+		{
 			"ShaderMapHash": "A1617B70888BB57A87D3B4AEA75E842C46EC08C9",
 			"Assets": [
 				"/Game/Environment/Materials/Simple_emmisive3"
+			]
+		},
+		{
+			"ShaderMapHash": "F2CCEFBDF67861E8762C6F7A33564D4E034AF1EF",
+			"Assets": [
+				"/Game/Environment/Materials/Metal"
+			]
+		},
+		{
+			"ShaderMapHash": "3B01590B8ABC24950A2473DA93C1DA2AAE7087E2",
+			"Assets": [
+				"/Game/Environment/Materials/Holo_l1"
+			]
+		},
+		{
+			"ShaderMapHash": "E09B52AC67E98EC53FA87613FF955CF74C10DF89",
+			"Assets": [
+				"/Game/Environment/Materials/unreal_holo_4_1_1"
+			]
+		},
+		{
+			"ShaderMapHash": "AEFEC3B0C3E4936AFA9D16457A6C563306D6AC14",
+			"Assets": [
+				"/Game/Environment/Materials/Unreal_Holo_4"
+			]
+		},
+		{
+			"ShaderMapHash": "179288EE903318F4ADDA160F17E6D663C9597E82",
+			"Assets": [
+				"/Game/Environment/Materials/Metal_tiled_gray"
+			]
+		},
+		{
+			"ShaderMapHash": "3196669D1ACC43E3B51A46E21B3D0901753C48A4",
+			"Assets": [
+				"/Game/Environment/Materials/Windows_glass_trans"
+			]
+		},
+		{
+			"ShaderMapHash": "0F4C85FEC66737BBDAB89FB7CC3CF5654850CF96",
+			"Assets": [
+				"/Game/Environment/Materials/Metal_tiled_masked"
+			]
+		},
+		{
+			"ShaderMapHash": "75CCCD0C7A91E282EE668623CFDD19CC02CB2A02",
+			"Assets": [
+				"/Game/Environment/Materials/Windows_glass_trans_2_tile"
+			]
+		},
+		{
+			"ShaderMapHash": "68028A7063B7D9AF5A43F1831D5F4767E075E5FD",
+			"Assets": [
+				"/Game/Environment/Materials/Windows_glass_2_trans"
+			]
+		},
+		{
+			"ShaderMapHash": "0E80218299C4E9C8A9A2803FA1C2E5EE1CC956A2",
+			"Assets": [
+				"/Game/Environment/Materials/M_Floor_Lights"
+			]
+		},
+		{
+			"ShaderMapHash": "6FE7C5E0CAB0218679CF8411DA1BF1A1D6CDA4C5",
+			"Assets": [
+				"/Game/Environment/Materials/Windows_glass_2_trans_22"
+			]
+		},
+		{
+			"ShaderMapHash": "B2E45FC44F82B6F2C59D0F4D9EDE87EAA321DCEE",
+			"Assets": [
+				"/Game/Environment/Materials/Windows_glass_trans_tiled"
+			]
+		},
+		{
+			"ShaderMapHash": "3D4F157B50B59FDAA7D67C9C4A08CEF840700E93",
+			"Assets": [
+				"/Game/Environment/Materials/Metal_tiled_lines_gray2"
+			]
+		},
+		{
+			"ShaderMapHash": "979A777D583C69E6C3B858EE65CDC8C2DC036C1C",
+			"Assets": [
+				"/Game/Environment/Materials/Doors_1"
+			]
+		},
+		{
+			"ShaderMapHash": "2A352C58A1ABFFC9C3A8E9D0D0AB193C2D3BE1D8",
+			"Assets": [
+				"/Game/Environment/Materials/Holo_City"
+			]
+		},
+		{
+			"ShaderMapHash": "361E5FF0DCBA8E821FFC854E6585E7FE621BBB97",
+			"Assets": [
+				"/Game/Environment/Materials/unreal_holo_4_2"
+			]
+		},
+		{
+			"ShaderMapHash": "389CB45F5147DF4F8085A79DFBFD82CC69EBE975",
+			"Assets": [
+				"/Game/Environment/Materials/unreal_holo_4_1"
+			]
+		},
+		{
+			"ShaderMapHash": "A515B18DC1B5FC36F21D9DE50108AB97FF61DF34",
+			"Assets": [
+				"/Game/Environment/Materials/Unreal_Holo_2"
+			]
+		},
+		{
+			"ShaderMapHash": "57FD771FB40CCCA2296577BD1347249B882AFC11",
+			"Assets": [
+				"/Game/Environment/Materials/Unreal_Holo_1"
+			]
+		},
+		{
+			"ShaderMapHash": "B4B607D0D73E88803E6DF2C54D6E3155FB54B759",
+			"Assets": [
+				"/Game/Environment/Materials/M_GrassLVL_Wall_01"
+			]
+		},
+		{
+			"ShaderMapHash": "53C0CFD569F0A5CA9999A3331719C7D20E6DE2BB",
+			"Assets": [
+				"/Game/Effects/Materials/Air/M_light_shaft_particle"
+			]
+		},
+		{
+			"ShaderMapHash": "486ABA5047A651C05DE3E434422D2DFA6A4851CD",
+			"Assets": [
+				"/Game/Effects/Materials/M_ramp"
+			]
+		},
+		{
+			"ShaderMapHash": "C724DCA15BB48768383760F586681F678C58EB2C",
+			"Assets": [
+				"/Game/Effects/Materials/Air/M_dust_specs_sparkling"
+			]
+		},
+		{
+			"ShaderMapHash": "B5D8E4BE4EE3C85D8B3E612CCBFC0C43FD1EDC0D",
+			"Assets": [
+				"/Game/Environment/Materials/Windows_glass_trans_holo"
+			]
+		},
+		{
+			"ShaderMapHash": "197755870DEA0EE5301F038F6AE05438E0AD8B80",
+			"Assets": [
+				"/Game/Environment/Materials/Simple_emmisive22"
+			]
+		},
+		{
+			"ShaderMapHash": "14449522E33F0DDD005179C7E9B86DFA779636B5",
+			"Assets": [
+				"/Game/Environment/Materials/M_PublicPhone_holo_01"
 			]
 		},
 		{

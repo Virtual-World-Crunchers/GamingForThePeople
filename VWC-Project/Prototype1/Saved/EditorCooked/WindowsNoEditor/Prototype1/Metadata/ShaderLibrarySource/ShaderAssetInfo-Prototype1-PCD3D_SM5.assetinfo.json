@@ -236,12 +236,6 @@
 			]
 		},
 		{
-			"ShaderMapHash": "B2E45FC44F82B6F2C59D0F4D9EDE87EAA321DCEE",
-			"Assets": [
-				"/Game/Environment/Materials/Windows_glass_trans_tiled"
-			]
-		},
-		{
 			"ShaderMapHash": "0F4C85FEC66737BBDAB89FB7CC3CF5654850CF96",
 			"Assets": [
 				"/Game/Environment/Materials/Metal_tiled_masked"
@@ -1195,6 +1189,12 @@
 			]
 		},
 		{
+			"ShaderMapHash": "B2E45FC44F82B6F2C59D0F4D9EDE87EAA321DCEE",
+			"Assets": [
+				"/Game/Environment/Materials/Windows_glass_trans_tiled"
+			]
+		},
+		{
 			"ShaderMapHash": "A03699FF4FA364E3244F37B99E92803E2EFF4973",
 			"Assets": [
 				"/Engine/EditorMaterials/MatineeCam_mat"
@@ -1220,9 +1220,9 @@
 			]
 		},
 		{
-			"ShaderMapHash": "B0CB4D25F332ECB6AD2C98D7182B94F4F6CCB142",
+			"ShaderMapHash": "EA68D0C6577772DFE9224543A7B7BFF35560A7AB",
 			"Assets": [
-				"/Game/Environment/Materials/M_MASTER_Sky_Material_FFA_02"
+				"/Game/Environment/Materials/M_FFA_Wall_05"
 			]
 		},
 		{
@@ -1250,15 +1250,15 @@
 			]
 		},
 		{
-			"ShaderMapHash": "EA68D0C6577772DFE9224543A7B7BFF35560A7AB",
-			"Assets": [
-				"/Game/Environment/Materials/M_FFA_Wall_05"
-			]
-		},
-		{
 			"ShaderMapHash": "242590A028BF62B6DEB65805D8ADEDDBD000937E",
 			"Assets": [
 				"/Game/Environment/Materials/M_FFA_Floor_02_Dark"
+			]
+		},
+		{
+			"ShaderMapHash": "C8EF5532F8FE19B230ABEA2000218F14F257842D",
+			"Assets": [
+				"/Game/Environment/Materials/M_FFA_Floor_02"
 			]
 		},
 		{
@@ -1280,9 +1280,9 @@
 			]
 		},
 		{
-			"ShaderMapHash": "C8EF5532F8FE19B230ABEA2000218F14F257842D",
+			"ShaderMapHash": "B0CB4D25F332ECB6AD2C98D7182B94F4F6CCB142",
 			"Assets": [
-				"/Game/Environment/Materials/M_FFA_Floor_02"
+				"/Game/Environment/Materials/M_MASTER_Sky_Material_FFA_02"
 			]
 		},
 		{

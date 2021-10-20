@@ -13,10 +13,18 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #endif
 #define SHOOTERGAME_ShooterHUD_generated_h
 
-#define Prototype1_Source_ShooterGame_Public_UI_ShooterHUD_h_64_SPARSE_DATA
-#define Prototype1_Source_ShooterGame_Public_UI_ShooterHUD_h_64_RPC_WRAPPERS
-#define Prototype1_Source_ShooterGame_Public_UI_ShooterHUD_h_64_RPC_WRAPPERS_NO_PURE_DECLS
-#define Prototype1_Source_ShooterGame_Public_UI_ShooterHUD_h_64_INCLASS_NO_PURE_DECLS \
+#define Prototype1_Source_ShooterGame_Public_UI_ShooterHUD_h_67_SPARSE_DATA
+#define Prototype1_Source_ShooterGame_Public_UI_ShooterHUD_h_67_RPC_WRAPPERS \
+ \
+	DECLARE_FUNCTION(execUpdateText);
+
+
+#define Prototype1_Source_ShooterGame_Public_UI_ShooterHUD_h_67_RPC_WRAPPERS_NO_PURE_DECLS \
+ \
+	DECLARE_FUNCTION(execUpdateText);
+
+
+#define Prototype1_Source_ShooterGame_Public_UI_ShooterHUD_h_67_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesAShooterHUD(); \
 	friend struct Z_Construct_UClass_AShooterHUD_Statics; \
@@ -25,7 +33,7 @@ public: \
 	DECLARE_SERIALIZER(AShooterHUD)
 
 
-#define Prototype1_Source_ShooterGame_Public_UI_ShooterHUD_h_64_INCLASS \
+#define Prototype1_Source_ShooterGame_Public_UI_ShooterHUD_h_67_INCLASS \
 private: \
 	static void StaticRegisterNativesAShooterHUD(); \
 	friend struct Z_Construct_UClass_AShooterHUD_Statics; \
@@ -34,7 +42,7 @@ public: \
 	DECLARE_SERIALIZER(AShooterHUD)
 
 
-#define Prototype1_Source_ShooterGame_Public_UI_ShooterHUD_h_64_STANDARD_CONSTRUCTORS \
+#define Prototype1_Source_ShooterGame_Public_UI_ShooterHUD_h_67_STANDARD_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	NO_API AShooterHUD(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(AShooterHUD) \
@@ -47,7 +55,7 @@ private: \
 public:
 
 
-#define Prototype1_Source_ShooterGame_Public_UI_ShooterHUD_h_64_ENHANCED_CONSTRUCTORS \
+#define Prototype1_Source_ShooterGame_Public_UI_ShooterHUD_h_67_ENHANCED_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	NO_API AShooterHUD(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()) : Super(ObjectInitializer) { }; \
 private: \
@@ -60,7 +68,7 @@ public: \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(AShooterHUD)
 
 
-#define Prototype1_Source_ShooterGame_Public_UI_ShooterHUD_h_64_PRIVATE_PROPERTY_OFFSET \
+#define Prototype1_Source_ShooterGame_Public_UI_ShooterHUD_h_67_PRIVATE_PROPERTY_OFFSET \
 	FORCEINLINE static uint32 __PPO__HitNotifyIcon() { return STRUCT_OFFSET(AShooterHUD, HitNotifyIcon); } \
 	FORCEINLINE static uint32 __PPO__KillsBg() { return STRUCT_OFFSET(AShooterHUD, KillsBg); } \
 	FORCEINLINE static uint32 __PPO__TimePlaceBg() { return STRUCT_OFFSET(AShooterHUD, TimePlaceBg); } \
@@ -84,27 +92,27 @@ public: \
 	FORCEINLINE static uint32 __PPO__NormalFont() { return STRUCT_OFFSET(AShooterHUD, NormalFont); }
 
 
-#define Prototype1_Source_ShooterGame_Public_UI_ShooterHUD_h_61_PROLOG
-#define Prototype1_Source_ShooterGame_Public_UI_ShooterHUD_h_64_GENERATED_BODY_LEGACY \
+#define Prototype1_Source_ShooterGame_Public_UI_ShooterHUD_h_64_PROLOG
+#define Prototype1_Source_ShooterGame_Public_UI_ShooterHUD_h_67_GENERATED_BODY_LEGACY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	Prototype1_Source_ShooterGame_Public_UI_ShooterHUD_h_64_PRIVATE_PROPERTY_OFFSET \
-	Prototype1_Source_ShooterGame_Public_UI_ShooterHUD_h_64_SPARSE_DATA \
-	Prototype1_Source_ShooterGame_Public_UI_ShooterHUD_h_64_RPC_WRAPPERS \
-	Prototype1_Source_ShooterGame_Public_UI_ShooterHUD_h_64_INCLASS \
-	Prototype1_Source_ShooterGame_Public_UI_ShooterHUD_h_64_STANDARD_CONSTRUCTORS \
+	Prototype1_Source_ShooterGame_Public_UI_ShooterHUD_h_67_PRIVATE_PROPERTY_OFFSET \
+	Prototype1_Source_ShooterGame_Public_UI_ShooterHUD_h_67_SPARSE_DATA \
+	Prototype1_Source_ShooterGame_Public_UI_ShooterHUD_h_67_RPC_WRAPPERS \
+	Prototype1_Source_ShooterGame_Public_UI_ShooterHUD_h_67_INCLASS \
+	Prototype1_Source_ShooterGame_Public_UI_ShooterHUD_h_67_STANDARD_CONSTRUCTORS \
 public: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
 
-#define Prototype1_Source_ShooterGame_Public_UI_ShooterHUD_h_64_GENERATED_BODY \
+#define Prototype1_Source_ShooterGame_Public_UI_ShooterHUD_h_67_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	Prototype1_Source_ShooterGame_Public_UI_ShooterHUD_h_64_PRIVATE_PROPERTY_OFFSET \
-	Prototype1_Source_ShooterGame_Public_UI_ShooterHUD_h_64_SPARSE_DATA \
-	Prototype1_Source_ShooterGame_Public_UI_ShooterHUD_h_64_RPC_WRAPPERS_NO_PURE_DECLS \
-	Prototype1_Source_ShooterGame_Public_UI_ShooterHUD_h_64_INCLASS_NO_PURE_DECLS \
-	Prototype1_Source_ShooterGame_Public_UI_ShooterHUD_h_64_ENHANCED_CONSTRUCTORS \
+	Prototype1_Source_ShooterGame_Public_UI_ShooterHUD_h_67_PRIVATE_PROPERTY_OFFSET \
+	Prototype1_Source_ShooterGame_Public_UI_ShooterHUD_h_67_SPARSE_DATA \
+	Prototype1_Source_ShooterGame_Public_UI_ShooterHUD_h_67_RPC_WRAPPERS_NO_PURE_DECLS \
+	Prototype1_Source_ShooterGame_Public_UI_ShooterHUD_h_67_INCLASS_NO_PURE_DECLS \
+	Prototype1_Source_ShooterGame_Public_UI_ShooterHUD_h_67_ENHANCED_CONSTRUCTORS \
 static_assert(false, "Unknown access specifier for GENERATED_BODY() macro in class ShooterHUD."); \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 

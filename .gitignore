@@ -74,4 +74,4 @@ Plugins/*/Intermediate/*
 DerivedDataCache/*
 
 # Whitelist Package
-!Lacuna_V1/
+!Lacuna_V1/*
