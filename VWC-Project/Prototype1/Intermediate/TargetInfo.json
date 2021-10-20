@@ -1,4 +1,24 @@
 {
 	"Targets": [
+		{
+			"Name": "ShooterClient",
+			"Path": "C:\\Users\\truth\\Documents\\DECO3500_Project\\GamingForThePeople\\VWC-Project\\Prototype1\\Source\\ShooterClient.Target.cs",
+			"Type": "Client"
+		},
+		{
+			"Name": "ShooterGame",
+			"Path": "C:\\Users\\truth\\Documents\\DECO3500_Project\\GamingForThePeople\\VWC-Project\\Prototype1\\Source\\ShooterGame.Target.cs",
+			"Type": "Game"
+		},
+		{
+			"Name": "ShooterGameEditor",
+			"Path": "C:\\Users\\truth\\Documents\\DECO3500_Project\\GamingForThePeople\\VWC-Project\\Prototype1\\Source\\ShooterGameEditor.Target.cs",
+			"Type": "Editor"
+		},
+		{
+			"Name": "ShooterServer",
+			"Path": "C:\\Users\\truth\\Documents\\DECO3500_Project\\GamingForThePeople\\VWC-Project\\Prototype1\\Source\\ShooterServer.Target.cs",
+			"Type": "Server"
+		}
 	]
 }

@@ -1,0 +1,8 @@
+{
+	"BuildId": "17155196",
+	"Modules": 
+	{
+		"ShooterGame": "UE4Editor-ShooterGame-Win64-DebugGame.dll",
+		"ShooterGameLoadingScreen": "UE4Editor-ShooterGameLoadingScreen-Win64-DebugGame.dll"
+	}
+}

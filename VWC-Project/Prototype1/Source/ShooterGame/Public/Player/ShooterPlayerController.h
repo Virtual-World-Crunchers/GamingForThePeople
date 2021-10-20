@@ -51,6 +51,11 @@ public:
 	/* Tell the HUD to toggle the chat window. */
 	void ToggleChatWindow();
 
+	void ToggleSlowChat();
+	void ToggleFilterChat();
+	void StartSlowChatTimer();
+	void QuerySCTimer();
+
 	/** Local function say a string */
 	UFUNCTION(exec)
 	virtual void Say(const FString& Msg);

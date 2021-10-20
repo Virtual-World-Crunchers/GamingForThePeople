@@ -1,5 +1,8 @@
-C:/Users/truth/Documents/DECO3500_Project/GamingForThePeople/VWC-Project/Prototype1/Intermediate/Build/Win64/UE4/Inc/ShooterGame/ShooterPickup.gen.cpp
+C:/Users/truth/Documents/DECO3500_Project/GamingForThePeople/VWC-Project/Prototype1/Intermediate/Build/Win64/UE4/Inc/ShooterGame/ShooterPersistentUser.gen.cpp
 C:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\CoreUObject\Public\UObject/GeneratedCppIncludes.h
+C:\Users\truth\Documents\DECO3500_Project\GamingForThePeople\VWC-Project\Prototype1\Source\ShooterGame/Public/Player/ShooterPersistentUser.h
+C:\Users\truth\Documents\DECO3500_Project\GamingForThePeople\VWC-Project\Prototype1\Intermediate\Build\Win64\UE4\Inc\ShooterGame\ShooterPersistentUser.generated.h
+C:/Users/truth/Documents/DECO3500_Project/GamingForThePeople/VWC-Project/Prototype1/Intermediate/Build/Win64/UE4/Inc/ShooterGame/ShooterPickup.gen.cpp
 C:\Users\truth\Documents\DECO3500_Project\GamingForThePeople\VWC-Project\Prototype1\Source\ShooterGame/Public/Pickups/ShooterPickup.h
 C:\Users\truth\Documents\DECO3500_Project\GamingForThePeople\VWC-Project\Prototype1\Intermediate\Build\Win64\UE4\Inc\ShooterGame\ShooterPickup.generated.h
 C:/Users/truth/Documents/DECO3500_Project/GamingForThePeople/VWC-Project/Prototype1/Intermediate/Build/Win64/UE4/Inc/ShooterGame/ShooterPickup_Ammo.gen.cpp

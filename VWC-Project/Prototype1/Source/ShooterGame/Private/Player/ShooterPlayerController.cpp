@@ -10,6 +10,7 @@
 #include "UI/Menu/ShooterIngameMenu.h"
 #include "UI/Style/ShooterStyle.h"
 #include "UI/ShooterHUD.h"
+#include "UI/ToxicChatHUD.h"
 #include "Online.h"
 #include "OnlineAchievementsInterface.h"
 #include "OnlineEventsInterface.h"
@@ -89,6 +90,8 @@ void AShooterPlayerController::SetupInputComponent()
 		InputComponent->BindAction("PushToTalk", IE_Released, this, &APlayerController::StopTalking);
 
 		InputComponent->BindAction("ToggleChat", IE_Pressed, this, &AShooterPlayerController::ToggleChatWindow);
+		InputComponent->BindAction("SlowChatToggle", IE_Pressed, this, &AShooterPlayerController::ToggleSlowChat);
+		InputComponent->BindAction("FilterChatToggle", IE_Pressed, this, &AShooterPlayerController::ToggleFilterChat);
 
 		bHasInitializedInputComponent = true;
 	}
@@ -165,6 +168,7 @@ void AShooterPlayerController::TickActor(float DeltaTime, enum ELevelTick TickTy
 	{
 		USoundNodeLocalPlayer::GetLocallyControlledActorCache().Add(UniqueID, bLocallyControlled);
 	});
+
 };
 
 void AShooterPlayerController::BeginDestroy()
@@ -1031,6 +1035,31 @@ void AShooterPlayerController::ToggleChatWindow()
 	{
 		ShooterHUD->ToggleChat();
 	}
+}
+
+void AShooterPlayerController::ToggleSlowChat() {
+	AShooterHUD* ShooterHUD = Cast<AShooterHUD>(GetHUD());
+	if (ShooterHUD) {
+		ShooterHUD->UpdateSlowChat();
+	}
+}
+
+void AShooterPlayerController::ToggleFilterChat() {
+	AShooterHUD* ShooterHUD = Cast<AShooterHUD>(GetHUD());
+	if (ShooterHUD) {
+		ShooterHUD->UpdateFilterChat();
+	}
+}
+	
+
+void AShooterPlayerController::StartSlowChatTimer() {
+	AShooterHUD* ShooterHUD = Cast<AShooterHUD>(GetHUD());
+	ShooterHUD->SlowChatTimer(true);
+}
+
+void AShooterPlayerController::QuerySCTimer() {
+	AShooterHUD* ShooterHUD = Cast<AShooterHUD>(GetHUD());
+	ShooterHUD->IsEndTimer();
 }
 
 void AShooterPlayerController::ClientTeamMessage_Implementation( APlayerState* SenderPlayerState, const FString& S, FName Type, float MsgLifeTime  )

@@ -1,0 +1,590 @@
+Not using cached read wrapper
+Started task graph with 5 named threads and 23 total threads with 3 sets of task threads.
+Stats thread started at 0.527145
+ICU TimeZone Detection - Raw Offset: +10:00, Platform Override: ''
+Loading text-based GConfig....
+Mounting plugin MeshPainting
+Mounting plugin XGEController
+Mounting plugin Paper2D
+Mounting plugin AISupport
+Mounting plugin EnvironmentQueryEditor
+Mounting plugin LiveLink
+Mounting plugin LightPropagationVolume
+Mounting plugin CameraShakePreviewer
+Mounting plugin OodleNetwork
+Mounting plugin AssetManagerEditor
+Mounting plugin CryptoKeys
+Mounting plugin CurveEditorTools
+Mounting plugin DataValidation
+Mounting plugin FacialAnimation
+Mounting plugin GameplayTagsEditor
+Mounting plugin GameplayCameras
+Mounting plugin GeometryMode
+Mounting plugin MacGraphicsSwitching
+Mounting plugin MaterialAnalyzer
+Mounting plugin MobileLauncherProfileWizard
+Mounting plugin PluginBrowser
+Mounting plugin SpeedTreeImporter
+Mounting plugin AnimationSharing
+Mounting plugin CLionSourceCodeAccess
+Mounting plugin CodeLiteSourceCodeAccess
+Mounting plugin GitSourceControl
+Mounting plugin KDevelopSourceCodeAccess
+Mounting plugin NullSourceCodeAccess
+Mounting plugin PerforceSourceControl
+Mounting plugin PlasticSourceControl
+Mounting plugin PixWinPlugin
+Mounting plugin PropertyAccessNode
+Mounting plugin PluginUtils
+Mounting plugin DatasmithContent
+Mounting plugin SubversionSourceControl
+Mounting plugin RiderSourceCodeAccess
+Mounting plugin TextureFormatOodle
+Mounting plugin LuminPlatformFeatures
+Mounting plugin MagicLeap
+Mounting plugin UObjectPlugin
+Mounting plugin MagicLeapLightEstimation
+Mounting plugin Niagara
+Mounting plugin MagicLeapMedia
+Mounting plugin VisualStudioCodeSourceCodeAccess
+Mounting plugin VisualStudioSourceCodeAccess
+Mounting plugin XCodeSourceCodeAccess
+Mounting plugin VariantManagerContent
+Mounting plugin MagicLeapPassableWorld
+Mounting plugin AlembicImporter
+Mounting plugin MLSDK
+Mounting plugin BackChannel
+Mounting plugin AutomationUtils
+Mounting plugin ChaosCloth
+Mounting plugin ChaosClothEditor
+Mounting plugin ChaosEditor
+Mounting plugin ChaosNiagara
+Mounting plugin CharacterAI
+Mounting plugin ChaosSolverPlugin
+Mounting plugin GeometryCollectionPlugin
+Mounting plugin GeometryProcessing
+Mounting plugin GeometryCache
+Mounting plugin Gauntlet
+Mounting plugin OpenImageDenoise
+Mounting plugin MotoSynth
+Mounting plugin PlanarCut
+Mounting plugin ProxyLODPlugin
+Mounting plugin PlatformCrypto
+Mounting plugin PythonScriptPlugin
+Mounting plugin SkeletalReduction
+Mounting plugin TcpMessaging
+Mounting plugin UdpMessaging
+Mounting plugin AndroidMedia
+Mounting plugin MediaCompositing
+Mounting plugin AvfMedia
+Mounting plugin MediaPlayerEditor
+Mounting plugin ImgMedia
+Mounting plugin WebMMedia
+Mounting plugin WmfMedia
+Mounting plugin ActorSequence
+Mounting plugin MatineeToLevelSequence
+Mounting plugin LevelSequenceEditor
+Mounting plugin TemplateSequence
+Mounting plugin EOSShared
+Mounting plugin LauncherChunkInstaller
+Mounting plugin OnlineSubsystem
+Mounting plugin OnlineSubsystemEOS
+Mounting plugin OnlineSubsystemNull
+Mounting plugin OnlineSubsystemUtils
+Mounting plugin OnlineSubsystemSteam
+Mounting plugin ActorLayerUtilities
+Mounting plugin AndroidMoviePlayer
+Mounting plugin AndroidPermission
+Mounting plugin AndroidDeviceProfileSelector
+Mounting plugin AppleImageUtils
+Mounting plugin AppleMoviePlayer
+Mounting plugin ArchVisCharacter
+Mounting plugin AssetTags
+Mounting plugin AudioCapture
+Mounting plugin AudioSynesthesia
+Mounting plugin CableComponent
+Mounting plugin ChunkDownloader
+Mounting plugin CustomMeshComponent
+Mounting plugin EditableMesh
+Mounting plugin ExampleDeviceProfileSelector
+Mounting plugin GoogleCloudMessaging
+Mounting plugin GooglePAD
+Mounting plugin IOSDeviceProfileSelector
+Mounting plugin LinuxDeviceProfileSelector
+Mounting plugin LocationServicesBPLibrary
+Mounting plugin MobilePatchingUtils
+Mounting plugin ScreenshotTools
+Mounting plugin OpenXR
+Mounting plugin OpenXREyeTracker
+Mounting plugin OpenXRHandTracking
+Mounting plugin PhysXVehicles
+Mounting plugin OodleData
+Mounting plugin Takes
+Mounting plugin PostSplashScreen
+Mounting plugin ProceduralMeshComponent
+Mounting plugin PropertyAccessEditor
+Mounting plugin ReplicationGraph
+Mounting plugin RuntimePhysXCooking
+Mounting plugin SoundFields
+Mounting plugin SignificanceManager
+Mounting plugin Synthesis
+Mounting plugin WebMMoviePlayer
+Mounting plugin WindowsMoviePlayer
+Mounting plugin ContentBrowserAssetDataSource
+Mounting plugin ContentBrowserClassDataSource
+Mounting plugin ContentBrowserFileDataSource
+Mounting plugin OnlineSubsystemGooglePlay
+Mounting plugin OnlineSubsystemIOS
+Mounting plugin EOSVoiceChat
+Mounting plugin Reflex
+Mounting plugin OculusVR
+Mounting plugin AESHandlerComponent
+Mounting plugin SteamController
+Mounting plugin SteamShared
+Mounting plugin SteamVR
+PIX capture plugin failed to initialize! Check that the process is launched from PIX.
+Using libcurl 7.55.1-DEV
+ - built for x86_64-pc-win32
+ - supports SSL with OpenSSL/1.1.1
+ - supports HTTP deflate (compression) using libz 1.2.8
+ - other features:
+     CURL_VERSION_SSL
+     CURL_VERSION_LIBZ
+     CURL_VERSION_IPV6
+     CURL_VERSION_ASYNCHDNS
+     CURL_VERSION_LARGEFILE
+     CURL_VERSION_IDN
+ CurlRequestOptions (configurable via config and command line):
+ - bVerifyPeer = true  - Libcurl will verify peer certificate
+ - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+ - bDontReuseConnections = false  - Libcurl will reuse connections
+ - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+ - LocalHostAddr = Default
+ - BufferSize = 65536
+Loading Steam SDK 1.51
+Steam SDK Loaded!
+OSS: Creating online subsystem instance for: Steam
+STEAM: OnlineSubsystemSteam::Shutdown()
+OSS: Unable to create OnlineSubsystem module Steam
+OSS: Creating online subsystem instance for: NULL
+OSS: Created thread (ID:28100).
+WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+OSS: TryLoadSubsystemAndSetDefault: Loaded subsystem for module [NULL]
+Build: ++UE4+Release-4.27-CL-17155196
+Engine Version: 4.27.0-17155196+++UE4+Release-4.27
+Compatible Engine Version: 4.27.0-17155196+++UE4+Release-4.27
+Net CL: 17155196
+OS: Windows 10 (Release 2009) (), CPU: Intel(R) Core(TM) i7-1065G7 CPU @ 1.30GHz, GPU: Intel(R) Iris(R) Plus Graphics
+Compiled (64-bit): Aug 13 2021 06:13:13
+Compiled with Visual C++: 19.24.28315.00
+Build Configuration: Development
+Branch Name: ++UE4+Release-4.27
+Command Line:  C:\Users\truth\Documents\DECO3500_Project\GamingForThePeople\VWC-Project\Prototype1\Prototype1.uproject -run=Cook -TargetPlatform=WindowsNoEditor -fileopenlog -ddc=InstalledDerivedDataBackendGraph -unversioned -abslog="C:\Program Files\Epic Games\UE_4.27\Engine\Programs\AutomationTool\Saved\Cook-2021.10.19-00.42.06.txt" -stdout -CrashForUAT -unattended -NoLogTimes -UTF8Output
+Base Directory: C:/Program Files/Epic Games/UE_4.27/Engine/Binaries/Win64/
+Allocator: TBB
+Installed Engine Build: 1
+Number of dev versions registered: 29
+  Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+  Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+  Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 4
+  Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 40
+  Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 37
+  Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 3
+  Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+  Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+  Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 14
+  Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+  Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 45
+  Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 13
+  Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 3
+  Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+  Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 3
+  Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 17
+  Dev-Anim (AF43A65D-7FD3-4947-9873-3E8ED9C1BB05): 15
+  Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+  Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+  FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 47
+  FortniteRelease (E7086368-6B23-4C58-8439-1B7016265E91): 1
+  Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 10
+  Dev-Niagara (F2AED0AC-9AFE-416F-8664-AA7FFA26D6FC): 1
+  Dev-Destruction (174F1F0B-B4C6-45A5-B13F-2EE8D0FB917D): 10
+  Dev-Physics-Ext (35F94A83-E258-406C-A318-09F59610247C): 41
+  Dev-PhysicsMaterial-Chaos (B68FC16E-8B1B-42E2-B453-215C058844FE): 1
+  Dev-CineCamera (B2E18506-4273-CFC2-A54E-F4BB758BBA07): 1
+  Dev-VirtualProduction (64F58936-FD1B-42BA-BA96-7289D5D0FA4E): 1
+  Dev-MediaFramework (6F0ED827-A609-4895-9C91-998D90180EA4): 2
+Presizing for max 25165824 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [C:/Users/truth/Documents/DECO3500_Project/GamingForThePeople/VWC-Project/Prototype1/Saved/Config/Windows/Engine.ini]
+Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+Setting CVar [[s.AsyncLoadingThreadEnabled:1]]
+Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+Setting CVar [[s.FlushStreamingOnExit:1]]
+Setting CVar [[s.ProcessPrestreamingRequests:1]]
+Object subsystem initialized
+Setting CVar [[con.DebugEarlyDefault:1]]
+Setting CVar [[r.setres:1280x720]]
+Setting CVar [[con.DebugEarlyDefault:1]]
+Setting CVar [[r.setres:1280x720]]
+Applying CVar settings from Section [/Script/Engine.RendererSettings] File [C:/Users/truth/Documents/DECO3500_Project/GamingForThePeople/VWC-Project/Prototype1/Saved/Config/Windows/Engine.ini]
+Setting CVar [[r.GPUCrashDebugging:0]]
+Setting CVar [[r.TonemapperFilm:0]]
+Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [C:/Users/truth/Documents/DECO3500_Project/GamingForThePeople/VWC-Project/Prototype1/Saved/Config/Windows/Engine.ini]
+Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [C:/Users/truth/Documents/DECO3500_Project/GamingForThePeople/VWC-Project/Prototype1/Saved/Config/Windows/Engine.ini]
+Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+Setting CVar [[s.AsyncLoadingThreadEnabled:1]]
+Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+Setting CVar [[s.FlushStreamingOnExit:1]]
+Setting CVar [[s.ProcessPrestreamingRequests:1]]
+Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [C:/Users/truth/Documents/DECO3500_Project/GamingForThePeople/VWC-Project/Prototype1/Saved/Config/Windows/Engine.ini]
+Setting CVar [[gc.MaxObjectsNotConsideredByGC:50000]]
+Setting CVar [[gc.SizeOfPermanentObjectPool:6900000]]
+Setting CVar [[gc.FlushStreamingOnGC:0]]
+Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
+Setting CVar [[gc.AllowParallelGC:1]]
+Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
+Setting CVar [[gc.MaxObjectsInEditor:25165824]]
+Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
+Setting CVar [[gc.CreateGCClusters:1]]
+Setting CVar [[gc.MinGCClusterSize:5]]
+Setting CVar [[gc.ActorClusteringEnabled:1]]
+Setting CVar [[gc.BlueprintClusteringEnabled:1]]
+Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
+Setting CVar [[gc.MultithreadedDestructionEnabled:1]]
+Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [C:/Users/truth/Documents/DECO3500_Project/GamingForThePeople/VWC-Project/Prototype1/Saved/Config/Windows/Engine.ini]
+Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [C:/Users/truth/Documents/DECO3500_Project/GamingForThePeople/VWC-Project/Prototype1/Saved/Config/Windows/Engine.ini]
+Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/truth/Documents/DECO3500_Project/GamingForThePeople/VWC-Project/Prototype1/Saved/Config/Windows/Scalability.ini]
+Setting CVar [[r.SkeletalMeshLODBias:0]]
+Setting CVar [[r.ViewDistanceScale:1.0]]
+Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/truth/Documents/DECO3500_Project/GamingForThePeople/VWC-Project/Prototype1/Saved/Config/Windows/Scalability.ini]
+Setting CVar [[r.PostProcessAAQuality:4]]
+Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/truth/Documents/DECO3500_Project/GamingForThePeople/VWC-Project/Prototype1/Saved/Config/Windows/Scalability.ini]
+Setting CVar [[r.LightFunctionQuality:1]]
+Setting CVar [[r.ShadowQuality:5]]
+Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+Setting CVar [[r.Shadow.MaxResolution:2048]]
+Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+Setting CVar [[r.Shadow.DistanceScale:1.0]]
+Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+Setting CVar [[r.DistanceFieldShadowing:1]]
+Setting CVar [[r.DistanceFieldAO:1]]
+Setting CVar [[r.AOQuality:2]]
+Setting CVar [[r.VolumetricFog:1]]
+Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+Setting CVar [[r.CapsuleShadows:1]]
+Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/truth/Documents/DECO3500_Project/GamingForThePeople/VWC-Project/Prototype1/Saved/Config/Windows/Scalability.ini]
+Setting CVar [[r.MotionBlurQuality:4]]
+Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+Setting CVar [[r.AmbientOcclusionLevels:-1]]
+Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+Setting CVar [[r.DepthOfFieldQuality:2]]
+Setting CVar [[r.RenderTargetPoolMin:400]]
+Setting CVar [[r.LensFlareQuality:2]]
+Setting CVar [[r.SceneColorFringeQuality:1]]
+Setting CVar [[r.EyeAdaptationQuality:2]]
+Setting CVar [[r.BloomQuality:5]]
+Setting CVar [[r.FastBlurThreshold:100]]
+Setting CVar [[r.Upscale.Quality:3]]
+Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+Setting CVar [[r.LightShaftQuality:1]]
+Setting CVar [[r.Filter.SizeScale:1]]
+Setting CVar [[r.Tonemapper.Quality:5]]
+Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+Applying CVar settings from Section [TextureQuality@3] File [C:/Users/truth/Documents/DECO3500_Project/GamingForThePeople/VWC-Project/Prototype1/Saved/Config/Windows/Scalability.ini]
+Setting CVar [[r.Streaming.MipBias:0]]
+Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+Setting CVar [[r.Streaming.Boost:1]]
+Setting CVar [[r.MaxAnisotropy:8]]
+Setting CVar [[r.VT.MaxAnisotropy:8]]
+Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+Setting CVar [[r.Streaming.PoolSize:1000]]
+Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/truth/Documents/DECO3500_Project/GamingForThePeople/VWC-Project/Prototype1/Saved/Config/Windows/Scalability.ini]
+Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+Setting CVar [[r.RefractionQuality:2]]
+Setting CVar [[r.SSR.Quality:3]]
+Setting CVar [[r.SSR.HalfResSceneColor:0]]
+Setting CVar [[r.SceneColorFormat:4]]
+Setting CVar [[r.DetailMode:2]]
+Setting CVar [[r.TranslucencyVolumeBlur:1]]
+Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+Setting CVar [[r.AnisotropicMaterials:1]]
+Setting CVar [[r.SSS.Scale:1]]
+Setting CVar [[r.SSS.SampleSet:2]]
+Setting CVar [[r.SSS.Quality:1]]
+Setting CVar [[r.SSS.HalfRes:0]]
+Setting CVar [[r.SSGI.Quality:3]]
+Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+Setting CVar [[r.ParticleLightQuality:2]]
+Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountMaxPerSlice:4]]
+Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:128.0]]
+Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+Setting CVar [[r.SkyAtmosphere.SampleCountMax:128.0]]
+Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+Setting CVar [[r.SkyLight.RealTimeReflectionCapture:1]]
+Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/truth/Documents/DECO3500_Project/GamingForThePeople/VWC-Project/Prototype1/Saved/Config/Windows/Scalability.ini]
+Setting CVar [[foliage.DensityScale:1.0]]
+Setting CVar [[grass.DensityScale:1.0]]
+Applying CVar settings from Section [ShadingQuality@3] File [C:/Users/truth/Documents/DECO3500_Project/GamingForThePeople/VWC-Project/Prototype1/Saved/Config/Windows/Scalability.ini]
+Setting CVar [[r.HairStrands.SkyLighting.IntegrationType:2]]
+Setting CVar [[r.HairStrands.SkyAO.SampleCount:4]]
+Setting CVar [[r.HairStrands.Visibility.MSAA.SamplePerPixel:4]]
+Selected Device Profile: [Windows]
+Applying CVar settings loaded from the selected device profile: [Windows]
+Platform has ~ 16 GB [16910639104 / 17179869184 / 16], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+Going up to parent DeviceProfile []
+Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/truth/Documents/DECO3500_Project/GamingForThePeople/VWC-Project/Prototype1/Saved/Config/Windows/Scalability.ini]
+Setting CVar [[r.SkeletalMeshLODBias:0]]
+Setting CVar [[r.ViewDistanceScale:1.0]]
+Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/truth/Documents/DECO3500_Project/GamingForThePeople/VWC-Project/Prototype1/Saved/Config/Windows/Scalability.ini]
+Setting CVar [[r.PostProcessAAQuality:4]]
+Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/truth/Documents/DECO3500_Project/GamingForThePeople/VWC-Project/Prototype1/Saved/Config/Windows/Scalability.ini]
+Setting CVar [[r.LightFunctionQuality:1]]
+Setting CVar [[r.ShadowQuality:5]]
+Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+Setting CVar [[r.Shadow.MaxResolution:2048]]
+Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+Setting CVar [[r.Shadow.DistanceScale:1.0]]
+Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+Setting CVar [[r.DistanceFieldShadowing:1]]
+Setting CVar [[r.DistanceFieldAO:1]]
+Setting CVar [[r.AOQuality:2]]
+Setting CVar [[r.VolumetricFog:1]]
+Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+Setting CVar [[r.CapsuleShadows:1]]
+Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/truth/Documents/DECO3500_Project/GamingForThePeople/VWC-Project/Prototype1/Saved/Config/Windows/Scalability.ini]
+Setting CVar [[r.MotionBlurQuality:4]]
+Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+Setting CVar [[r.AmbientOcclusionLevels:-1]]
+Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+Setting CVar [[r.DepthOfFieldQuality:2]]
+Setting CVar [[r.RenderTargetPoolMin:400]]
+Setting CVar [[r.LensFlareQuality:2]]
+Setting CVar [[r.SceneColorFringeQuality:1]]
+Setting CVar [[r.EyeAdaptationQuality:2]]
+Setting CVar [[r.BloomQuality:5]]
+Setting CVar [[r.FastBlurThreshold:100]]
+Setting CVar [[r.Upscale.Quality:3]]
+Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+Setting CVar [[r.LightShaftQuality:1]]
+Setting CVar [[r.Filter.SizeScale:1]]
+Setting CVar [[r.Tonemapper.Quality:5]]
+Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+Applying CVar settings from Section [TextureQuality@3] File [C:/Users/truth/Documents/DECO3500_Project/GamingForThePeople/VWC-Project/Prototype1/Saved/Config/Windows/Scalability.ini]
+Setting CVar [[r.Streaming.MipBias:0]]
+Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+Setting CVar [[r.Streaming.Boost:1]]
+Setting CVar [[r.MaxAnisotropy:8]]
+Setting CVar [[r.VT.MaxAnisotropy:8]]
+Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+Setting CVar [[r.Streaming.PoolSize:1000]]
+Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/truth/Documents/DECO3500_Project/GamingForThePeople/VWC-Project/Prototype1/Saved/Config/Windows/Scalability.ini]
+Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+Setting CVar [[r.RefractionQuality:2]]
+Setting CVar [[r.SSR.Quality:3]]
+Setting CVar [[r.SSR.HalfResSceneColor:0]]
+Setting CVar [[r.SceneColorFormat:4]]
+Setting CVar [[r.DetailMode:2]]
+Setting CVar [[r.TranslucencyVolumeBlur:1]]
+Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+Setting CVar [[r.AnisotropicMaterials:1]]
+Setting CVar [[r.SSS.Scale:1]]
+Setting CVar [[r.SSS.SampleSet:2]]
+Setting CVar [[r.SSS.Quality:1]]
+Setting CVar [[r.SSS.HalfRes:0]]
+Setting CVar [[r.SSGI.Quality:3]]
+Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+Setting CVar [[r.ParticleLightQuality:2]]
+Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountMaxPerSlice:4]]
+Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:128.0]]
+Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+Setting CVar [[r.SkyAtmosphere.SampleCountMax:128.0]]
+Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+Setting CVar [[r.SkyLight.RealTimeReflectionCapture:1]]
+Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/truth/Documents/DECO3500_Project/GamingForThePeople/VWC-Project/Prototype1/Saved/Config/Windows/Scalability.ini]
+Setting CVar [[foliage.DensityScale:1.0]]
+Setting CVar [[grass.DensityScale:1.0]]
+Applying CVar settings from Section [ShadingQuality@3] File [C:/Users/truth/Documents/DECO3500_Project/GamingForThePeople/VWC-Project/Prototype1/Saved/Config/Windows/Scalability.ini]
+Setting CVar [[r.HairStrands.SkyLighting.IntegrationType:2]]
+Setting CVar [[r.HairStrands.SkyAO.SampleCount:4]]
+Setting CVar [[r.HairStrands.Visibility.MSAA.SamplePerPixel:4]]
+Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
+Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
+Setting CVar [[p.chaos.AllowCreatePhysxBodies:1]]
+Setting CVar [[fx.SkipVectorVMBackendOptimizations:1]]
+Applying CVar settings from Section [ConsoleVariables] File [C:/Users/truth/Documents/DECO3500_Project/GamingForThePeople/VWC-Project/Prototype1/Saved/Config/Windows/Engine.ini]
+Applying CVar settings from Section [ConsoleVariables] File [C:/Users/truth/Documents/DECO3500_Project/GamingForThePeople/VWC-Project/Prototype1/Saved/Config/Windows/Editor.ini]
+Computer: DESKTOP-TPE999T
+User: truth
+CPU Page size=4096, Cores=4
+High frequency timer resolution =10.000000 MHz
+Memory total: Physical=15.7GB (16GB approx)
+Platform Memory Stats for Windows
+Process Physical Memory: 139.80 MB used, 139.80 MB peak
+Process Virtual Memory: 114.29 MB used, 114.29 MB peak
+Physical Memory: 11959.52 MB used,  4167.72 MB free, 16127.24 MB total
+Virtual Memory: 134211024.00 MB used,  6706.26 MB free, 134217728.00 MB total
+Loaded TargetPlatform 'AllDesktop'
+Loaded TargetPlatform 'Android'
+Loaded TargetPlatform 'Android_ASTC'
+Loaded TargetPlatform 'Android_DXT'
+Loaded TargetPlatform 'Android_ETC2'
+Loaded TargetPlatform 'AndroidClient'
+Loaded TargetPlatform 'Android_ASTCClient'
+Loaded TargetPlatform 'Android_DXTClient'
+Loaded TargetPlatform 'Android_ETC2Client'
+Loaded TargetPlatform 'Android_Multi'
+Loaded TargetPlatform 'Android_MultiClient'
+Loaded TargetPlatform 'IOSClient'
+Loaded TargetPlatform 'IOS'
+Loaded TargetPlatform 'Linux'
+Loaded TargetPlatform 'LinuxNoEditor'
+Loaded TargetPlatform 'LinuxClient'
+Loaded TargetPlatform 'LinuxServer'
+Loaded TargetPlatform 'LinuxAArch64NoEditor'
+Loaded TargetPlatform 'LinuxAArch64Client'
+Loaded TargetPlatform 'LinuxAArch64Server'
+Loaded TargetPlatform 'Lumin'
+Loaded TargetPlatform 'LuminClient'
+Loaded TargetPlatform 'MacNoEditor'
+Loaded TargetPlatform 'Mac'
+Loaded TargetPlatform 'MacClient'
+Loaded TargetPlatform 'MacServer'
+Loaded TargetPlatform 'TVOSClient'
+Loaded TargetPlatform 'TVOS'
+Loaded TargetPlatform 'WindowsNoEditor'
+Loaded TargetPlatform 'Windows'
+Loaded TargetPlatform 'WindowsClient'
+Loaded TargetPlatform 'WindowsServer'
+Building Assets For WindowsNoEditor
+Lib vorbis DLL was dynamically loaded.
+Oodle Texture 2.9.0 init RDO Off
+WindowsPlatformFeatures enabled
+Physics initialised using underlying interface: PhysX
+Using OS detected language (en-GB).
+Using OS detected locale (en-AU).
+No specific localization for 'en-GB' exists, so the 'en' localization will be used.
+Ray tracing is disabled. Reason: r.RayTracing=0.
+Guid format shader working directory is -53 characters bigger than the processId version (../../../../../../Users/truth/Documents/DECO3500_Project/GamingForThePeople/VWC-Project/Prototype1/Intermediate/Shaders/WorkingDirectory/33420/).
+Cleaned the shader compiler working directory 'C:/Users/truth/AppData/Local/Temp/UnrealShaderWorkingDir/49C3CF9543BF20D60744E8B63F82EE4C/'.
+Cannot use XGE Controller as Incredibuild is not installed on this machine.
+Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+Using Local Shader Compiler.
+Max Cache Size: 512 MB
+Loaded boot cache 0.14s 118MB C:/Users/truth/AppData/Local/UnrealEngine/4.27/DerivedDataCache/Boot.ddc.
+Loaded Boot cache: C:/Users/truth/AppData/Local/UnrealEngine/4.27/DerivedDataCache/Boot.ddc
+FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/truth/Documents/DECO3500_Project/GamingForThePeople/VWC-Project/Prototype1/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+Unable to find inner node Pak for hierarchical cache Hierarchy.
+Pak cache opened for reading ../../../../../../Users/truth/Documents/DECO3500_Project/GamingForThePeople/VWC-Project/Prototype1/DerivedDataCache/Compressed.ddp.
+Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
+Speed tests for C:/Users/truth/AppData/Local/UnrealEngine/Common/DerivedDataCache took 0.02 seconds
+Performance to C:/Users/truth/AppData/Local/UnrealEngine/Common/DerivedDataCache: Latency=0.07ms. RandomReadSpeed=380.40MBs, RandomWriteSpeed=58.96MBs. Assigned SpeedClass 'Local'
+Using Local data cache path C:/Users/truth/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+Shared data cache path not found in *engine.ini, will not use an Shared cache.
+Unable to find inner node Shared for hierarchical cache Hierarchy.
+FAssetRegistry took 0.0041 seconds to start up
+Selected Device Profile: [Windows]
+Active device profile: [000002313FCC2D00][000002313B704200 49] Windows
+Profiles: [000002313FCC2D00][000002313B704200 49] Windows, [000002313FC58C00][000002313B7124C0 49] WindowsNoEditor, [000002313FCC2A00][000002313B716780 49] WindowsServer, [000002313FCC3000][000002313B71AA40 49] WindowsClient, [000002313FCC2C00][000002313B71ED00 49] IOS, [000002313FC58D00][000002313B722FC0 49] iPadAir, [000002313FC4C400][000002313B727280 49] iPadAir2, [000002313FC11300][000002313B7417C0 49] IPadPro, [000002313FC11400][000002313B72B800 49] iPadAir3, [000002313FC4C300][000002313B739AC0 49] iPadAir4, [000002313FC10300][000002313B70E1C0 49] iPadMini2, [000002313FC4C200][000002313B734440 49] iPadMini3, [000002313FC10200][000002313B74A700 49] iPadMini4, [000002313FC4C100][000002313B74E9C0 49] iPadMini5, [000002313FC5B800][000002313B762F00 49] iPhone6, [000002313FC5B100][000002313B752F40 49] iPodTouch6, [000002313FC11200][000002313B76B480 49] iPhone7, [000002313FC13D00][000002313B75B4C0 49] iPodTouch7, [000002313FC58A00][000002313B75F780 49] iPhone5S, [000002313FC10600][000002313B757A40 49] iPhone6Plus, [000002313FC5B600][000002313B766180 49] iPhone6S, [000002313FC13E00][000002313B73C400 49] iPhone6SPlus, [000002313FC58400][000002313B76E680 49] iPhone7Plus, [000002313FC10900][000002313B776940 49] iPhoneSE, [000002313FC5B300][000002313B77AC00 49] iPhone8, [000002313FC13800][00000231401C2EC0 49] iPhone8Plus, [000002313FC5BE00][00000231401C7180 49] iPhoneX, [000002313FC11100][00000231401CB440 49] iPhoneXS, [000002313FC5AD00][00000231401CF700 49] iPhoneXSMax, [000002313FC13400][00000231401D39C0 49] iPhoneXR, [000002313FC59200][00000231401D6100 49] iPhone11, [000002313FC11A00][00000231401DA3C0 49] iPhone11Pro, [000002313FC5A800][000002313B772640 49] iPhone11ProMax, [000002313FC13000][00000231401DE8C0 49] iPhoneSE2, [000002313FC59000][00000231401E6B80 49] iPhone12Mini, [000002313FC11800][00000231401EAE40 49] iPhone12, [000002313FC5A300][00000231401EF100 49] iPhone12Pro, [000002313FC12C00][00000231401F33C0 49] iPhone12ProMax, [000002313FC59700][00000231401F7680 49] iPadPro105, [000002313FC11E00][00000231401FB940 49] iPadPro129, [000002313FC5BD00][00000231401FFC00 49] iPadPro97, [000002313FC10F00][0000023140202340 49] iPadPro2_129, [000002313FC59800][0000023140206600 49] iPad5, [000002313FC12200][00000231401E2880 49] iPad6, [000002313FC58700][000002314020EB40 49] iPad7, [000002313FC10B00][0000023140212E00 49] iPad8, [000002313FC59D00][00000231402170C0 49] iPadPro11, [000002313FC12300][000002314021B380 49] iPadPro2_11, [000002313FC5A000][000002314021F640 49] iPadPro3_129, [000002313FC12800][0000023140223900 49] iPadPro4_129, [000002313FC59E00][0000023140227BC0 49] AppleTV, [000002313FC13100][000002314022A300 49] AppleTV4K, [000002313FC59F00][000002314022E5C0 49] TVOS, [000002313FC13F00][000002314020A840 49] Mac, [000002313FC5BC00][0000023140232AC0 49] MacClient, [000002313FC12900][000002314023AD80 49] MacNoEditor, [000002313FC59300][000002314023F040 49] MacServer, [000002313FC11600][0000023140243300 49] Linux, [000002313FC5AE00][00000231402475C0 49] LinuxAArch64, [000002313FC13B00][000002314024B880 49] LinuxNoEditor, [000002313FC58B00][000002314024FB40 49] LinuxAArch64NoEditor, [000002313FC11000][0000023140252280 49] LinuxClient, [000002313FC58300][0000023140256540 49] LinuxAArch64Client, [000002313FC11F00][000002314025A800 49] LinuxServer, [000002313FC5A400][0000023140236A80 49] LinuxAArch64Server, [000002313FC13900][000002314025ED00 49] Android, [000002313FC5AF00][0000023140266FC0 49] Android_Low, [000002313FC13700][000002314026B280 49] Android_Mid, [000002313FC5B900][000002314026F540 49] Android_High, [000002313FC12100][0000023140273800 49] Android_Default, [000002313FCC2300][0000023140277AC0 49] Android_Adreno4xx, [000002313FC4E600][000002314027A200 49] Android_Adreno5xx_Low, [000002313FCC1100][000002314027E4C0 49] Android_Adreno5xx, [000002313FC4CB00][0000023140282780 49] Android_Adreno6xx, [000002313FCC1900][0000023140286A40 49] Android_Adreno6xx_Vulkan, [000002313FC4F700][0000023140262CC0 49] Android_Mali_T6xx, [000002313FCC1400][000002314028AF40 49] Android_Mali_T7xx, [000002313FC4F400][0000023140293200 49] Android_Mali_T8xx, [000002313FCC0400][00000231402974C0 49] Android_Mali_G71, [000002313FC4EB00][000002314029B780 49] Android_Mali_G72, [000002313FCC2500][000002314029FA40 49] Android_Mali_G72_Vulkan, [000002313FC4D800][00000231402A2180 49] Android_Mali_G76, [000002313FCC1500][00000231402A6440 49] Android_Mali_G76_Vulkan, [000002313FC4F900][00000231402AA700 49] Android_Mali_G77, [000002313FCC1800][00000231402AE9C0 49] Android_Mali_G77_Vulkan, [000002313FC4E000][00000231402B2C80 49] Android_Mali_G78, [000002313FCC0B00][000002314028EF00 49] Android_Mali_G78_Vulkan, [000002313FC4CA00][00000231402B7180 49] Android_Mali_G710, [000002313FCC1F00][00000231402BF440 49] Android_Mali_G710_Vulkan, [000002313FC4D300][00000231402C3700 49] Android_Vulkan_SM5, [000002313FCC1700][00000231402C79C0 49] Android_PowerVR_G6xxx, [000002313FC4EA00][00000231402CA100 49] Android_PowerVR_GT7xxx, [000002313FCC0E00][00000231402CE3C0 49] Android_PowerVR_GE8xxx, [000002313FC4FE00][00000231402D2680 49] Android_PowerVR_GM9xxx, [000002313FC10D00][00000231402D6940 49] Android_PowerVR_GM9xxx_Vulkan, [000002313FC58500][00000231402DAC00 49] Android_TegraK1, [000002313FC4FA00][00000231402DEEC0 49] Android_Unknown_Vulkan, [000002313FC58200][00000231402BB140 49] Lumin, [000002313FC4C900][00000231402E33C0 49] Lumin_Desktop, [000002313FCC1200][00000231402EB680 49] HoloLens, 
+Using QuadricMeshReduction for automatic static mesh reduction
+Using SimplygonMeshReduction for automatic skeletal mesh reduction
+Using ProxyLODMeshReduction for automatic mesh merging
+No distributed automatic mesh merging module available
+No distributed automatic mesh merging module available
+Prototype1 1.0.0, NetCL: 17155196, EngineNetVer: 17, GameNetVer: 0 (Checksum: 2881368394)
+PokeAHoleMaterial loaded successfully
+Loaded 0 collections in 0.002784 seconds
+Scanning file cache for directory 'C:/Users/truth/Documents/DECO3500_Project/GamingForThePeople/VWC-Project/Prototype1/Saved/Collections/' took 0.00s
+Scanning file cache for directory 'C:/Users/truth/Documents/DECO3500_Project/GamingForThePeople/VWC-Project/Prototype1/Content/Developers/truth/Collections/' took 0.00s
+Scanning file cache for directory 'C:/Users/truth/Documents/DECO3500_Project/GamingForThePeople/VWC-Project/Prototype1/Content/Collections/' took 0.00s
+Fixed up redirectors for 0 collections in 0.000003 seconds (updated 0 objects)
+Niagara Debugger Client Initialized | Session: 606F4AF34A5E37B7EC00F590C0D7A81E | Instance: D24DAF9E42127930F619A3B172C20F6F (DESKTOP-TPE999T-33420).
+Using Python 3.7.7
+
+
+Script Stack (0 frames):
+
+Windows GetLastError: The operation completed successfully. (0)
+Failed to load 'C:/Users/truth/Documents/DECO3500_Project/GamingForThePeople/VWC-Project/Prototype1/Binaries/Win64/UE4Editor-ShooterGame-8398.dll' (GetLastError=1114)
+ModuleManager: Unable to load module 'C:/Users/truth/Documents/DECO3500_Project/GamingForThePeople/VWC-Project/Prototype1/Binaries/Win64/UE4Editor-ShooterGame-8398.dll' because the file couldn't be loaded by the OS.
+Message dialog closed, result: Ok, title: Message, text: The game module 'ShooterGame' could not be loaded. There may be an operating system error, the module may not be properly set up, or a plugin which has been included into the build has not been turned on.
+Engine exit requested (reason: EngineExit() was called)
+Preparing to exit.
+CloseDisregardForGC: 0/0 objects in disregard for GC pool
+Cleaned up 0 splitscreen connections with owner deletion
+Other object in slot
+Error reentered: Assertion failed: IsValidLowLevel() [File:D:/Build/++UE4/Sync/Engine/Source/Runtime/CoreUObject/Private/UObject/Obj.cpp] [Line: 957] 
+
+

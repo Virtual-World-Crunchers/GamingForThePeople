@@ -49,6 +49,10 @@ public:
 
 	TSharedRef<class SWidget> AsWidget();
 
+	void SlowChatStatus(bool status);
+	void FilterChatStatus(bool status);
+	void TimingStatus(bool status);
+
 protected:
 
 	// Struct to hold chat lines.
@@ -126,6 +130,12 @@ protected:
 
 	/** Copy of the font used for chat, with the font fallback value modified */
 	FSlateFontInfo ChatFont;
+
+	/** Toggle Button*/
+	TSharedPtr<SButton> SlowChatToggle;
+	TSharedPtr<SBox> SlowChatIndicator;
+
+	
 };
 
 

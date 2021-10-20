@@ -20,7 +20,9 @@ AShooterGameMode::AShooterGameMode(const FObjectInitializer& ObjectInitializer) 
 	static ConstructorHelpers::FClassFinder<APawn> BotPawnOb(TEXT("/Game/Blueprints/Pawns/BotPawn"));
 	BotPawnClass = BotPawnOb.Class;
 
-	HUDClass = AShooterHUD::StaticClass();
+	static ConstructorHelpers::FClassFinder<AHUD> HUDOb(TEXT("/Game/UI/BP_ShooterHUD"));
+	HUDClass = HUDOb.Class;
+
 	PlayerControllerClass = AShooterPlayerController::StaticClass();
 	PlayerStateClass = AShooterPlayerState::StaticClass();
 	SpectatorClass = AShooterSpectatorPawn::StaticClass();

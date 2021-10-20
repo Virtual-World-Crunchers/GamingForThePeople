@@ -35,6 +35,10 @@ public class ShooterGame : ModuleRules
 				"AIModule",
 				"GameplayTasks",
 				"Gauntlet",
+				"Slate",
+				"SlateCore",
+				"InputCore",
+				"UMG"
 			}
 		);
 
@@ -50,7 +54,8 @@ public class ShooterGame : ModuleRules
 				"PakFile",
 				"RHI",
 				"PhysicsCore",
-				"GameplayCameras"
+				"GameplayCameras",
+				"UMG"
 			}
 		);
 
