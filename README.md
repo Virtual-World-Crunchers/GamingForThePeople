@@ -43,12 +43,12 @@ If suspicious toxic messages detect in the chat. A pop up window will allows use
 
 
 ## Authors
-* [@Alicat42](https://github.com/Alicat42)<br>
-* [@ek-williams](https://github.com/ek-williams)<br>
-* [@ethanxu98](https://github.com/ethanxu98)<br>
-* [@Jrui24](https://github.com/Jrui24)<br>
-* [@marcopolo141](https://github.com/marcopolo141)<br>
-* [@RileyHen](https://github.com/RileyHen)
+[@Alicat42](https://github.com/Alicat42)<br>
+[@ek-williams](https://github.com/ek-williams)<br>
+[@ethanxu98](https://github.com/ethanxu98)<br>
+[@Jrui24](https://github.com/Jrui24)<br>
+[@marcopolo141](https://github.com/marcopolo141)<br>
+[@RileyHen](https://github.com/RileyHen)
 
 
 ## Acknowledgements
