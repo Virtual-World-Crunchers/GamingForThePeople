@@ -23,11 +23,23 @@ Before cloning the repo from GitHub, make sure the Git LFS (Large File Storage) 
 git clone https://github.com/Virtual-World-Crunchers/GamingForThePeople.git
 ```
 
-2. Use Unreal Engine to open the project <br>
+2. Open the project file <br>
+
+Either:
+
+
+* Open the application file (Currently for Windows) <br>
+```shell
+.../Lacuna_V1/WindowsNoEditor/ShooterGame.exe
+```
+
+OR
+
+* Use Unreal Engine to open the project <br>
 ```shell
 .../VWC-Project/Prototype1/Prototype1.uproject
 ```
-3. Launch the game by clicking on _"Launch"_ in the top menu bar
+* And launch the game by clicking on _"Launch"_ in the top menu bar
 
 
 ## Usage
