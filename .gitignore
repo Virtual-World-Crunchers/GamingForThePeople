@@ -1,3 +1,7 @@
+# Whitelist Package
+!Lacuna_V1/
+!Lacuna_V1/*/**
+
 # Visual Studio 2015 user specific files
 .vs/
 
@@ -73,5 +77,4 @@ Plugins/*/Intermediate/*
 # Cache files for the editor to use
 DerivedDataCache/*
 
-# Whitelist Package
-!Lacuna_V1/*
+
