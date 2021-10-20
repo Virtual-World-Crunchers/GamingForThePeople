@@ -605,7 +605,7 @@ Engine:TextureFormatOodle:GlobalLambdaMultiplier:0=1.000000
 Engine:TextureFormatOodle:DefaultRDOLambda:0=30
 Game:/Script/UnrealEd.ProjectPackagingSettings:Build:0=IfProjectHasCode
 Game:/Script/UnrealEd.ProjectPackagingSettings:BuildTarget:0=
-Game:/Script/UnrealEd.ProjectPackagingSettings:StagingDirectory:0=(Path="C/Users/truth/Documents/DECO3500_Project/GamingForThePeople/VWC-Project/Lacuna_V1")
+Game:/Script/UnrealEd.ProjectPackagingSettings:StagingDirectory:0=(Path="C/Users/truth/Documents/DECO3500_Project/GamingForThePeople/Lacuna_V1")
 Game:/Script/UnrealEd.ProjectPackagingSettings:ForDistribution:0=False
 Game:/Script/UnrealEd.ProjectPackagingSettings:IncludeDebugFiles:0=False
 Game:/Script/UnrealEd.ProjectPackagingSettings:BlueprintNativizationMethod:0=Disabled
