@@ -17,12 +17,59 @@ void EmptyLinkFunctionForGeneratedCodeShooterHUD() {}
 	SHOOTERGAME_API UClass* Z_Construct_UClass_AShooterHUD();
 	ENGINE_API UClass* Z_Construct_UClass_AHUD();
 	UPackage* Z_Construct_UPackage__Script_ShooterGame();
+	COREUOBJECT_API UClass* Z_Construct_UClass_UClass();
+	UMG_API UClass* Z_Construct_UClass_UUserWidget_NoRegister();
 	ENGINE_API UScriptStruct* Z_Construct_UScriptStruct_FCanvasIcon();
 	ENGINE_API UClass* Z_Construct_UClass_UTexture2D_NoRegister();
 	ENGINE_API UClass* Z_Construct_UClass_UFont_NoRegister();
 // End Cross Module References
+	DEFINE_FUNCTION(AShooterHUD::execUpdateText)
+	{
+		P_GET_PROPERTY(FTextProperty,Z_Param_text);
+		P_FINISH;
+		P_NATIVE_BEGIN;
+		P_THIS->UpdateText(Z_Param_text);
+		P_NATIVE_END;
+	}
 	void AShooterHUD::StaticRegisterNativesAShooterHUD()
 	{
+		UClass* Class = AShooterHUD::StaticClass();
+		static const FNameNativePtrPair Funcs[] = {
+			{ "UpdateText", &AShooterHUD::execUpdateText },
+		};
+		FNativeFunctionRegistrar::RegisterFunctions(Class, Funcs, UE_ARRAY_COUNT(Funcs));
+	}
+	struct Z_Construct_UFunction_AShooterHUD_UpdateText_Statics
+	{
+		struct ShooterHUD_eventUpdateText_Parms
+		{
+			FText text;
+		};
+		static const UE4CodeGen_Private::FTextPropertyParams NewProp_text;
+		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
+#endif
+		static const UE4CodeGen_Private::FFunctionParams FuncParams;
+	};
+	const UE4CodeGen_Private::FTextPropertyParams Z_Construct_UFunction_AShooterHUD_UpdateText_Statics::NewProp_text = { "text", nullptr, (EPropertyFlags)0x0010000000000080, UE4CodeGen_Private::EPropertyGenFlags::Text, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ShooterHUD_eventUpdateText_Parms, text), METADATA_PARAMS(nullptr, 0) };
+	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_AShooterHUD_UpdateText_Statics::PropPointers[] = {
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_AShooterHUD_UpdateText_Statics::NewProp_text,
+	};
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_AShooterHUD_UpdateText_Statics::Function_MetaDataParams[] = {
+		{ "ModuleRelativePath", "Public/UI/ShooterHUD.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_AShooterHUD_UpdateText_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_AShooterHUD, nullptr, "UpdateText", nullptr, nullptr, sizeof(ShooterHUD_eventUpdateText_Parms), Z_Construct_UFunction_AShooterHUD_UpdateText_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_AShooterHUD_UpdateText_Statics::PropPointers), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x00020401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_AShooterHUD_UpdateText_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_AShooterHUD_UpdateText_Statics::Function_MetaDataParams)) };
+	UFunction* Z_Construct_UFunction_AShooterHUD_UpdateText()
+	{
+		static UFunction* ReturnFunction = nullptr;
+		if (!ReturnFunction)
+		{
+			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_AShooterHUD_UpdateText_Statics::FuncParams);
+		}
+		return ReturnFunction;
 	}
 	UClass* Z_Construct_UClass_AShooterHUD_NoRegister()
 	{
@@ -31,9 +78,14 @@ void EmptyLinkFunctionForGeneratedCodeShooterHUD() {}
 	struct Z_Construct_UClass_AShooterHUD_Statics
 	{
 		static UObject* (*const DependentSingletons[])();
+		static const FClassFunctionLinkInfo FuncInfo[];
 #if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam Class_MetaDataParams[];
 #endif
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_NotificationWidgetClass_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FClassPropertyParams NewProp_NotificationWidgetClass;
 #if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_HitNotifyIcon_MetaData[];
 #endif
@@ -126,6 +178,9 @@ void EmptyLinkFunctionForGeneratedCodeShooterHUD() {}
 		(UObject* (*)())Z_Construct_UClass_AHUD,
 		(UObject* (*)())Z_Construct_UPackage__Script_ShooterGame,
 	};
+	const FClassFunctionLinkInfo Z_Construct_UClass_AShooterHUD_Statics::FuncInfo[] = {
+		{ &Z_Construct_UFunction_AShooterHUD_UpdateText, "UpdateText" }, // 2130290348
+	};
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AShooterHUD_Statics::Class_MetaDataParams[] = {
 		{ "HideCategories", "Rendering Actor Input Replication" },
@@ -134,6 +189,13 @@ void EmptyLinkFunctionForGeneratedCodeShooterHUD() {}
 		{ "ShowCategories", "Input|MouseInput Input|TouchInput" },
 	};
 #endif
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AShooterHUD_Statics::NewProp_NotificationWidgetClass_MetaData[] = {
+		{ "Category", "Widgets" },
+		{ "ModuleRelativePath", "Public/UI/ShooterHUD.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FClassPropertyParams Z_Construct_UClass_AShooterHUD_Statics::NewProp_NotificationWidgetClass = { "NotificationWidgetClass", nullptr, (EPropertyFlags)0x0014000000010001, UE4CodeGen_Private::EPropertyGenFlags::Class, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AShooterHUD, NotificationWidgetClass), Z_Construct_UClass_UUserWidget_NoRegister, Z_Construct_UClass_UClass, METADATA_PARAMS(Z_Construct_UClass_AShooterHUD_Statics::NewProp_NotificationWidgetClass_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AShooterHUD_Statics::NewProp_NotificationWidgetClass_MetaData)) };
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AShooterHUD_Statics::NewProp_HitNotifyIcon_MetaData[] = {
 		{ "Comment", "/** Icons for hit indicator. */" },
@@ -303,6 +365,7 @@ void EmptyLinkFunctionForGeneratedCodeShooterHUD() {}
 #endif
 	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AShooterHUD_Statics::NewProp_NormalFont = { "NormalFont", nullptr, (EPropertyFlags)0x0020080000000000, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AShooterHUD, NormalFont), Z_Construct_UClass_UFont_NoRegister, METADATA_PARAMS(Z_Construct_UClass_AShooterHUD_Statics::NewProp_NormalFont_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AShooterHUD_Statics::NewProp_NormalFont_MetaData)) };
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_AShooterHUD_Statics::PropPointers[] = {
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AShooterHUD_Statics::NewProp_NotificationWidgetClass,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AShooterHUD_Statics::NewProp_HitNotifyIcon,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AShooterHUD_Statics::NewProp_KillsBg,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AShooterHUD_Statics::NewProp_TimePlaceBg,
@@ -333,11 +396,11 @@ void EmptyLinkFunctionForGeneratedCodeShooterHUD() {}
 		"Game",
 		&StaticCppClassTypeInfo,
 		DependentSingletons,
-		nullptr,
+		FuncInfo,
 		Z_Construct_UClass_AShooterHUD_Statics::PropPointers,
 		nullptr,
 		UE_ARRAY_COUNT(DependentSingletons),
-		0,
+		UE_ARRAY_COUNT(FuncInfo),
 		UE_ARRAY_COUNT(Z_Construct_UClass_AShooterHUD_Statics::PropPointers),
 		0,
 		0x008002ACu,
@@ -352,7 +415,7 @@ void EmptyLinkFunctionForGeneratedCodeShooterHUD() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(AShooterHUD, 147708966);
+	IMPLEMENT_CLASS(AShooterHUD, 1907377208);
 	template<> SHOOTERGAME_API UClass* StaticClass<AShooterHUD>()
 	{
 		return AShooterHUD::StaticClass();

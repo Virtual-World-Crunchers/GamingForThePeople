@@ -3,6 +3,9 @@
 #pragma once
 
 #include "ShooterTypes.h"
+#include "GameFramework/HUD.h"
+#include "Components/WidgetComponent.h"
+#include "NotificationWidget.h"
 #include "ShooterHUD.generated.h"
 
 struct FHitData
@@ -64,6 +67,15 @@ class AShooterHUD : public AHUD
 	GENERATED_UCLASS_BODY()
 
 public:
+	virtual void BeginPlay() override;
+
+	virtual void Tick(float DeltaSeconds) override;
+
+	UFUNCTION()
+	void UpdateText(FText text);
+
+	UPROPERTY(EditDefaultsOnly, Category = "Widgets")
+	TSubclassOf<UUserWidget> NotificationWidgetClass;
 
 	virtual void EndPlay(const EEndPlayReason::Type EndPlayReason) override;
 
@@ -397,6 +409,7 @@ protected:
 	*/
 	float ShowInfoItems(float YOffset, float TextScale);
 
-	
+private:
+	UNotificationWidget* NotificationWidget;
 	
 };

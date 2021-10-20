@@ -106,6 +106,26 @@ AShooterHUD::AShooterHUD(const FObjectInitializer& ObjectInitializer) : Super(Ob
 	tcHUD->SetWorldPtr(GetWorld());
 }
 
+void AShooterHUD::BeginPlay() {
+	Super::BeginPlay();
+	if (NotificationWidgetClass) {
+		NotificationWidget = CreateWidget<UNotificationWidget>(GetWorld(), NotificationWidgetClass);
+		if (NotificationWidget) {
+			NotificationWidget->AddToViewport();
+		}
+	}
+}
+
+void AShooterHUD::Tick(float DeltaSeconds) {
+	Super::Tick(DeltaSeconds);
+}
+
+void AShooterHUD::UpdateText(FText text) {
+	if (NotificationWidget) {
+		NotificationWidget->UpdateText(text);
+	}
+}
+
 void AShooterHUD::EndPlay(const EEndPlayReason::Type EndPlayReason)
 {
 	ConditionalCloseScoreboard(true);
@@ -936,7 +956,8 @@ void AShooterHUD::ShowDeathMessage(class AShooterPlayerState* KillerPlayerState,
 				AddChatLine(tcHUD->SelectRandom(), true);
 				tcHUD->StartSlowChatTimerBOT();
 			}
-			
+			FString NotificationMessage = FString(TEXT("Possible toxicity detected from ")) + NewMessage.KillerDesc;
+			UpdateText(FText::FromString(NotificationMessage));
 		}
 	}
 }
