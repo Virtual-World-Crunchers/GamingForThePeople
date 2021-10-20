@@ -4,10 +4,12 @@
 
 **Lacuna v1** is a project that is attempting to address toxicity in competitive online team-based games, particularly on solo players that play games like League of Legends. It is our hope that we can encourage a more friendlier gaming community through a means of immediate intervention when toxic behaviour occurs during gameplay.
 
+
 ## Features included:
-* Slow chat mode
-* Warning Tips
-* Discouraging toxicity in game
+* Slow Mode Chat
+* Toxicity Notification
+* Individual Muting
+
 
 ## Getting Started
 The following instructions will help you to get a copy  of the game and run it locally.
@@ -25,7 +27,30 @@ git clone https://github.com/Virtual-World-Crunchers/GamingForThePeople.git
 ```shell
 .../VWC-Project/Prototype1/Prototype1.uproject
 ```
-3. Launch the game
+3. Launch the game by clicking on _"Launch"_ in the top menu bar
+
 
 ## Usage
-Users can choose whether they want to enable message delay or not when they are receiving toxic messages. A notification will pop up, which will notify the players that they have already enabled the slow chat mode if they choose yes. There will be no changes if the user do not want to turn on this function. The slow chat feature can also be toggled on by using "ALT + 1" command to enable the slow chat mode and disable it as the user needs.
+### Slow Mode Chat:
+Users can choose whether they want to enable message delay when they are receiving toxic messages with "ALT + 1" keybind. A message will pop up, which will notify the players that they have already enabled the slow chat mode if they choose yes. The slow chat feature can also be toggled on by using "ALT + 1" command to disable it as the user needs. There will be no changes if the user do not want to turn on this function. 
+
+![](https://github.com/Virtual-World-Crunchers/GamingForThePeople/blob/wiki/wiki/usage_1.GIF?raw=true)
+
+### Toxicity Notification
+If suspicious toxic messages detect in the chat. A pop up window will allows user to determine whether they think the chat log is toxic and mute the players they think is toxic.
+
+![](https://github.com/Virtual-World-Crunchers/GamingForThePeople/blob/wiki/wiki/notifications.jpeg?raw=true)
+
+
+## Authors
+* [@Alicat42](https://github.com/Alicat42)<br>
+* [@ek-williams](https://github.com/ek-williams)<br>
+* [@ethanxu98](https://github.com/ethanxu98)<br>
+* [@Jrui24](https://github.com/Jrui24)<br>
+* [@marcopolo141](https://github.com/marcopolo141)<br>
+* [@RileyHen](https://github.com/RileyHen)
+
+
+## Acknowledgements
+### Used Asset:
+* [Shooter Game](https://github.com/Noesis/UE4-ShooterGame)
