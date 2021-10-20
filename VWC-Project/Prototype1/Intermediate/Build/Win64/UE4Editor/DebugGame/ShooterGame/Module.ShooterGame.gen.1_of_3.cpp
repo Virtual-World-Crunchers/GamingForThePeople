@@ -2,6 +2,7 @@
 #include "C:/Users/truth/Documents/DECO3500_Project/GamingForThePeople/VWC-Project/Prototype1/Intermediate/Build/Win64/UE4Editor/Inc/ShooterGame/BTDecorator_HasLoSTo.gen.cpp"
 #include "C:/Users/truth/Documents/DECO3500_Project/GamingForThePeople/VWC-Project/Prototype1/Intermediate/Build/Win64/UE4Editor/Inc/ShooterGame/BTTask_FindPickup.gen.cpp"
 #include "C:/Users/truth/Documents/DECO3500_Project/GamingForThePeople/VWC-Project/Prototype1/Intermediate/Build/Win64/UE4Editor/Inc/ShooterGame/BTTask_FindPointNearEnemy.gen.cpp"
+#include "C:/Users/truth/Documents/DECO3500_Project/GamingForThePeople/VWC-Project/Prototype1/Intermediate/Build/Win64/UE4Editor/Inc/ShooterGame/NotificationWidget.gen.cpp"
 #include "C:/Users/truth/Documents/DECO3500_Project/GamingForThePeople/VWC-Project/Prototype1/Intermediate/Build/Win64/UE4Editor/Inc/ShooterGame/ShooterAIController.gen.cpp"
 #include "C:/Users/truth/Documents/DECO3500_Project/GamingForThePeople/VWC-Project/Prototype1/Intermediate/Build/Win64/UE4Editor/Inc/ShooterGame/ShooterBot.gen.cpp"
 #include "C:/Users/truth/Documents/DECO3500_Project/GamingForThePeople/VWC-Project/Prototype1/Intermediate/Build/Win64/UE4Editor/Inc/ShooterGame/ShooterCharacter.gen.cpp"
@@ -30,4 +31,3 @@
 #include "C:/Users/truth/Documents/DECO3500_Project/GamingForThePeople/VWC-Project/Prototype1/Intermediate/Build/Win64/UE4Editor/Inc/ShooterGame/ShooterMenuWidgetStyle.gen.cpp"
 #include "C:/Users/truth/Documents/DECO3500_Project/GamingForThePeople/VWC-Project/Prototype1/Intermediate/Build/Win64/UE4Editor/Inc/ShooterGame/ShooterOnlineSessionClient.gen.cpp"
 #include "C:/Users/truth/Documents/DECO3500_Project/GamingForThePeople/VWC-Project/Prototype1/Intermediate/Build/Win64/UE4Editor/Inc/ShooterGame/ShooterOptionsWidgetStyle.gen.cpp"
-#include "C:/Users/truth/Documents/DECO3500_Project/GamingForThePeople/VWC-Project/Prototype1/Intermediate/Build/Win64/UE4Editor/Inc/ShooterGame/ShooterPersistentUser.gen.cpp"

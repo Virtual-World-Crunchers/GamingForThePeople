@@ -6,6 +6,7 @@
 #include "C:/Users/truth/Documents/DECO3500_Project/GamingForThePeople/VWC-Project/Prototype1/Source/ShooterGame/Private/Bots/ShooterBot.cpp"
 #include "C:/Users/truth/Documents/DECO3500_Project/GamingForThePeople/VWC-Project/Prototype1/Source/ShooterGame/Private/Effects/ShooterExplosionEffect.cpp"
 #include "C:/Users/truth/Documents/DECO3500_Project/GamingForThePeople/VWC-Project/Prototype1/Source/ShooterGame/Private/Effects/ShooterImpactEffect.cpp"
+#include "C:/Users/truth/Documents/DECO3500_Project/GamingForThePeople/VWC-Project/Prototype1/Source/ShooterGame/Private/NotificationWidget.cpp"
 #include "C:/Users/truth/Documents/DECO3500_Project/GamingForThePeople/VWC-Project/Prototype1/Source/ShooterGame/Private/Online/ShooterGame_FreeForAll.cpp"
 #include "C:/Users/truth/Documents/DECO3500_Project/GamingForThePeople/VWC-Project/Prototype1/Source/ShooterGame/Private/Online/ShooterGame_Menu.cpp"
 #include "C:/Users/truth/Documents/DECO3500_Project/GamingForThePeople/VWC-Project/Prototype1/Source/ShooterGame/Private/Online/ShooterGame_TeamDeathMatch.cpp"

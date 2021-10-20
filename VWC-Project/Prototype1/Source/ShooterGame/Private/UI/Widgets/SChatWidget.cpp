@@ -225,6 +225,9 @@ void SChatWidget::Tick( const FGeometry& AllottedGeometry, const double InCurren
 			// Enter UI mode
 			FSlateApplication::Get().SetKeyboardFocus( SharedThis(this) );
 
+			FString here = TEXT("Here");
+			AddChatLine(FText::FromString(here), true);
+
 			if (ChatEditBox.IsValid())
 			{
 				FWidgetPath WidgetToFocusPath;
@@ -273,13 +276,6 @@ TSharedRef<SWidget> SChatWidget::AsWidget()
 void SChatWidget::SlowChatStatus(bool status) {
 	const FText slowChatEnabled = LOCTEXT("SlowChatEn", "Slow Chat Enabled...");
 	const FText slowChatDisabled = LOCTEXT("SlowChatDis", "Slow Chat Disabled...");
-
-	/*
-	const FText slowChatTimer = LOCTEXT("SlowChatTimer", "Timer not found...");
-	if (!UToxicChatHUD::TimerIsLoaded()) {
-		AddChatLine(slowChatTimer, false);
-	}
-	*/
 
 	SCStatus = status;
 

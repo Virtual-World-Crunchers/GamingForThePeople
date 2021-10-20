@@ -1116,7 +1116,7 @@ Engine/Plugins/Online/OnlineSubsystemUtils/Content/Localization/OnlineSubsystemU
 Engine/Plugins/Online/OnlineSubsystemUtils/Content/Localization/OnlineSubsystemUtils/en/OnlineSubsystemUtils.locres	2021-09-23T01:46:51.187Z
 Engine/Plugins/Online/OnlineSubsystemSteam/Content/Localization/OnlineSubsystemSteam/OnlineSubsystemSteam.locmeta	2021-09-23T01:46:50.681Z
 Engine/Plugins/Online/OnlineSubsystemSteam/Content/Localization/OnlineSubsystemSteam/en/OnlineSubsystemSteam.locres	2021-09-23T01:46:50.633Z
-Engine/GlobalShaderCache-PCD3D_SM5.bin	2021-10-20T04:59:47.730Z
+Engine/GlobalShaderCache-PCD3D_SM5.bin	2021-10-20T11:54:44.084Z
 Engine/Content/Animation/DefaultAnimBoneCompressionSettings.uasset	2021-10-20T04:46:10.313Z
 Engine/Content/Animation/DefaultAnimBoneCompressionSettings.uexp	2021-10-20T04:46:10.314Z
 Engine/Content/Animation/DefaultAnimCurveCompressionSettings.uasset	2021-10-20T04:46:10.312Z
@@ -2086,13 +2086,13 @@ Engine/Plugins/Runtime/OpenXR/Content/Devices/ValveIndex/Right/right_MRTexture.u
 Engine/Plugins/Runtime/OpenXR/Content/Devices/ValveIndex/Right/right_MRTexture.uexp	2021-10-20T04:46:11.855Z
 Engine/Plugins/Runtime/OpenXR/Content/Devices/ValveIndex/Right/right_ValveIndexController.uasset	2021-10-20T04:46:09.378Z
 Engine/Plugins/Runtime/OpenXR/Content/Devices/ValveIndex/Right/right_ValveIndexController.uexp	2021-10-20T04:46:09.380Z
-Prototype1/AssetRegistry.bin	2021-10-20T04:59:47.920Z
+Prototype1/AssetRegistry.bin	2021-10-20T11:54:45.743Z
 Prototype1/Content/DmgType_Explosion.uasset	2021-10-20T04:46:09.852Z
 Prototype1/Content/DmgType_Explosion.uexp	2021-10-20T04:46:09.853Z
 Prototype1/Content/DmgType_Instant.uasset	2021-10-20T04:46:10.181Z
 Prototype1/Content/DmgType_Instant.uexp	2021-10-20T04:46:10.182Z
-Prototype1/Content/ShaderArchive-Global-PCD3D_SM5.ushaderbytecode	2021-10-20T04:59:47.763Z
-Prototype1/Content/ShaderArchive-Prototype1-PCD3D_SM5.ushaderbytecode	2021-10-20T04:59:48.038Z
+Prototype1/Content/ShaderArchive-Global-PCD3D_SM5.ushaderbytecode	2021-10-20T11:54:44.110Z
+Prototype1/Content/ShaderArchive-Prototype1-PCD3D_SM5.ushaderbytecode	2021-10-20T11:54:45.885Z
 Prototype1/Content/Animations/FPP_Animations/FPP_LanucherReload.uasset	2021-10-20T04:46:09.908Z
 Prototype1/Content/Animations/FPP_Animations/FPP_LanucherReload.uexp	2021-10-20T04:46:09.910Z
 Prototype1/Content/Animations/FPP_Animations/FPP_LauncherAim.uasset	2021-10-20T04:46:10.820Z
@@ -3218,8 +3218,8 @@ Prototype1/Content/Environment/Textures/T_Water_Sea_01_N.uexp	2021-10-20T04:46:1
 Prototype1/Content/Environment/Textures/unreal_engine.uasset	2021-10-20T04:46:07.846Z
 Prototype1/Content/Environment/Textures/unreal_engine.ubulk	2021-10-20T04:46:07.845Z
 Prototype1/Content/Environment/Textures/unreal_engine.uexp	2021-10-20T04:46:07.847Z
-Prototype1/Content/Maps/Highrise.uexp	2021-10-20T04:46:08.657Z
-Prototype1/Content/Maps/Highrise.umap	2021-10-20T04:46:08.656Z
+Prototype1/Content/Maps/Highrise.uexp	2021-10-20T11:54:45.594Z
+Prototype1/Content/Maps/Highrise.umap	2021-10-20T11:54:45.592Z
 Prototype1/Content/Maps/Highrise_Audio.uexp	2021-10-20T04:46:06.489Z
 Prototype1/Content/Maps/Highrise_Audio.umap	2021-10-20T04:46:06.488Z
 Prototype1/Content/Maps/Highrise_Audio_BuiltData.uasset	2021-10-20T04:46:06.268Z
@@ -3244,8 +3244,8 @@ Prototype1/Content/Maps/Highrise_Vista.umap	2021-10-20T04:46:07.479Z
 Prototype1/Content/Maps/Highrise_Vista_BuiltData.uasset	2021-10-20T04:46:07.391Z
 Prototype1/Content/Maps/Highrise_Vista_BuiltData.ubulk	2021-10-20T04:46:07.376Z
 Prototype1/Content/Maps/Highrise_Vista_BuiltData.uexp	2021-10-20T04:46:07.393Z
-Prototype1/Content/Maps/Sanctuary.uexp	2021-10-20T04:46:15.613Z
-Prototype1/Content/Maps/Sanctuary.umap	2021-10-20T04:46:15.609Z
+Prototype1/Content/Maps/Sanctuary.uexp	2021-10-20T11:54:44.762Z
+Prototype1/Content/Maps/Sanctuary.umap	2021-10-20T11:54:44.756Z
 Prototype1/Content/Maps/Sanctuary_Audio.uexp	2021-10-20T04:46:15.181Z
 Prototype1/Content/Maps/Sanctuary_Audio.umap	2021-10-20T04:46:15.180Z
 Prototype1/Content/Maps/Sanctuary_Audio_BuiltData.uasset	2021-10-20T04:46:15.064Z
