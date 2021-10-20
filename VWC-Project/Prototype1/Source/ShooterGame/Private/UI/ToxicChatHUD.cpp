@@ -11,17 +11,27 @@ static bool filterChat;
 static bool timerLoaded;
 static FString timer;
 
-#define MAX_TIME 10.0f
+
+//player slow chat timer
+#define MAX_TIME 20.0f //20 seconds
 float timeVar;
 bool timing;
 FTimerHandle SCTimerHandle;
 UWorld* world;
+
+//toxic chat from bots on bot/player death slow chat
+float timeBOT;
+bool timingBOT;
+FTimerHandle SCTimerHandleBOT;
 
 UToxicChatHUD::UToxicChatHUD() {
 	slowChat = false;
 	filterChat = false;
 	timeVar = 0.0f;
 	timing = false;
+
+	timeBOT = 0.0f;
+	timingBOT = false;
 }
 
 
@@ -78,6 +88,10 @@ bool UToxicChatHUD::GetTimerStatus() {
 	return timing;
 }
 
+bool UToxicChatHUD::GetTimerStatusBOT() {
+	return timingBOT;
+}
+
 void UToxicChatHUD::SetWorldPtr(UWorld* worldPtr) {
 	world = worldPtr;
 }
@@ -98,11 +112,7 @@ void UToxicChatHUD::StartSlowChatTimer() {
 
 	// Start timing
 	timing = true;
-
-	
 	world->GetTimerManager().SetTimer(SCTimerHandle, this, &UToxicChatHUD::UpdateSlowChatTimer, 1.0f, true, 1.0f);
-	
-	
 }
 
 void UToxicChatHUD::UpdateSlowChatTimer() {
@@ -116,6 +126,32 @@ void UToxicChatHUD::UpdateSlowChatTimer() {
 			timing = false;
 			timeVar = 0.0f;
 			world->GetTimerManager().ClearTimer(SCTimerHandle);
+		}
+	}
+}
+
+void UToxicChatHUD::StartSlowChatTimerBOT() {
+
+	// Reset timer to begin at max time if it is at zero
+	if (timeBOT == 0.0f) {
+		timeBOT = MAX_TIME;
+	}
+
+	// Start timing
+	timingBOT = true;
+	world->GetTimerManager().SetTimer(SCTimerHandleBOT, this, &UToxicChatHUD::UpdateSlowChatTimerBOT, 1.0f, true, 1.0f);
+}
+
+void UToxicChatHUD::UpdateSlowChatTimerBOT() {
+	//if the timer is running, take 1 second from the time and update the string
+	if (timingBOT == true) {
+		timeBOT--;
+
+		// If the time reaches 0, stop the timer.
+		if (timeBOT <= 0.0f) {
+			timingBOT = false;
+			timeBOT = 0.0f;
+			world->GetTimerManager().ClearTimer(SCTimerHandleBOT);
 		}
 	}
 }

@@ -16,11 +16,13 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #define Prototype1_Source_ShooterGame_Public_UI_ToxicChatHUD_h_16_SPARSE_DATA
 #define Prototype1_Source_ShooterGame_Public_UI_ToxicChatHUD_h_16_RPC_WRAPPERS \
  \
+	DECLARE_FUNCTION(execUpdateSlowChatTimerBOT); \
 	DECLARE_FUNCTION(execUpdateSlowChatTimer);
 
 
 #define Prototype1_Source_ShooterGame_Public_UI_ToxicChatHUD_h_16_RPC_WRAPPERS_NO_PURE_DECLS \
  \
+	DECLARE_FUNCTION(execUpdateSlowChatTimerBOT); \
 	DECLARE_FUNCTION(execUpdateSlowChatTimer);
 
 

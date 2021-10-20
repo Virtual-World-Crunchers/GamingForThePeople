@@ -14,5 +14,5 @@
     [3/4] UE4Editor-ShooterGame-Win64-DebugGame.dll
        Creating library C:\Users\truth\Documents\DECO3500_Project\GamingForThePeople\VWC-Project\Prototype1\Intermediate\Build\Win64\UE4Editor\DebugGame\ShooterGame\UE4Editor-ShooterGame-Win64-DebugGame.suppressed.lib and object C:\Users\truth\Documents\DECO3500_Project\GamingForThePeople\VWC-Project\Prototype1\Intermediate\Build\Win64\UE4Editor\DebugGame\ShooterGame\UE4Editor-ShooterGame-Win64-DebugGame.suppressed.exp
     [4/4] ShooterGameEditor-Win64-DebugGame.target
-  Total time in Parallel executor: 91.23 seconds
-  Total execution time: 92.71 seconds
+  Total time in Parallel executor: 89.61 seconds
+  Total execution time: 90.48 seconds

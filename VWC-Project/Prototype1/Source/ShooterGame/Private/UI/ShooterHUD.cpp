@@ -931,8 +931,12 @@ void AShooterHUD::ShowDeathMessage(class AShooterPlayerState* KillerPlayerState,
 				CenteredKillMessage = FText::FromString(NewMessage.VictimDesc);
 			}
 
-			//toxic chat
-			AddChatLine(tcHUD->SelectRandom(), false);
+			//toxic chat on death
+			if (!tcHUD->GetSlowChat() || (tcHUD->GetSlowChat() && !tcHUD->GetTimerStatusBOT())) {
+				AddChatLine(tcHUD->SelectRandom(), true);
+				tcHUD->StartSlowChatTimerBOT();
+			}
+			
 		}
 	}
 }
@@ -1303,6 +1307,7 @@ void AShooterHUD::UpdateFilterChat() {
 
 void AShooterHUD::SlowChatTimer(bool status){
 	if (status) {
+		tcHUD->SetWorldPtr(GetWorld());
 		tcHUD->TimerBP();
 	}
 	

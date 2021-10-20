@@ -31,12 +31,12 @@ class SHOOTERGAME_API UToxicChatHUD : public UObject
 		static FText SelectRandom();
 		static void ToggleSlowChat();
 		static void ToggleFilterChat();
+
 		static bool GetSlowChat();
 		static bool GetFilterChat();
 		FString GetCurrentTime();
 		bool GetTimerStatus();
 		void TimerBP();
-		
 		void StartSlowChatTimer();
 		FString currentTime = TEXT("");
 		
@@ -45,6 +45,9 @@ class SHOOTERGAME_API UToxicChatHUD : public UObject
 		void UpdateSlowChatTimer();
 
 		void SetWorldPtr(UWorld* worldPtr);
-		//virtual class UWorld* GetWorld() const override;
-	
+		
+		void StartSlowChatTimerBOT();
+		bool GetTimerStatusBOT();
+		UFUNCTION()
+		void UpdateSlowChatTimerBOT();
 };

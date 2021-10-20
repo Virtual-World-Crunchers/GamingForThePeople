@@ -18,6 +18,13 @@ void EmptyLinkFunctionForGeneratedCodeToxicChatHUD() {}
 	COREUOBJECT_API UClass* Z_Construct_UClass_UObject();
 	UPackage* Z_Construct_UPackage__Script_ShooterGame();
 // End Cross Module References
+	DEFINE_FUNCTION(UToxicChatHUD::execUpdateSlowChatTimerBOT)
+	{
+		P_FINISH;
+		P_NATIVE_BEGIN;
+		P_THIS->UpdateSlowChatTimerBOT();
+		P_NATIVE_END;
+	}
 	DEFINE_FUNCTION(UToxicChatHUD::execUpdateSlowChatTimer)
 	{
 		P_FINISH;
@@ -30,6 +37,7 @@ void EmptyLinkFunctionForGeneratedCodeToxicChatHUD() {}
 		UClass* Class = UToxicChatHUD::StaticClass();
 		static const FNameNativePtrPair Funcs[] = {
 			{ "UpdateSlowChatTimer", &UToxicChatHUD::execUpdateSlowChatTimer },
+			{ "UpdateSlowChatTimerBOT", &UToxicChatHUD::execUpdateSlowChatTimerBOT },
 		};
 		FNativeFunctionRegistrar::RegisterFunctions(Class, Funcs, UE_ARRAY_COUNT(Funcs));
 	}
@@ -55,6 +63,28 @@ void EmptyLinkFunctionForGeneratedCodeToxicChatHUD() {}
 		}
 		return ReturnFunction;
 	}
+	struct Z_Construct_UFunction_UToxicChatHUD_UpdateSlowChatTimerBOT_Statics
+	{
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
+#endif
+		static const UE4CodeGen_Private::FFunctionParams FuncParams;
+	};
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_UToxicChatHUD_UpdateSlowChatTimerBOT_Statics::Function_MetaDataParams[] = {
+		{ "ModuleRelativePath", "Public/UI/ToxicChatHUD.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_UToxicChatHUD_UpdateSlowChatTimerBOT_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UToxicChatHUD, nullptr, "UpdateSlowChatTimerBOT", nullptr, nullptr, 0, nullptr, 0, RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x00020401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_UToxicChatHUD_UpdateSlowChatTimerBOT_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_UToxicChatHUD_UpdateSlowChatTimerBOT_Statics::Function_MetaDataParams)) };
+	UFunction* Z_Construct_UFunction_UToxicChatHUD_UpdateSlowChatTimerBOT()
+	{
+		static UFunction* ReturnFunction = nullptr;
+		if (!ReturnFunction)
+		{
+			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_UToxicChatHUD_UpdateSlowChatTimerBOT_Statics::FuncParams);
+		}
+		return ReturnFunction;
+	}
 	UClass* Z_Construct_UClass_UToxicChatHUD_NoRegister()
 	{
 		return UToxicChatHUD::StaticClass();
@@ -75,6 +105,7 @@ void EmptyLinkFunctionForGeneratedCodeToxicChatHUD() {}
 	};
 	const FClassFunctionLinkInfo Z_Construct_UClass_UToxicChatHUD_Statics::FuncInfo[] = {
 		{ &Z_Construct_UFunction_UToxicChatHUD_UpdateSlowChatTimer, "UpdateSlowChatTimer" }, // 1904155414
+		{ &Z_Construct_UFunction_UToxicChatHUD_UpdateSlowChatTimerBOT, "UpdateSlowChatTimerBOT" }, // 4014503987
 	};
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UToxicChatHUD_Statics::Class_MetaDataParams[] = {
@@ -112,7 +143,7 @@ void EmptyLinkFunctionForGeneratedCodeToxicChatHUD() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(UToxicChatHUD, 3544949315);
+	IMPLEMENT_CLASS(UToxicChatHUD, 3399732146);
 	template<> SHOOTERGAME_API UClass* StaticClass<UToxicChatHUD>()
 	{
 		return UToxicChatHUD::StaticClass();

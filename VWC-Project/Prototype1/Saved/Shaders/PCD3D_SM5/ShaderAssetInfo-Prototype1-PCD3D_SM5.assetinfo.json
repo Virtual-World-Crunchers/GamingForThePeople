@@ -2,110 +2,6 @@
 	"AssetInfoVersion": 2,
 	"ShaderCodeToAssets": [
 		{
-			"ShaderMapHash": "246F275E1D07767E5D4CB77AB24CE4C9A75A8D35",
-			"Assets": [
-				"/Game/UI/Menu/LoadingScreen_Mat",
-				"/Game/Environment/Materials/M_skydome_2"
-			]
-		},
-		{
-			"ShaderMapHash": "83BEDA34D29838B46521B5E2C6EB155E4907CEB8",
-			"Assets": [
-				"/Game/Effects/Materials/Air/M_light_shaft"
-			]
-		},
-		{
-			"ShaderMapHash": "049C4B2976BA45BD371996FCAB25B62F2B70218B",
-			"Assets": [
-				"/Game/Effects/Materials/Air/M_Cloud_1_particle_Inst",
-				"/Game/Effects/Materials/Air/M_Cloud_2_particle_Inst_2"
-			]
-		},
-		{
-			"ShaderMapHash": "3BDE82667F21FA57F2C9A1BE03074878109E19EC",
-			"Assets": [
-				"/Game/Effects/Materials/Air/M_Cloud_1_particle"
-			]
-		},
-		{
-			"ShaderMapHash": "C8EF5532F8FE19B230ABEA2000218F14F257842D",
-			"Assets": [
-				"/Game/Environment/Materials/M_FFA_Floor_02"
-			]
-		},
-		{
-			"ShaderMapHash": "242590A028BF62B6DEB65805D8ADEDDBD000937E",
-			"Assets": [
-				"/Game/Environment/Materials/M_FFA_Floor_02_Dark"
-			]
-		},
-		{
-			"ShaderMapHash": "2340718B0846B6E84A6FF7016CCAD8818F99CC3C",
-			"Assets": [
-				"/Game/Environment/Materials/M_FFA_Wall_01"
-			]
-		},
-		{
-			"ShaderMapHash": "F8B8B6A401EAADBBD08A8574CFAFCDDFFD807B30",
-			"Assets": [
-				"/Game/Environment/Materials/M_FFA_Wall_04"
-			]
-		},
-		{
-			"ShaderMapHash": "A25CEE21D65AE65EBB7626E5B8DE838DB2AB1DF1",
-			"Assets": [
-				"/Game/Environment/Materials/M_FFA_Wall_04_Brighter"
-			]
-		},
-		{
-			"ShaderMapHash": "3738F3B024D70722B06473EA6AD0CF49BBDBF691",
-			"Assets": [
-				"/Game/Environment/Materials/M_FFA_Wall_04_Brighter_02"
-			]
-		},
-		{
-			"ShaderMapHash": "EA68D0C6577772DFE9224543A7B7BFF35560A7AB",
-			"Assets": [
-				"/Game/Environment/Materials/M_FFA_Wall_05"
-			]
-		},
-		{
-			"ShaderMapHash": "B0CB4D25F332ECB6AD2C98D7182B94F4F6CCB142",
-			"Assets": [
-				"/Game/Environment/Materials/M_MASTER_Sky_Material_FFA_02"
-			]
-		},
-		{
-			"ShaderMapHash": "7B24C3A014AA0701B48ACAA6155D2E9F70817E15",
-			"Assets": [
-				"/Game/Environment/Materials/M_MASTER_Sky_Material_FFA"
-			]
-		},
-		{
-			"ShaderMapHash": "66E2320EE04187BD32B90FEB76B677F4CB818F87",
-			"Assets": [
-				"/Game/Environment/Materials/M_FFA_ConcreteWallPlate_01"
-			]
-		},
-		{
-			"ShaderMapHash": "5E808A0DC18EC051D128C9FCD3674892364D0D73",
-			"Assets": [
-				"/Game/Environment/Materials/M_Cloud_2"
-			]
-		},
-		{
-			"ShaderMapHash": "D3E10B53B3CB7909C26F37653C968C68F61B4A4D",
-			"Assets": [
-				"/Engine/EngineMaterials/PPM_DefaultCalibrationColor"
-			]
-		},
-		{
-			"ShaderMapHash": "C6BF47CB64F752FCE9305259E653EACD3344D89A",
-			"Assets": [
-				"/Engine/EngineMaterials/PPM_DefaultCalibrationGrayscale"
-			]
-		},
-		{
 			"ShaderMapHash": "F285566D3D02017410C8A764D3DE38D75A6A1D96",
 			"Assets": [
 				"/Engine/EditorMaterials/LevelGridMaterial2"
@@ -1302,6 +1198,110 @@
 			"ShaderMapHash": "A03699FF4FA364E3244F37B99E92803E2EFF4973",
 			"Assets": [
 				"/Engine/EditorMaterials/MatineeCam_mat"
+			]
+		},
+		{
+			"ShaderMapHash": "C6BF47CB64F752FCE9305259E653EACD3344D89A",
+			"Assets": [
+				"/Engine/EngineMaterials/PPM_DefaultCalibrationGrayscale"
+			]
+		},
+		{
+			"ShaderMapHash": "D3E10B53B3CB7909C26F37653C968C68F61B4A4D",
+			"Assets": [
+				"/Engine/EngineMaterials/PPM_DefaultCalibrationColor"
+			]
+		},
+		{
+			"ShaderMapHash": "246F275E1D07767E5D4CB77AB24CE4C9A75A8D35",
+			"Assets": [
+				"/Game/Environment/Materials/M_skydome_2",
+				"/Game/UI/Menu/LoadingScreen_Mat"
+			]
+		},
+		{
+			"ShaderMapHash": "B0CB4D25F332ECB6AD2C98D7182B94F4F6CCB142",
+			"Assets": [
+				"/Game/Environment/Materials/M_MASTER_Sky_Material_FFA_02"
+			]
+		},
+		{
+			"ShaderMapHash": "3738F3B024D70722B06473EA6AD0CF49BBDBF691",
+			"Assets": [
+				"/Game/Environment/Materials/M_FFA_Wall_04_Brighter_02"
+			]
+		},
+		{
+			"ShaderMapHash": "A25CEE21D65AE65EBB7626E5B8DE838DB2AB1DF1",
+			"Assets": [
+				"/Game/Environment/Materials/M_FFA_Wall_04_Brighter"
+			]
+		},
+		{
+			"ShaderMapHash": "F8B8B6A401EAADBBD08A8574CFAFCDDFFD807B30",
+			"Assets": [
+				"/Game/Environment/Materials/M_FFA_Wall_04"
+			]
+		},
+		{
+			"ShaderMapHash": "2340718B0846B6E84A6FF7016CCAD8818F99CC3C",
+			"Assets": [
+				"/Game/Environment/Materials/M_FFA_Wall_01"
+			]
+		},
+		{
+			"ShaderMapHash": "EA68D0C6577772DFE9224543A7B7BFF35560A7AB",
+			"Assets": [
+				"/Game/Environment/Materials/M_FFA_Wall_05"
+			]
+		},
+		{
+			"ShaderMapHash": "242590A028BF62B6DEB65805D8ADEDDBD000937E",
+			"Assets": [
+				"/Game/Environment/Materials/M_FFA_Floor_02_Dark"
+			]
+		},
+		{
+			"ShaderMapHash": "5E808A0DC18EC051D128C9FCD3674892364D0D73",
+			"Assets": [
+				"/Game/Environment/Materials/M_Cloud_2"
+			]
+		},
+		{
+			"ShaderMapHash": "66E2320EE04187BD32B90FEB76B677F4CB818F87",
+			"Assets": [
+				"/Game/Environment/Materials/M_FFA_ConcreteWallPlate_01"
+			]
+		},
+		{
+			"ShaderMapHash": "7B24C3A014AA0701B48ACAA6155D2E9F70817E15",
+			"Assets": [
+				"/Game/Environment/Materials/M_MASTER_Sky_Material_FFA"
+			]
+		},
+		{
+			"ShaderMapHash": "C8EF5532F8FE19B230ABEA2000218F14F257842D",
+			"Assets": [
+				"/Game/Environment/Materials/M_FFA_Floor_02"
+			]
+		},
+		{
+			"ShaderMapHash": "3BDE82667F21FA57F2C9A1BE03074878109E19EC",
+			"Assets": [
+				"/Game/Effects/Materials/Air/M_Cloud_1_particle"
+			]
+		},
+		{
+			"ShaderMapHash": "049C4B2976BA45BD371996FCAB25B62F2B70218B",
+			"Assets": [
+				"/Game/Effects/Materials/Air/M_Cloud_2_particle_Inst_2",
+				"/Game/Effects/Materials/Air/M_Cloud_1_particle_Inst"
+			]
+		},
+		{
+			"ShaderMapHash": "83BEDA34D29838B46521B5E2C6EB155E4907CEB8",
+			"Assets": [
+				"/Game/Effects/Materials/Air/M_light_shaft"
 			]
 		}
 	]

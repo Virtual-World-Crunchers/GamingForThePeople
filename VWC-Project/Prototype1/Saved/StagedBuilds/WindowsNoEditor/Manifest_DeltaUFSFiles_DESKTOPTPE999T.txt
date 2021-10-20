@@ -3248,13 +3248,13 @@ Prototype1/Content/Maps/Sanctuary.uexp
 Prototype1/Content/Maps/Sanctuary.umap
 Prototype1/Content/Maps/Sanctuary_Audio.uexp
 Prototype1/Content/Maps/Sanctuary_Audio.umap
+Prototype1/Content/Maps/Sanctuary_Audio_BuiltData.uasset
+Prototype1/Content/Maps/Sanctuary_Audio_BuiltData.uexp
 Prototype1/Content/Maps/Sanctuary_BuiltData.uasset
 Prototype1/Content/Maps/Sanctuary_BuiltData.ubulk
 Prototype1/Content/Maps/Sanctuary_BuiltData.uexp
 Prototype1/Content/Maps/ShooterEntry.uexp
 Prototype1/Content/Maps/ShooterEntry.umap
-Prototype1/Content/Maps/ShooterEntry_BuiltData.uasset
-Prototype1/Content/Maps/ShooterEntry_BuiltData.uexp
 Prototype1/Content/Sounds/AmbientLoops/Air_Wind/SCue_Amb_Wind_LP.uasset
 Prototype1/Content/Sounds/AmbientLoops/Air_Wind/SCue_Amb_Wind_LP.uexp
 Prototype1/Content/Sounds/AmbientLoops/Air_Wind/wav/sw_Amb_Wind_LP.uasset

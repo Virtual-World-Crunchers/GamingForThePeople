@@ -9,7 +9,7 @@
 #include "UI/ToxicChatHUD.h"
 
 #define CHAT_BOX_WIDTH 400.0f
-#define CHAT_BOX_HEIGHT 120.0f
+#define CHAT_BOX_HEIGHT 125.0f
 #define CHAT_BOX_PADDING 20.0f
 
 #define LOCTEXT_NAMESPACE "ToggleButtons"
@@ -284,10 +284,10 @@ void SChatWidget::SlowChatStatus(bool status) {
 	SCStatus = status;
 
 	if (status) {
-		AddChatLine(slowChatEnabled, false);
+		AddChatLine(slowChatEnabled, true);
 	}
 	else {
-		AddChatLine(slowChatDisabled, false);
+		AddChatLine(slowChatDisabled, true);
 	}
 }
 
@@ -298,10 +298,10 @@ void SChatWidget::FilterChatStatus(bool status) {
 	FCStatus = status;
 
 	if (status) {
-		AddChatLine(filterChatEnabled, false);
+		AddChatLine(filterChatEnabled, true);
 	}
 	else {
-		AddChatLine(filterChatDisabled, false);
+		AddChatLine(filterChatDisabled, true);
 	}
 }
 
@@ -312,10 +312,10 @@ void SChatWidget::TimingStatus(bool status) {
 	FString scStopped = TEXT("Slow Chat Stopped...");
 
 	if (status) {
-		AddChatLine(FText::FromString(scStarted), false);
+		AddChatLine(FText::FromString(scStarted), true);
 	}
 	else {
-		AddChatLine(FText::FromString(scStopped), false);
+		AddChatLine(FText::FromString(scStopped), true);
 	}
 }
 	

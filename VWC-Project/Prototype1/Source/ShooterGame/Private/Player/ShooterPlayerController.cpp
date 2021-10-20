@@ -1039,13 +1039,18 @@ void AShooterPlayerController::ToggleChatWindow()
 
 void AShooterPlayerController::ToggleSlowChat() {
 	AShooterHUD* ShooterHUD = Cast<AShooterHUD>(GetHUD());
-	ShooterHUD->UpdateSlowChat();
+	if (ShooterHUD) {
+		ShooterHUD->UpdateSlowChat();
+	}
 }
 
 void AShooterPlayerController::ToggleFilterChat() {
 	AShooterHUD* ShooterHUD = Cast<AShooterHUD>(GetHUD());
-	ShooterHUD->UpdateFilterChat();
+	if (ShooterHUD) {
+		ShooterHUD->UpdateFilterChat();
+	}
 }
+	
 
 void AShooterPlayerController::StartSlowChatTimer() {
 	AShooterHUD* ShooterHUD = Cast<AShooterHUD>(GetHUD());
