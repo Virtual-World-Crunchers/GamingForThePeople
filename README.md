@@ -63,7 +63,7 @@ Users can choose whether they want to enable message delay when they are receivi
 
 ![](https://github.com/Virtual-World-Crunchers/GamingForThePeople/blob/wiki/wiki/usage_1.GIF?raw=true)
 
-### Toxicity Notification
+### Toxicity Notification and Individual Muting
 If suspicious toxic messages detect in the chat. A pop up window will allows user to determine whether they think the chat log is toxic and mute the players they think is toxic.
 
 ![](https://github.com/Virtual-World-Crunchers/GamingForThePeople/blob/wiki/wiki/notifications.jpeg?raw=true)
