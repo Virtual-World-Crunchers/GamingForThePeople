@@ -59,7 +59,7 @@ OR
 * Tab - Show Scoreboard
 
 ### Slow Mode Chat:
-Users can choose whether they want to enable message delay when they are receiving toxic messages with "ALT + 1" keybind. A message will pop up, which will notify the players that they have already enabled the slow chat mode if they choose yes. The slow chat feature can also be toggled on by using "ALT + 1" command to disable it as the user needs. There will be no changes if the user do not want to turn on this function. 
+Users can choose whether they want to enable message delay when they are receiving toxic messages with "ALT + 1" keybind. A message will pop up, which will notify the players that they have already enabled the slow chat mode if they choose yes. The slow chat feature can also be toggled on by using "ALT + 1" command to disable it as the user needs. There will be no changes if the user do not want to turn on this function. Once slow mode chat has been enabled messages are receieved by the user only after 20 seconds.
 
 ![](https://github.com/Virtual-World-Crunchers/GamingForThePeople/blob/wiki/wiki/usage_1.GIF?raw=true)
 
