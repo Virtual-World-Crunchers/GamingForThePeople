@@ -15,7 +15,7 @@
 The following instructions will help you to get a copy  of the game and run it locally.
 
 ### Prerequisites 
-Before cloning the repo from GitHub, make sure the Git LFS (Large File Storage) has been installed.  You can read about the installation [here](https://docs.github.com/en/repositories/working-with-files/managing-large-files/installing-git-large-file-storage). Moreover, if you don't have Windows, you might need to get Unreal Engine installed as well to open up the game.
+Before cloning the repo from GitHub, make sure the Git LFS (Large File Storage) has been installed.  You can read about the installation [here](https://docs.github.com/en/repositories/working-with-files/managing-large-files/installing-git-large-file-storage). Moreover, if you don't have Windows, you might need to get Unreal Engine installed as well to open up the game (a very long installation process). Thus it is preferred that you use Windows to run the game. 
 
 ### Installation
 1. Clone the repo to local from the v1.1 branch
@@ -28,7 +28,7 @@ git clone -b v1.1 --single-branch https://github.com/Virtual-World-Crunchers/Gam
 Either:
 
 
-* Open the application file (Currently for Windows) <br>
+* (Preferred) Open the application file (Currently for Windows) <br>
 ```shell
 .../Lacuna_V1/WindowsNoEditor/ShooterGame.exe
 ```
